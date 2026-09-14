@@ -1,0 +1,10 @@
+{
+  "bootstrap_seed": 1007,
+  "fit_seed": 9,
+  "rctd_mode": "full",
+  "max_cores": 2,
+  "ref_UMI_min": 100,
+  "ref_n_cells_min": 15,
+  "source_md5": ["97ec39e42634f14a406286d83498d612", "db4f8a768d8589e46252200571750e9c", "d436d19de64ce7dcfd793f6ce88dea7e", "476aee2e4b4da7b98289d1b129a9fc66", "e9799f369baaf8897f2af9cf0359b8d4"],
+  "finished": "2026-09-14 17:14:31"
+}

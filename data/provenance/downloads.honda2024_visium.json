@@ -1,0 +1,11 @@
+{
+  "honda2024_visium/GSE243022_RAW.tar": {
+    "path": "data/downloads/honda2024_visium/GSE243022_RAW.tar",
+    "bytes": 74045440,
+    "verification": "content_length",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243022/suppl/GSE243022_RAW.tar",
+    "source": "honda2024_visium",
+    "accession": "GSE243022",
+    "retrieved_at": "2026-09-09T08:28:15.589998+00:00"
+  }
+}

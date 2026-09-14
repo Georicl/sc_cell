@@ -1,0 +1,20 @@
+{
+  "wu2021_visium/metadata.tar.gz": {
+    "path": "data/downloads/wu2021_visium/metadata.tar.gz",
+    "bytes": 217533,
+    "verification": "publisher_md5",
+    "url": "https://zenodo.org/record/4739739/files/metadata.tar.gz",
+    "source": "wu2021_visium",
+    "accession": "10.5281/zenodo.4739739",
+    "retrieved_at": "2026-09-09T06:55:25.263815+00:00"
+  },
+  "wu2021_scrna/GSE176078_Wu_etal_2021_BRCA_scRNASeq.tar.gz": {
+    "path": "data/downloads/wu2021_scrna/GSE176078_Wu_etal_2021_BRCA_scRNASeq.tar.gz",
+    "bytes": 558829202,
+    "verification": "content_length",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE176nnn/GSE176078/suppl/GSE176078_Wu_etal_2021_BRCA_scRNASeq.tar.gz",
+    "source": "wu2021_scrna",
+    "accession": "GSE176078",
+    "retrieved_at": "2026-09-09T07:19:57.649635+00:00"
+  }
+}

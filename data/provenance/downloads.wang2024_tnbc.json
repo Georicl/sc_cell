@@ -1,0 +1,20 @@
+{
+  "wang2024_tnbc/README.md": {
+    "path": "data/downloads/wang2024_tnbc/README.md",
+    "bytes": 8848,
+    "verification": "publisher_md5",
+    "url": "https://zenodo.org/record/14204217/files/README.md",
+    "source": "wang2024_tnbc",
+    "accession": "10.5281/zenodo.14204217",
+    "retrieved_at": "2026-09-09T08:30:29.577071+00:00"
+  },
+  "wang2024_tnbc/Clinical.tar": {
+    "path": "data/downloads/wang2024_tnbc/Clinical.tar",
+    "bytes": 64000,
+    "verification": "publisher_md5",
+    "url": "https://zenodo.org/record/14204217/files/Clinical.tar",
+    "source": "wang2024_tnbc",
+    "accession": "10.5281/zenodo.14204217",
+    "retrieved_at": "2026-09-09T08:30:58.033354+00:00"
+  }
+}

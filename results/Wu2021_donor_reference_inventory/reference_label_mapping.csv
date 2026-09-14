@@ -1,0 +1,30 @@
+celltype_major,celltype_minor,reference_label
+B-cells,B cells Memory,B-cells
+B-cells,B cells Naive,B-cells
+CAFs,CAFs MSC iCAF-like,CAFs
+CAFs,CAFs myCAF-like,CAFs
+Cancer Epithelial,Cancer Basal SC,Cancer Epithelial
+Cancer Epithelial,Cancer Cycling,Cancer Epithelial
+Cancer Epithelial,Cancer Her2 SC,Cancer Epithelial
+Cancer Epithelial,Cancer LumA SC,Cancer Epithelial
+Cancer Epithelial,Cancer LumB SC,Cancer Epithelial
+Endothelial,Endothelial ACKR1,Endothelial
+Endothelial,Endothelial CXCL12,Endothelial
+Endothelial,Endothelial Lymphatic LYVE1,Endothelial
+Endothelial,Endothelial RGS5,Endothelial
+Myeloid,Cycling_Myeloid,Myeloid
+Myeloid,DCs,Myeloid
+Myeloid,Macrophage,Myeloid
+Myeloid,Monocyte,Myeloid
+Normal Epithelial,Luminal Progenitors,Normal Epithelial
+Normal Epithelial,Mature Luminal,Normal Epithelial
+Normal Epithelial,Myoepithelial,Normal Epithelial
+PVL,Cycling PVL,PVL
+PVL,PVL Differentiated,PVL
+PVL,PVL Immature,PVL
+Plasmablasts,Plasmablasts,Plasmablasts
+T-cells,Cycling T-cells,Cycling T-cells
+T-cells,NK cells,NK cells
+T-cells,NKT cells,NKT cells
+T-cells,T cells CD4+,T cells CD4+
+T-cells,T cells CD8+,T cells CD8+

@@ -1,0 +1,10 @@
+celltype_major,before,after,retained_fraction
+Cancer Epithelial,2223,2223,1.0
+PVL,592,592,1.0
+T-cells,396,396,1.0
+Myeloid,255,255,1.0
+Endothelial,219,219,1.0
+CAFs,102,102,1.0
+Plasmablasts,96,96,1.0
+B-cells,56,56,1.0
+Normal Epithelial,22,22,1.0

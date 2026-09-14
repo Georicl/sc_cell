@@ -1,0 +1,2 @@
+donor_id,metadata_subtype,geo_subtype,clinical_subtype,treatment_status,treatment_details,pathology_note,action,geo_url,clinical_excel_row,clinical_source_url
+CID3963,TNBC,ER+,ER+,Treated,"AC, Paclitaxel, Herceptin (administered for Dx 3 years prior)",Probable recurrence from 3 years prior,保留原metadata标签；暂不并入当前ER+方案，需确定分型定义,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5354519,11,https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-021-00911-1/MediaObjects/41588_2021_911_MOESM4_ESM.xlsx

@@ -1,0 +1,25 @@
+# Large original and derived data stay local.
+/data/downloads/
+/data/raw/
+/data/processed/
+/results/models/
+/data/provenance/*.soft.gz
+/data/provenance/*.xlsx
+/results/CID4535_baseline_v1/author_major_markers.csv
+/results/CID4535_paper_v1/README_preview.html
+/results/Wu2021_ER_donor_plan/clinical_table1_extracted.csv
+/results/Wu2021_ER_donor_plan/geo_sample_fields.csv
+/docs/archive/
+/.vscode/
+
+# Optional future local environments and caches.
+.venv/
+.r-library/
+.cache/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.DS_Store
+*.part

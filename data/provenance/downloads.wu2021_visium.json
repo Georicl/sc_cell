@@ -1,0 +1,29 @@
+{
+  "wu2021_visium/metadata.tar.gz": {
+    "path": "data/downloads/wu2021_visium/metadata.tar.gz",
+    "bytes": 217533,
+    "verification": "publisher_md5",
+    "url": "https://zenodo.org/record/4739739/files/metadata.tar.gz",
+    "source": "wu2021_visium",
+    "accession": "10.5281/zenodo.4739739",
+    "retrieved_at": "2026-09-09T07:15:35.277588+00:00"
+  },
+  "wu2021_visium/spatial.tar.gz": {
+    "path": "data/downloads/wu2021_visium/spatial.tar.gz",
+    "bytes": 54282871,
+    "verification": "publisher_md5",
+    "url": "https://zenodo.org/record/4739739/files/spatial.tar.gz",
+    "source": "wu2021_visium",
+    "accession": "10.5281/zenodo.4739739",
+    "retrieved_at": "2026-09-09T07:15:35.358840+00:00"
+  },
+  "wu2021_visium/filtered_count_matrices.tar.gz": {
+    "path": "data/downloads/wu2021_visium/filtered_count_matrices.tar.gz",
+    "bytes": 155703418,
+    "verification": "publisher_md5",
+    "url": "https://zenodo.org/record/4739739/files/filtered_count_matrices.tar.gz",
+    "source": "wu2021_visium",
+    "accession": "10.5281/zenodo.4739739",
+    "retrieved_at": "2026-09-09T07:18:46.481575+00:00"
+  }
+}

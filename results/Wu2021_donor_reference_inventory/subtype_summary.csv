@@ -1,0 +1,4 @@
+subtype,n_donor_ids,total_cells,CAFs,T cells CD8+,T cells CD4+,NK cells,NKT cells,Cycling T-cells,PVL,Cancer Epithelial,Normal Epithelial,Endothelial,Myeloid,B-cells,Plasmablasts
+ER+,11,38241,2573,2887,5731,640,377,186,3265,11878,2430,5206,1831,606,631
+HER2+,5,19311,1449,3301,6610,453,385,188,894,1775,968,1016,1422,624,226
+TNBC,10,42512,2551,5299,6890,753,360,1154,1264,10836,957,1383,6422,1976,2667

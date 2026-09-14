@@ -1,0 +1,9 @@
+Classification,n_spots
+Invasive cancer,418
+Invasive cancer + lymphocytes,361
+Stroma,169
+Uncertain,73
+Lymphocytes,69
+Adipose tissue,8
+Invasive cancer + adipose tissue + lymphocytes,3
+Missing,1

@@ -1,0 +1,11 @@
+{
+  "wu2021_scrna_smoke/GSM5354538_CID4535.tar.gz": {
+    "path": "data/downloads/wu2021_scrna_smoke/GSM5354538_CID4535.tar.gz",
+    "bytes": 32480816,
+    "verification": "content_length",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5354nnn/GSM5354538/suppl/GSM5354538_CID4535.tar.gz",
+    "source": "wu2021_scrna_smoke",
+    "accession": "GSM5354538",
+    "retrieved_at": "2026-09-09T06:48:29.301763+00:00"
+  }
+}

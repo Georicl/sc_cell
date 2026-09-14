@@ -1,0 +1,258 @@
+{
+  "created": "2024-11-22T12:23:53.436845+00:00",
+  "modified": "2025-09-11T09:14:41.151780+00:00",
+  "id": 14204217,
+  "conceptrecid": "8135721",
+  "doi": "10.5281/zenodo.14204217",
+  "conceptdoi": "10.5281/zenodo.8135721",
+  "doi_url": "https://doi.org/10.5281/zenodo.14204217",
+  "metadata": {
+    "title": "ST TNBC",
+    "doi": "10.5281/zenodo.14204217",
+    "publication_date": "2024",
+    "description": "<h2>Data for spatial transcriptomics on triple negative breast cancers</h2>\n<h2>The repository contains a number of (tarballed) directories.</h2>\n<ul>\n<li><code>byArray</code> - data by array/subarray</li>\n<li><code>classification</code> - data relative to the classification / regression at the spot level, as well as the per-annotation gene expressions</li>\n<li><code>Clinical</code> - clinical data and link array / samples</li>\n<li><code>clustering</code> - data relative to the clusterings - by sample, the megaclusterings and the ecotypes</li>\n<li><code>deconvolution</code> - gene expression in each annotation category, for each sample, obtained by deconvolution</li>\n<li><code>external datasets</code> - external datasets used to confirm the results</li>\n<li><code>Images</code> - original images (jpg, png...)</li>\n<li><code>misc</code> - various annotation and other files</li>\n<li><code>patches</code> - info about the patch size distribution</li>\n<li><code>rawCountsMatrices</code> - raw count matrices</li>\n<li><code>Robjects</code> - formatted R objects used for the analyses</li>\n<li>projections - projections of the results presented in the paper on the slides, e.g. coloring of the spots in function of a bit of everything</li>\n</ul>\n<h2>byArray</h2>\n<p>Data by array/subarray. Mapping between those arrays and samples is in <code>ids.RDS</code> (Clinical directory). In each directory, there are the following files -</p>\n<ul>\n<li>A <code>Cy3</code> jpg file giving the location of the spots</li>\n<li>An <code>HE</code> jpg file which is the H&amp;E image</li>\n<li>For both image, there can be a <code>.rot</code> version if it was necessary to rotate them for the analysis.</li>\n<li><code>spot_data...</code> give the localization of all or selected spots</li>\n<li><code>small.jpg</code> is a subsampled version of the image.</li>\n<li><code>selection.RData</code> counts of selected spots</li>\n<li><code>all.RData</code> counts of all spots</li>\n<li><code>allSpots.RData</code> position of all spots</li>\n<li><code>annotBySpot.RDS</code> if available, the annotation (in pixel) for each spot</li>\n<li><code>artefacts.RDS</code> if present, gives the number of pixels annotated as an artefact in each spot</li>\n</ul>\n<h2>classification</h2>\n<p>Data relative to the classification / regression at the spot level.</p>\n<ul>\n<li><code>LOOstart.RData</code> - Data with all the samples together used for the Xvalidation</li>\n<li><code>baseClassif.RDS</code> - Rotation / scaling used on the gene-level data</li>\n<li><code>loosReg.RData</code> - Result of the Xvalidation</li>\n<li><code>classifAll.RDS</code> - Classification of each spot</li>\n</ul>\n<p>projectedSamples</p>\n<p>Data at the spot level projected on the PC from <code>baseClassif.RDS</code>.</p>\n<p>regressors</p>\n<p>The regressors obtained. Must be loaded with <code>xgboost</code>. <code>baseClassif.RDS</code> is used to rotate the genes prior to classification. See code for details, or use directly the function <code>classifySpots</code> in the <code>STstuff</code> package.</p>\n<h2>Clinical</h2>\n<p>Clinical data.</p>\n<ul>\n<li><code>Clinical.xlsx</code> - clinical data as an Excel table, identical to the one of paper</li>\n<li><code>Clinical.RDS</code> - clinical data in R format (survival objects already created and slide-level annotation fractions included)</li>\n<li><code>ids.RDS</code> - link between arrays and sample IDs</li>\n</ul>\n<h2>clustering</h2>\n<p>Data relative to the clusterings - by sample, the megaclusterings and the ecotypes.</p>\n<p>intraPatientClust</p>\n<p>Clusterings in each patient. Each RDS contains the following objects -</p>\n<ul>\n<li><code>clusts</code> - the prototypes for the best clustering in 2 to 10 clusters</li>\n<li><code>km</code> - the best kmeans for 2 to 10 clusters (cluster id for each spot)</li>\n<li><code>qv</code> - quality of the clusterings</li>\n<li><code>N</code> - number of clusters for each item / column in clusts / km.</li>\n<li><code>scg</code> - score giving how spatial a gene is</li>\n</ul>\n<p>clustPrototypes</p>\n<p>Deconvolution of the best prototypes from intraPatientClust. List with the following items -</p>\n<ul>\n<li><code>proto</code> - deconvoluted prototypes</li>\n<li><code>fit</code> - the fitted model</li>\n<li><code>kOrig</code> - the original kmeans</li>\n<li><code>k</code> - the kmeans after removing some clusters (which we did not do)</li>\n<li><code>Nreads</code> - total number of reads for the spot of each cluster</li>\n</ul>\n<p>Kmeans MC</p>\n<p>Kmeans on the deconvoluted prototypes (megaclustering), in 5 to 20 clusters.</p>\n<p>looMC</p>\n<p>Leave-one-out cross validation of the recovery of the MC in the bulk dataset.</p>\n<p>MC deconv</p>\n<p>Deconvolution of the MC at the spot level. Each file contains the following objects -</p>\n<ul>\n<li><code>m</code> - the fraction of each MC in each spot</li>\n<li><code>idSpot</code> - the id of each spot (slide and position)</li>\n<li><code>fm2</code> - the fitted model</li>\n</ul>\n<h2>deconvolution</h2>\n<p>Per-annotation gene expressions used for TLS / tumor /stroma etc analyses. Each file is an RData, containing -</p>\n<ul>\n<li><code>prot</code> - the expression in each annotation, as pseudo-counts</li>\n<li><code>fm</code> - the fitted models</li>\n<li><code>Ntot</code> - the pseudo-number of spots corresponding to each annotation, obtained by summing the fractional presence in each spot (e.g. 2 spots with 50% of annotation in each equal 1 spot).</li>\n</ul>\n<p>external datasets</p>\n<p>External datasets used to confirm the results.</p>\n<ul>\n<li><code>otherTNBC</code> SCAN-B and METABRIC</li>\n<li><code>iSpy2</code> Data from Ispy2</li>\n<li>Immunotherapies - directory with data for immunotherapies with expression data</li>\n</ul>\n<h2>Images</h2>\n<p>The original images in png/jpg/ndpi format.</p>\n<p>imageAnnotation</p>\n<p>Original annotation images. Coded as -</p>\n<pre><code>colAnn2 = c(Nothing=\"#FFFFFF\", Tumor=\"#017801\", Necrosis=\"#000000\", `Fat tissue`=\"#000080\",\n  `Low TIL stroma`=\"#ff904f\", Vessels=\"#dc0000\", Artefacts=\"#6e2400\",\n  `Lactiferous duct`=\"#9980e6\", `High TIL stroma`=\"#e9e900\", `in situ`=\"#ccffcc\",\n  `Lymphoid nodule`=\"#80801a\", `Hole (whitespace)`=\"#40e5f6\", Lymphocyte=\"#c4417f\",\n  `Stroma cell`=\"#ff9980\", Nerve=\"#4d8080\", `Heterologous elements`=\"#808080\",\n  `Acellular stroma`=\"#e9d1bb\", `Tumor region`=\"#258a15\")\n</code></pre>\n<p>imagesLarge</p>\n<p>Original H&amp;E images in high def, not rotated/translated. The annotated image is not rotated either so those can be directly compared.</p>\n<p>imagesHD</p>\n<p>Original H&amp;E images in highest def. Similar to imagesLarge but bigger.</p>\n<p>artefacts</p>\n<p>Contours from Qpath used to flag artefacts in non-annotated images. Correspond to imagesLarge.</p>\n<p>Images IHC</p>\n<p>CD3/CD20 IHC images that were used to help slide annotation. Note that those images are on a subsequent slide, and so do not correspond exactly to any of the subarrays.</p>\n<p>misc</p>\n<p>Various files that are used for image registration, deciding what to plot, annotations, etc. The most useful ones are described here. For the others check the code (in particular <code>ST TNBC figs.R</code> for plotting).</p>\n<p>registration.xlsx</p>\n<p>Transformations applied to superpose the images. Columns: pts: patient ID fixed: ref slide moving: the slide to transform theta: rotation dx, dy: translation inv: if X, do a flip In R, the transformation for the images are (using EBImage)</p>\n<pre><code>  if (!is.na(tr$inv)) { x = flip(dta[[i]]$im); spots[,\"pixel_y\"]=dim(x)[1]-spots[,\"pixel_y\"]; }\n    x = rotate(x, tr$theta, filter='none', output.dim=dim(dta[[i]]$im)[1:2]+600, bg.col='white')\n    x = translate(x, c(tr$dx, -tr$dy), bg.col='white')\n    # The +600 is to have all the slide after rotation. It is removed below\n</code></pre>\n<p>Regarding the spot positions:</p>\n<pre><code>  spots[,c(\"pixel_x\", \"pixel_y\")] = transfo(c(tr$theta*base::pi/180, tr$dx, -tr$dy),\n      as.matrix(spots[,c(\"pixel_x\", \"pixel_y\")]), ctr=dim(dta[[i]]$im)[1]/2)\n</code></pre>\n<p>The slides are then recentered to keep only the part with spots.</p>\n<pre><code>  sp = colRanges(do.call(rbind, lapply(dta, function(i) as.matrix(i$spots[,c(\"pixel_x\", \"pixel_y\")]))));\n  sp[,1] = sp[,1]-50; sp[,2]=sp[,2]+50;\n  for (i in seq_along(dta))\n  { x = translate(dta[[i]]$im, -sp[,1], bg.col='white');\n    dta[[i]]$im = x[300+(0:diff(sp[1,])), 300+(1:diff(sp[2,])), ];\n    dta[[i]]$spots[,c(\"pixel_x\", \"pixel_y\")] = dta[[i]]$spots[,c(\"pixel_x\", \"pixel_y\")] - rep(sp[,1], each=nrow(dta[[i]]$spots))\n  }\n</code></pre>\n<h2>patches</h2>\n<p>Data on patch sizes distribution. Each <code>RDS</code> is a list, with items</p>\n<ul>\n<li><code>Np</code> Number of pixels of each annotation (before dilatation)</li>\n<li><code>patches</code> also a list, each item giving the size of each patch for each annotation.</li>\n</ul>\n<p>rawCountsMatrices</p>\n<p>tsv files by array obtained directly from the sequencing.</p>\n<h2>Robjects</h2>\n<p>R objects of the various basic data, used for the analyses.</p>\n<p>counts</p>\n<p>Counts per gene per spot. Batch-corrected. Lists with items: cnts: matrix of counts spots: ids of the spots (pixels are relative to the \"images\" files)</p>\n<p>countsNonCorrected</p>\n<p>Similar to \"counts\", but not batch-corrected</p>\n<p>images</p>\n<p>Lists with one item per slide (so 2-3 per sample) For each slide there are two items: img: image in EBImage format spots: positions of the spots on that image</p>\n<p>imagesSmall</p>\n<p>Same as images, but with smaller images. Usually big enough to display. The \"spots\" info are rescaled to fit the image size.</p>\n<p>annotsBySpot</p>\n<p>Lists with items:</p>\n<ul>\n<li>annots: matrix, N pixels annotated as class ... on each spot</li>\n<li>spots: position of the spots annotated</li>\n</ul>\n<p>annotationRecoded</p>\n<p>Annotation images (imageAnnotation) recoded as a matrix of values 1 to 17. The values correspond to the order of <code>colAnn2</code> (see imageAnnotation directory), so</p>\n<ul>\n<li>1 = Nothing</li>\n<li>2 = Tumor</li>\n<li>3 = Necrosis</li>\n<li>and so on</li>\n</ul>\n<p>BatchCorrection</p>\n<p>The negative binomial fit parameters used to correct for the array-specific batch effect.</p>\n<p>There are also the following files -</p>\n<p>bulkCount.RDS</p>\n<p>Counts per gene from the bulk RNA.</p>\n<p>PB_count.RDS</p>\n<p>Counts per gene from the pseudo-bulk RNA (obtained by summing values from each spot for a alide).</p>\n<h2>projections</h2>\n<p><em>tumor and stroma patches -</em> the patches (groups of pixels that are joined) colored with random colors. The images are meant to be loaded in a web browser, where it is possible to switch between 3 images using the arrows. The 1st image is the annotation, the 2nd the tumor patches and the 3rd the stroma patches.&nbsp;</p>\n<p><em>regression of tumor and stroma compartments per spot </em>Fraction of each spot classified as tumor or stroma (defined as everything that is not tumor, in situ, or necrosis).</p>\n<p><em>TNBC molecular subtypes by spot </em>Bareche subtype classification at the spot level</p>\n<p><em>ST TLS signature by spot </em>Evaluation of the TLS signature described on the paper in each spot. Note that the scale can vary a lot between slides.</p>\n<p><em>regression of histomorphological categories per spot </em>Estimate of each categories as obtained by the regressor.&nbsp;</p>\n<p><em>estimates of the proportion of TLS by the regressor</em> For each spot, shows the estimate as of the spot that is classified as TLS by the regressor, as a pie chart. 100% would be a full green disk.</p>\n<p><em>individual clusters and megaclusters </em>For each tumor, 4 lines are represented. On the top line the clusters found in the tumor are shown. On the 2nd line the fuzzying of those clusters are shown. On the 3rd line, the megaclusters (clusters across multiple tumors) are shown. On the 4th line, the recovery of those megaclusters through deconvolution are shown</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "David Venet",
+        "affiliation": "Université Libre de Bruxelles"
+      }
+    ],
+    "custom": {
+      "code:codeRepository": "https://github.com/BCTL-Bordet/ST",
+      "code:programmingLanguage": [
+        {
+          "id": "r",
+          "title": {
+            "en": "R"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Journal article",
+      "type": "publication",
+      "subtype": "article"
+    },
+    "journal": {
+      "pages": "10232",
+      "title": "Spatial transcriptomics reveals substantial heterogeneity in triple-negative breast cancer with potential clinical implications",
+      "volume": "2024"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 2,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "8135721"
+          }
+        }
+      ]
+    }
+  },
+  "title": "ST TNBC",
+  "links": {
+    "self": "https://zenodo.org/api/records/14204217",
+    "self_html": "https://zenodo.org/records/14204217",
+    "preview_html": "https://zenodo.org/records/14204217?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.14204217",
+    "self_doi": "https://doi.org/10.5281/zenodo.14204217",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14204217",
+    "reserve_doi": "https://zenodo.org/api/records/14204217/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/8135721",
+    "parent_html": "https://zenodo.org/records/8135721",
+    "parent_doi": "https://doi.org/10.5281/zenodo.8135721",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8135721",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14204217/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14204217/sequence/default",
+    "files": "https://zenodo.org/api/records/14204217/files",
+    "media_files": "https://zenodo.org/api/records/14204217/media-files",
+    "archive": "https://zenodo.org/api/records/14204217/files-archive",
+    "archive_media": "https://zenodo.org/api/records/14204217/media-files-archive",
+    "latest": "https://zenodo.org/api/records/14204217/versions/latest",
+    "latest_html": "https://zenodo.org/records/14204217/latest",
+    "versions": "https://zenodo.org/api/records/14204217/versions",
+    "draft": "https://zenodo.org/api/records/14204217/draft",
+    "access_links": "https://zenodo.org/api/records/14204217/access/links",
+    "access_grants": "https://zenodo.org/api/records/14204217/access/grants",
+    "access_users": "https://zenodo.org/api/records/14204217/access/users",
+    "access_request": "https://zenodo.org/api/records/14204217/access/request",
+    "access": "https://zenodo.org/api/records/14204217/access",
+    "communities": "https://zenodo.org/api/records/14204217/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14204217/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/14204217/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/14204217/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/14204217/quota-increase",
+    "requests": "https://zenodo.org/api/records/14204217/requests"
+  },
+  "updated": "2025-09-11T09:14:41.151780+00:00",
+  "recid": "14204217",
+  "revision": 10,
+  "files": [
+    {
+      "id": "335d7126-ef76-4fbf-9ac2-06e853f8789c",
+      "key": "external datasets_ipwfv.tar",
+      "size": 564981760,
+      "checksum": "md5:5e373c49487354c3e79d6898f0841006",
+      "links": {
+        "self": "https://zenodo.org/api/records/14204217/files/external%20datasets_ipwfv.tar/content"
+      }
+    },
+    {
+      "id": "e6f0e54e-d712-4317-ac87-639642e954b7",
+      "key": "projections.tar",
+      "size": 1499667517,
+      "checksum": "md5:0a50297c95b4f13055700cdf11387a06",
+      "links": {
+        "self": "https://zenodo.org/api/records/14204217/files/projections.tar/content"
+      }
+    },
+    {
+      "id": "cf8cda2f-b94b-4aaf-bc51-51ebb07f3466",
+      "key": "README.md",
+      "size": 8848,
+      "checksum": "md5:8c23dcc8d83ba542bdf1f3579c4600ba",
+      "links": {
+        "self": "https://zenodo.org/api/records/14204217/files/README.md/content"
+      }
+    },
+    {
+      "id": "83729b01-40a6-407e-8c3d-7aaa7d2c2b30",
+      "key": "Clinical.tar",
+      "size": 64000,
+      "checksum": "md5:d896e52e7d50742e9e2f8b086058fc9e",
+      "links": {
+        "self": "https://zenodo.org/api/records/14204217/files/Clinical.tar/content"
+      }
+    },
+    {
+      "id": "902bae62-ab96-47f9-8486-89c55966f146",
+      "key": "classification.tar",
+      "size": 1454316032,
+      "checksum": "md5:b5c9422ce279adbf2050c20d9c13ba09",
+      "links": {
+        "self": "https://zenodo.org/api/records/14204217/files/classification.tar/content"
+      }
+    },
+    {
+      "id": "dc64e2bd-c6c5-4d39-8fc6-a7d4df6f5ea9",
+      "key": "PB_count.RDS",
+      "size": 6617464,
+      "checksum": "md5:4678950f20300f4de0e6edc781eb0c01",
+      "links": {
+        "self": "https://zenodo.org/api/records/14204217/files/PB_count.RDS/content"
+      }
+    },
+    {
+      "id": "f80a1cf3-a70b-489c-af2f-5cdcda9ef3f0",
+      "key": "Images.tar",
+      "size": 25305427456,
+      "checksum": "md5:e33c90e634e7fc0722150dd9bc3f04fd",
+      "links": {
+        "self": "https://zenodo.org/api/records/14204217/files/Images.tar/content"
+      }
+    },
+    {
+      "id": "e0e18a11-c0c7-432d-95a7-8c69c388f8b0",
+      "key": "Robjects.tar",
+      "size": 3303393280,
+      "checksum": "md5:838906abd71d3711a919488a11bcd431",
+      "links": {
+        "self": "https://zenodo.org/api/records/14204217/files/Robjects.tar/content"
+      }
+    },
+    {
+      "id": "5a04f66f-1cd5-4a1c-a529-8c62ff0a2225",
+      "key": "bulk_count.RDS",
+      "size": 8408855,
+      "checksum": "md5:b2122b5e88e48609e95bce2df12c32f1",
+      "links": {
+        "self": "https://zenodo.org/api/records/14204217/files/bulk_count.RDS/content"
+      }
+    },
+    {
+      "id": "8482c3ec-774d-4261-9fc9-f7c100444a75",
+      "key": "byArray.tar",
+      "size": 7444531200,
+      "checksum": "md5:75e5e6de1c28a2c107fcf4ebf7c1b71c",
+      "links": {
+        "self": "https://zenodo.org/api/records/14204217/files/byArray.tar/content"
+      }
+    },
+    {
+      "id": "56d184a1-db49-4516-b672-aea538c9d444",
+      "key": "deconvolution.tar",
+      "size": 699509760,
+      "checksum": "md5:d059b265ae4ae958eebdaf0df7afef69",
+      "links": {
+        "self": "https://zenodo.org/api/records/14204217/files/deconvolution.tar/content"
+      }
+    },
+    {
+      "id": "7ad0a98c-7176-4373-89f3-43a0c7d40924",
+      "key": "misc.tar",
+      "size": 14337536,
+      "checksum": "md5:1ddedb4b3988d6a924fb80072435ac78",
+      "links": {
+        "self": "https://zenodo.org/api/records/14204217/files/misc.tar/content"
+      }
+    },
+    {
+      "id": "ca5b6ca1-f614-4ddb-8a39-a252c37fc96b",
+      "key": "Images IHC.tar",
+      "size": 15280775168,
+      "checksum": "md5:3941101b6f698efa452c14b9a1d58ef5",
+      "links": {
+        "self": "https://zenodo.org/api/records/14204217/files/Images%20IHC.tar/content"
+      }
+    },
+    {
+      "id": "88cdb614-349b-4636-9b2d-045c33e01070",
+      "key": "rawCountsMatrices.tar",
+      "size": 1362405376,
+      "checksum": "md5:8ad947c74d90c018065f3d502015f0a0",
+      "links": {
+        "self": "https://zenodo.org/api/records/14204217/files/rawCountsMatrices.tar/content"
+      }
+    },
+    {
+      "id": "24f6184a-e1a5-4bc2-949d-1c4bf942509c",
+      "key": "patches.tar",
+      "size": 1050112,
+      "checksum": "md5:a06826e7883e668fda6f1d0f746aa9eb",
+      "links": {
+        "self": "https://zenodo.org/api/records/14204217/files/patches.tar/content"
+      }
+    },
+    {
+      "id": "dbd6565a-3742-47ce-b0f2-2f8d2f0af539",
+      "key": "clustering.tar",
+      "size": 1077099008,
+      "checksum": "md5:2747311cc80ccd104e857999afffda08",
+      "links": {
+        "self": "https://zenodo.org/api/records/14204217/files/clustering.tar/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "539513"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 24026,
+    "unique_downloads": 8744,
+    "views": 4683,
+    "unique_views": 3988,
+    "version_downloads": 22328,
+    "version_unique_downloads": 7517,
+    "version_unique_views": 3159,
+    "version_views": 3648
+  },
+  "state": "done",
+  "submitted": true
+}

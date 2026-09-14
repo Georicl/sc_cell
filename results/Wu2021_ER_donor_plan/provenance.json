@@ -1,0 +1,26 @@
+{
+  "retrieved_at_utc": "2026-09-14T12:58:04.813362+00:00",
+  "sources": [
+    {
+      "path": "data/provenance/wu2021_scrna.family.soft.gz",
+      "sha256": "8d1d0298a8e52c1449c3865736b1d0cf2a55a770b405e820b4eeec6cdd1621f7",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE176nnn/GSE176078/soft/GSE176078_family.soft.gz"
+    },
+    {
+      "path": "data/provenance/wu2021_supplementary_tables.xlsx",
+      "sha256": "a4f5b9c89aebcf980676d6e95d2bcc37f2e43b6c11eea8be6d2411db8c9fed47",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-021-00911-1/MediaObjects/41588_2021_911_MOESM4_ESM.xlsx"
+    },
+    {
+      "path": "results/Wu2021_donor_reference_inventory/donor_by_reference_celltype.csv",
+      "sha256": "d9e2d86eb3ece092edac40e76da009880bcb3127d421962f282feaac587040a4",
+      "url": "local inventory"
+    }
+  ],
+  "candidate_aliases_not_confirmed": {
+    "CID4290A": "4290",
+    "CID4530N": "4530"
+  },
+  "n_er_samples": 11,
+  "no_split_frozen": true
+}

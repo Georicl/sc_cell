@@ -1,0 +1,81 @@
+{
+  "n_sc": 3961,
+  "n_sc_genes": 22061,
+  "n_spots": 1102,
+  "n_spatial_genes": 19237,
+  "n_leiden": 16,
+  "relative_weight_mean": {
+    "B-cells": 0.01717758065108447,
+    "CAFs": 0.07276878103800322,
+    "Cancer Epithelial": 0.6886638779679062,
+    "Cycling T-cells": 0.03977308259936381,
+    "Endothelial": 0.025657638780162056,
+    "Myeloid": 0.053337517327879724,
+    "NK cells": 0.002616960706982052,
+    "NKT cells": 0.002812927420030202,
+    "Normal Epithelial": 0.01347626001408541,
+    "Plasmablasts": 0.0304790366929898,
+    "PVL": 0.00902991099754672,
+    "T cells CD4+": 0.030205310230153944,
+    "T cells CD8+": 0.014001115573812496
+  },
+  "relative_weight_p99": {
+    "CAFs": 0.384969537857164,
+    "T cells CD8+": 0.1406624710080932,
+    "Cancer Epithelial": 0.9489626944184258,
+    "PVL": 0.0984091928627591
+  },
+  "marker_correlations": {
+    "CAFs": 0.9048293562457832,
+    "T cells CD8+": 0.6231168133534855,
+    "Cancer Epithelial": 0.732045901283995,
+    "PVL": 0.43192883604448284
+  },
+  "weight_sum_range": [
+    0.7531189344506305,
+    1.1138904964860423
+  ],
+  "caf_cd8_spearman": 0.6099769593494017,
+  "sources": [
+    {
+      "path": "data/processed/CID4535_baseline_v1/single_cell_analysis.h5ad",
+      "sha256": "379f5f52661174a84de81ceea26c8f9000fee9cc0a3b34264643200a3aed0933"
+    },
+    {
+      "path": "data/processed/CID4535_spatial/spatial_qc_filtering.h5ad",
+      "sha256": "d9a5af2fab702781c91b17e56f169c497aad01ebeeb11af6d0888dcf375a10b1"
+    },
+    {
+      "path": "data/processed/CID4535_rctd_v1/rctd_weights_spot_by_celltype.csv",
+      "sha256": "4c9ae6c779cb2e792cff1e5667365859d3ef12c244c5fe6e8bdaaa30ea707356"
+    },
+    {
+      "path": "results/CID4535_reference_bootstrap_v1/metrics_by_run.csv",
+      "sha256": "ba0b29227b95d1398783d5fcd0e5193d4822c48e79e4f3cba7507e49614b9c01"
+    },
+    {
+      "path": "results/CID4535_reference_bootstrap_v1/spot_stability.csv",
+      "sha256": "793dca5c30b98fde3df095c3246ef8727fd8701643c8cfc0981cc06d96f55690"
+    }
+  ],
+  "figure_dimensions_mm": {
+    "figure1": [
+      210,
+      148.5
+    ],
+    "figure2": [
+      210,
+      110
+    ],
+    "figure3": [
+      210,
+      148.5
+    ],
+    "figure4": [
+      210,
+      148.5
+    ]
+  },
+  "png_dpi": 300,
+  "expression_panel_normalization": "log1p(counts / total_counts * 10000), mean across listed genes"
+}

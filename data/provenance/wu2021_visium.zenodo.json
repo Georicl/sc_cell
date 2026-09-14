@@ -1,0 +1,169 @@
+{
+  "created": "2021-06-04T01:21:11.990989+00:00",
+  "modified": "2024-07-19T03:54:44.364210+00:00",
+  "id": 4739739,
+  "conceptrecid": "4739738",
+  "doi": "10.5281/zenodo.4739739",
+  "conceptdoi": "10.5281/zenodo.4739738",
+  "doi_url": "https://doi.org/10.5281/zenodo.4739739",
+  "metadata": {
+    "title": "A single-cell and spatially resolved atlas of human breast cancers | spatial transcriptomics data",
+    "doi": "10.5281/zenodo.4739739",
+    "publication_date": "2021-06-05",
+    "description": "<p>This repository contains spatial transcriptomics data related&nbsp;to the Wu et al. 2021 study&nbsp;&quot;<strong>A single-cell and spatially resolved atlas of human breast cancers</strong>&quot;. Processed count matrices, brightfield HE-images (plain and annotated) and meta-data (containing clinical information and spot pathological details) for&nbsp;6 primary breast cancers profiled using the Visium assay (10X Genomics).&nbsp;If you use this dataset in your research, please consider citing the above study.</p>\n\n<p>The content of the files are:<br>\nraw_count_matrices.tar.gz - spaceranger processed raw count matrices.</p>\n\n<p>spatial.tar.gz - spaceranger processed spatial files (images, scalefactors, aligned fiducials, position lists)</p>\n\n<p>filtered_count_matrices.tar.gz - filtered count matrices.</p>\n\n<p>metadata.tar.gz - metadata for tissues and spots of filtered count matrices, including clinical subtype and pathological annotation of each spot.</p>\n\n<p>images.pdf&nbsp;- pdf detailing the H&amp;E and annotation images.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Sunny Z Wu",
+        "affiliation": "Garvan Institute of Medical Research",
+        "orcid": "0000-0002-6153-0449"
+      },
+      {
+        "name": "Alexander Swarbrick",
+        "affiliation": "Garvan Institute of Medical Research",
+        "orcid": "0000-0002-3051-5676"
+      }
+    ],
+    "keywords": [
+      "spatial transcriptomics",
+      "breast cancer",
+      "Visium"
+    ],
+    "version": "1",
+    "language": "eng",
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "journal": {
+      "title": "Nature Genetics"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "4739738"
+          }
+        }
+      ]
+    }
+  },
+  "title": "A single-cell and spatially resolved atlas of human breast cancers | spatial transcriptomics data",
+  "links": {
+    "self": "https://zenodo.org/api/records/4739739",
+    "self_html": "https://zenodo.org/records/4739739",
+    "preview_html": "https://zenodo.org/records/4739739?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.4739739",
+    "self_doi": "https://doi.org/10.5281/zenodo.4739739",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.4739739",
+    "reserve_doi": "https://zenodo.org/api/records/4739739/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/4739738",
+    "parent_html": "https://zenodo.org/records/4739738",
+    "parent_doi": "https://doi.org/10.5281/zenodo.4739738",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.4739738",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:4739739/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:4739739/sequence/default",
+    "files": "https://zenodo.org/api/records/4739739/files",
+    "media_files": "https://zenodo.org/api/records/4739739/media-files",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:4739739:images.pdf/full/%5E10,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:4739739:images.pdf/full/%5E50,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:4739739:images.pdf/full/%5E100,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:4739739:images.pdf/full/%5E250,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:4739739:images.pdf/full/%5E750,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:4739739:images.pdf/full/%5E1200,/0/default.jpg"
+    },
+    "archive": "https://zenodo.org/api/records/4739739/files-archive",
+    "archive_media": "https://zenodo.org/api/records/4739739/media-files-archive",
+    "latest": "https://zenodo.org/api/records/4739739/versions/latest",
+    "latest_html": "https://zenodo.org/records/4739739/latest",
+    "versions": "https://zenodo.org/api/records/4739739/versions",
+    "draft": "https://zenodo.org/api/records/4739739/draft",
+    "access_links": "https://zenodo.org/api/records/4739739/access/links",
+    "access_grants": "https://zenodo.org/api/records/4739739/access/grants",
+    "access_users": "https://zenodo.org/api/records/4739739/access/users",
+    "access_request": "https://zenodo.org/api/records/4739739/access/request",
+    "access": "https://zenodo.org/api/records/4739739/access",
+    "communities": "https://zenodo.org/api/records/4739739/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/4739739/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/4739739/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/4739739/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/4739739/quota-increase",
+    "requests": "https://zenodo.org/api/records/4739739/requests"
+  },
+  "updated": "2024-07-19T03:54:44.364210+00:00",
+  "recid": "4739739",
+  "revision": 5,
+  "files": [
+    {
+      "id": "eea01189-c090-41be-a4f8-af0e2c8b1cd5",
+      "key": "images.pdf",
+      "size": 457685417,
+      "checksum": "md5:7a44782b0c376e5b4cb8bb1127821e6f",
+      "links": {
+        "self": "https://zenodo.org/api/records/4739739/files/images.pdf/content"
+      }
+    },
+    {
+      "id": "92f24f54-6b9a-4858-b87c-58b4d7ef0c98",
+      "key": "raw_count_matrices.tar.gz",
+      "size": 252891138,
+      "checksum": "md5:f332ba383872dd74a27db67fcbfcd900",
+      "links": {
+        "self": "https://zenodo.org/api/records/4739739/files/raw_count_matrices.tar.gz/content"
+      }
+    },
+    {
+      "id": "2d665f3a-2c4a-49cc-ad1e-e6d9ef7e900a",
+      "key": "spatial.tar.gz",
+      "size": 54282871,
+      "checksum": "md5:29b02ae433d459d19dc52b75a529e8e9",
+      "links": {
+        "self": "https://zenodo.org/api/records/4739739/files/spatial.tar.gz/content"
+      }
+    },
+    {
+      "id": "5efa7ac5-3f99-4f3a-89f1-4424e0896e95",
+      "key": "filtered_count_matrices.tar.gz",
+      "size": 155703418,
+      "checksum": "md5:ea1220f0606c4d4e9307468fb2d5427a",
+      "links": {
+        "self": "https://zenodo.org/api/records/4739739/files/filtered_count_matrices.tar.gz/content"
+      }
+    },
+    {
+      "id": "17aff2d0-35c1-4da9-9d6a-84de1fb1e16c",
+      "key": "metadata.tar.gz",
+      "size": 217533,
+      "checksum": "md5:1d0b34ead70635c094ac74ac58a88d68",
+      "links": {
+        "self": "https://zenodo.org/api/records/4739739/files/metadata.tar.gz/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "217790"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 71915,
+    "unique_downloads": 31327,
+    "views": 25259,
+    "unique_views": 22413,
+    "version_downloads": 71682,
+    "version_unique_downloads": 31151,
+    "version_unique_views": 22310,
+    "version_views": 25149
+  },
+  "state": "done",
+  "submitted": true
+}

@@ -1,0 +1,27 @@
+{
+  "metadata_file": "data/raw/wu2021_scrna/Wu_etal_2021_BRCA_scRNASeq/metadata.csv",
+  "metadata_sha256": "2de14f17546839a859464aba6f29de5575b96cb79351c4604c9286f15969e268",
+  "barcode_file": "data/raw/wu2021_scrna/Wu_etal_2021_BRCA_scRNASeq/count_matrix_barcodes.tsv",
+  "barcode_sha256": "583c7d9b150b5919737a767b57cfecfd1fa6d472903ead9b4d8052aff3792241",
+  "donor_id_source": "orig.ident (author sample identifier, unchanged)",
+  "subtype_source": "subtype",
+  "n_cells": 100064,
+  "n_donor_ids": 26,
+  "reference_types": [
+    "CAFs",
+    "T cells CD8+",
+    "T cells CD4+",
+    "NK cells",
+    "NKT cells",
+    "Cycling T-cells",
+    "PVL",
+    "Cancer Epithelial",
+    "Normal Epithelial",
+    "Endothelial",
+    "Myeloid",
+    "B-cells",
+    "Plasmablasts"
+  ],
+  "additional_qc": false,
+  "development_sample": "CID4535"
+}

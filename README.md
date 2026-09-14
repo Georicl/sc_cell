@@ -119,7 +119,7 @@ CAF 和 CD8 在部分区域共同升高，全切片相关为 +0.610，重抽样�
 .venv/bin/python src/sc_sncell_github/make_cid4535_paper_figures.py
 ```
 
-软件版本、参数及抽样条码随各阶段结果保存；[图形来源清单](results/CID4535_paper_v1/figure_data_manifest.json)记录本次使用的对象及校验值。[Python 脚本说明](docs/python_scripts.md)和[完整技术路线](docs/technical_route.md)保留为操作入口。
+软件版本、参数及抽样条码随各阶段结果保存；[图形来源清单](results/CID4535_paper_v1/figure_data_manifest.json)记录本次使用的对象及校验值。分析入口见上表，R 环境版本见 [sessionInfo.txt](results/CID4535_rctd_v1/sessionInfo.txt)。
 
 ## 参考文献
 

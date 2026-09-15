@@ -1,0 +1,4 @@
+donor_id,umi_mismatch,gene_count_mismatch,max_mt_difference,n_mt_genes
+CID4471,0,0,5.1514348342607263e-14,13
+CID4067,0,0,5.1514348342607263e-14,13
+CID4535,0,0,5.3290705182007514e-14,13

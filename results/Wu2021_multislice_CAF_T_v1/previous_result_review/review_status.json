@@ -1,0 +1,37 @@
+[
+  {
+    "script": "audit_pipeline_to_qc.py",
+    "exit_code": 0,
+    "log": "results/Wu2021_multislice_CAF_T_v1/previous_result_review/audit_pipeline_to_qc.log"
+  },
+  {
+    "script": "validate_known_composition.py",
+    "exit_code": 0,
+    "log": "results/Wu2021_multislice_CAF_T_v1/previous_result_review/validate_known_composition.log"
+  },
+  {
+    "script": "validate_reference_comparison.py",
+    "exit_code": 0,
+    "log": "results/Wu2021_multislice_CAF_T_v1/previous_result_review/validate_reference_comparison.log"
+  },
+  {
+    "script": "validate_independent_validation.py",
+    "exit_code": 0,
+    "log": "results/Wu2021_multislice_CAF_T_v1/previous_result_review/validate_independent_validation.log"
+  },
+  {
+    "script": "validate_tcell_validation.py",
+    "exit_code": 0,
+    "log": "results/Wu2021_multislice_CAF_T_v1/previous_result_review/validate_tcell_validation.log"
+  },
+  {
+    "script": "validate_tcell_label_review.py",
+    "exit_code": 0,
+    "log": "results/Wu2021_multislice_CAF_T_v1/previous_result_review/validate_tcell_label_review.log"
+  },
+  {
+    "script": "validate_coarse_tcells.py",
+    "exit_code": 0,
+    "log": "results/Wu2021_multislice_CAF_T_v1/previous_result_review/validate_coarse_tcells.log"
+  }
+]

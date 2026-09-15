@@ -1,0 +1,30 @@
+{
+  "seed": 20260916,
+  "rctd_seed": 9,
+  "reference_donors": [
+    "CID4471",
+    "CID4535"
+  ],
+  "development_donor": "CID4067",
+  "variants": [
+    "donor_balanced",
+    "epithelial_split",
+    "balanced_split"
+  ],
+  "balancing": "Within each original type, sample equally from each donor without replacement. If balanced total <25, retain original pool. Single fixed seed.",
+  "epithelial_split": "Author Cancer LumA SC and Cancer LumB SC become separate model labels; remaining cancer labels form Cancer Other. Aggregate all three back to Cancer Epithelial for 13-type evaluation.",
+  "fixed_spots": "Wu2021_known_composition_v1, all 488, paired depths",
+  "rctd": {
+    "mode": "full",
+    "max_cores": 2,
+    "ref_UMI_min": 100,
+    "ref_n_cells_min": 25
+  },
+  "nnls_features": 2000,
+  "metrics": [
+    "MAE",
+    "RMSE",
+    "bias"
+  ],
+  "comparison": "Exploratory reference development after inspecting CID4067 baseline; no independent validation donor in this comparison."
+}

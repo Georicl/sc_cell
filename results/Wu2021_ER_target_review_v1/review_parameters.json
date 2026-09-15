@@ -1,0 +1,49 @@
+{
+  "donors": [
+    "CID4471",
+    "CID4067",
+    "CID4535"
+  ],
+  "target_types": [
+    "CAFs",
+    "T cells CD8+",
+    "PVL"
+  ],
+  "n_target_cells": 3989,
+  "n_flagged_target_cells": 303,
+  "additional_excluded_cells": 0,
+  "cell_action": "retain author cells; preserve QC and marker review notes",
+  "source_qc": "results/Wu2021_ER_donor_qc_v1/cell_qc_records.csv",
+  "panels": {
+    "epithelial": [
+      "EPCAM",
+      "KRT8",
+      "KRT18",
+      "KRT19"
+    ],
+    "T_lineage": [
+      "CD3D",
+      "CD3E",
+      "TRAC"
+    ],
+    "CD8": [
+      "CD8A",
+      "CD8B"
+    ],
+    "CAF": [
+      "COL1A1",
+      "COL1A2",
+      "DCN",
+      "LUM"
+    ],
+    "PVL": [
+      "RGS5",
+      "CSPG4",
+      "MCAM"
+    ],
+    "endothelial": [
+      "PECAM1",
+      "VWF"
+    ]
+  }
+}

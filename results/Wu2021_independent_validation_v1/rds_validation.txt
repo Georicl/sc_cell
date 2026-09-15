@@ -1,0 +1,36 @@
+$baseline_rds_csv
+[1] TRUE
+
+$baseline_normalization
+[1] TRUE
+
+$baseline_settings
+[1] TRUE
+
+$donor_balanced_rds_csv
+[1] TRUE
+
+$donor_balanced_normalization
+[1] TRUE
+
+$donor_balanced_settings
+[1] TRUE
+
+$epithelial_split_rds_csv
+[1] TRUE
+
+$epithelial_split_normalization
+[1] TRUE
+
+$epithelial_split_settings
+[1] TRUE
+
+$balanced_split_rds_csv
+[1] TRUE
+
+$balanced_split_normalization
+[1] TRUE
+
+$balanced_split_settings
+[1] TRUE
+

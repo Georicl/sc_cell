@@ -10,6 +10,8 @@
 /results/Wu2021_ER_donor_plan/clinical_table1_extracted.csv
 /results/Wu2021_ER_donor_plan/geo_sample_fields.csv
 /docs/
+/results/notebook_text_revision_*/
+/results/pipeline_audit_*/
 /.vscode/
 
 # Optional future local environments and caches.

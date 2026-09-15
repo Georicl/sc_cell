@@ -1,0 +1,252 @@
+START CID4461 baseline 2026-09-15 13:24:38 
+Number of cells in reference: 12570
+Number of genes in reference: 29733
+
+          B-cells              CAFs Cancer Epithelial   Cycling T-cells 
+              155              1394              2435                27 
+      Endothelial           Myeloid          NK cells         NKT cells 
+             2997               540                55                47 
+Normal Epithelial      Plasmablasts               PVL      T cells CD4+ 
+             1988               147              1877               651 
+     T cells CD8+ 
+              257 
+Getting regression differentially expressed genes: 
+B-cells found DE genes: 54
+CAFs found DE genes: 209
+Cancer Epithelial found DE genes: 148
+Cycling T-cells found DE genes: 251
+Endothelial found DE genes: 147
+Myeloid found DE genes: 123
+NK cells found DE genes: 91
+NKT cells found DE genes: 160
+Normal Epithelial found DE genes: 89
+Plasmablasts found DE genes: 40
+PVL found DE genes: 156
+T cells CD4+ found DE genes: 46
+T cells CD8+ found DE genes: 108
+Total DE genes: 1142
+Getting bulk differentially expressed genes: 
+B-cells found DE genes: 156
+CAFs found DE genes: 358
+Cancer Epithelial found DE genes: 358
+Cycling T-cells found DE genes: 631
+Endothelial found DE genes: 300
+Myeloid found DE genes: 235
+NK cells found DE genes: 219
+NKT cells found DE genes: 373
+Normal Epithelial found DE genes: 202
+Plasmablasts found DE genes: 56
+PVL found DE genes: 259
+T cells CD4+ found DE genes: 139
+T cells CD8+ found DE genes: 232
+Total DE genes: 2150
+fitBulk: decomposing bulk
+chooseSigma: using initial Q_mat with sigma = 1
+Likelihood value: 175386.20193048
+Sigma value: 0.84
+Likelihood value: 171439.129130805
+Sigma value: 0.69
+Likelihood value: 168112.827080148
+Sigma value: 0.61
+Likelihood value: 166553.376657387
+Sigma value: 0.53
+Likelihood value: 165188.68104115
+Sigma value: 0.45
+Likelihood value: 164058.202419427
+Sigma value: 0.37
+Likelihood value: 163202.436842617
+Sigma value: 0.29
+Likelihood value: 162658.366652279
+Sigma value: 0.21
+DONE CID4461 baseline 2026-09-15 13:26:01 
+START CID4461 donor_balanced 2026-09-15 13:26:01 
+Number of cells in reference: 3799
+Number of genes in reference: 29733
+
+          B-cells              CAFs Cancer Epithelial   Cycling T-cells 
+              112               204               424                27 
+      Endothelial           Myeloid          NK cells         NKT cells 
+              438               510                50                30 
+Normal Epithelial      Plasmablasts               PVL      T cells CD4+ 
+               44               102              1184               478 
+     T cells CD8+ 
+              196 
+Getting regression differentially expressed genes: 
+B-cells found DE genes: 53
+CAFs found DE genes: 168
+Cancer Epithelial found DE genes: 116
+Cycling T-cells found DE genes: 242
+Endothelial found DE genes: 150
+Myeloid found DE genes: 122
+NK cells found DE genes: 91
+NKT cells found DE genes: 166
+Normal Epithelial found DE genes: 82
+Plasmablasts found DE genes: 43
+PVL found DE genes: 160
+T cells CD4+ found DE genes: 39
+T cells CD8+ found DE genes: 103
+Total DE genes: 1070
+Getting bulk differentially expressed genes: 
+B-cells found DE genes: 161
+CAFs found DE genes: 307
+Cancer Epithelial found DE genes: 284
+Cycling T-cells found DE genes: 622
+Endothelial found DE genes: 295
+Myeloid found DE genes: 230
+NK cells found DE genes: 218
+NKT cells found DE genes: 398
+Normal Epithelial found DE genes: 201
+Plasmablasts found DE genes: 65
+PVL found DE genes: 252
+T cells CD4+ found DE genes: 124
+T cells CD8+ found DE genes: 228
+Total DE genes: 2083
+fitBulk: decomposing bulk
+chooseSigma: using initial Q_mat with sigma = 1
+Likelihood value: 163691.990423201
+Sigma value: 0.84
+Likelihood value: 160054.438821216
+Sigma value: 0.69
+Likelihood value: 157001.302851131
+Sigma value: 0.61
+Likelihood value: 155576.64902964
+Sigma value: 0.53
+Likelihood value: 154335.8213221
+Sigma value: 0.45
+Likelihood value: 153315.463846015
+Sigma value: 0.37
+Likelihood value: 152552.316028805
+Sigma value: 0.29
+Likelihood value: 152078.779106087
+Sigma value: 0.22
+DONE CID4461 donor_balanced 2026-09-15 13:26:49 
+START CID4461 epithelial_split 2026-09-15 13:26:49 
+Number of cells in reference: 12570
+Number of genes in reference: 29733
+
+          B-cells              CAFs       Cancer LumA       Cancer LumB 
+              155              1394               169              2025 
+     Cancer Other   Cycling T-cells       Endothelial           Myeloid 
+              241                27              2997               540 
+         NK cells         NKT cells Normal Epithelial      Plasmablasts 
+               55                47              1988               147 
+              PVL      T cells CD4+      T cells CD8+ 
+             1877               651               257 
+Getting regression differentially expressed genes: 
+B-cells found DE genes: 59
+CAFs found DE genes: 210
+Cancer LumA found DE genes: 147
+Cancer LumB found DE genes: 125
+Cancer Other found DE genes: 151
+Cycling T-cells found DE genes: 233
+Endothelial found DE genes: 154
+Myeloid found DE genes: 119
+NK cells found DE genes: 105
+NKT cells found DE genes: 171
+Normal Epithelial found DE genes: 81
+Plasmablasts found DE genes: 38
+PVL found DE genes: 166
+T cells CD4+ found DE genes: 53
+T cells CD8+ found DE genes: 127
+Total DE genes: 1219
+Getting bulk differentially expressed genes: 
+B-cells found DE genes: 171
+CAFs found DE genes: 355
+Cancer LumA found DE genes: 321
+Cancer LumB found DE genes: 326
+Cancer Other found DE genes: 424
+Cycling T-cells found DE genes: 619
+Endothelial found DE genes: 306
+Myeloid found DE genes: 238
+NK cells found DE genes: 238
+NKT cells found DE genes: 373
+Normal Epithelial found DE genes: 169
+Plasmablasts found DE genes: 55
+PVL found DE genes: 258
+T cells CD4+ found DE genes: 145
+T cells CD8+ found DE genes: 248
+Total DE genes: 2304
+fitBulk: decomposing bulk
+chooseSigma: using initial Q_mat with sigma = 1
+Likelihood value: 184326.6852177
+Sigma value: 0.84
+Likelihood value: 180196.960802328
+Sigma value: 0.69
+Likelihood value: 176712.650060338
+Sigma value: 0.61
+Likelihood value: 175075.622017085
+Sigma value: 0.53
+Likelihood value: 173638.826762678
+Sigma value: 0.45
+Likelihood value: 172442.391236864
+Sigma value: 0.37
+Likelihood value: 171527.528677057
+Sigma value: 0.29
+Likelihood value: 170932.230440371
+Sigma value: 0.21
+DONE CID4461 epithelial_split 2026-09-15 13:28:15 
+START CID4461 balanced_split 2026-09-15 13:28:15 
+Number of cells in reference: 3799
+Number of genes in reference: 29733
+
+          B-cells              CAFs       Cancer LumA       Cancer LumB 
+              112               204               169               192 
+     Cancer Other   Cycling T-cells       Endothelial           Myeloid 
+               63                27               438               510 
+         NK cells         NKT cells Normal Epithelial      Plasmablasts 
+               50                30                44               102 
+              PVL      T cells CD4+      T cells CD8+ 
+             1184               478               196 
+Getting regression differentially expressed genes: 
+B-cells found DE genes: 59
+CAFs found DE genes: 171
+Cancer LumA found DE genes: 148
+Cancer LumB found DE genes: 125
+Cancer Other found DE genes: 120
+Cycling T-cells found DE genes: 227
+Endothelial found DE genes: 148
+Myeloid found DE genes: 119
+NK cells found DE genes: 102
+NKT cells found DE genes: 180
+Normal Epithelial found DE genes: 76
+Plasmablasts found DE genes: 42
+PVL found DE genes: 161
+T cells CD4+ found DE genes: 48
+T cells CD8+ found DE genes: 118
+Total DE genes: 1184
+Getting bulk differentially expressed genes: 
+B-cells found DE genes: 176
+CAFs found DE genes: 308
+Cancer LumA found DE genes: 316
+Cancer LumB found DE genes: 304
+Cancer Other found DE genes: 379
+Cycling T-cells found DE genes: 607
+Endothelial found DE genes: 302
+Myeloid found DE genes: 234
+NK cells found DE genes: 235
+NKT cells found DE genes: 403
+Normal Epithelial found DE genes: 181
+Plasmablasts found DE genes: 63
+PVL found DE genes: 254
+T cells CD4+ found DE genes: 135
+T cells CD8+ found DE genes: 245
+Total DE genes: 2267
+fitBulk: decomposing bulk
+chooseSigma: using initial Q_mat with sigma = 1
+Likelihood value: 182409.617228159
+Sigma value: 0.84
+Likelihood value: 178313.329038673
+Sigma value: 0.69
+Likelihood value: 174854.251635627
+Sigma value: 0.61
+Likelihood value: 173227.810979114
+Sigma value: 0.53
+Likelihood value: 171799.258999064
+Sigma value: 0.45
+Likelihood value: 170608.425608915
+Sigma value: 0.37
+Likelihood value: 169696.358250966
+Sigma value: 0.29
+Likelihood value: 169100.20660172
+Sigma value: 0.21
+DONE CID4461 balanced_split 2026-09-15 13:29:03 

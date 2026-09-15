@@ -1,0 +1,475 @@
+spot_id,donor_id,base_mixture,scenario,recipe,repeat,depth_fraction,n_cells,nUMI,x,y
+CID4463_mix0000_depth100,CID4463,0,factorial,caf0_cd80_T cells CD4+,0,1.0,10,94063,0,0
+CID4463_mix0000_depth25,CID4463,0,factorial,caf0_cd80_T cells CD4+,0,0.25,10,23466,1,0
+CID4463_mix0001_depth100,CID4463,1,factorial,caf0_cd80_T cells CD4+,1,1.0,10,71671,2,0
+CID4463_mix0001_depth25,CID4463,1,factorial,caf0_cd80_T cells CD4+,1,0.25,10,17827,3,0
+CID4463_mix0002_depth100,CID4463,2,factorial,caf0_cd80_T cells CD4+,2,1.0,10,105165,4,0
+CID4463_mix0002_depth25,CID4463,2,factorial,caf0_cd80_T cells CD4+,2,0.25,10,26502,5,0
+CID4463_mix0003_depth100,CID4463,3,factorial,caf0_cd80_Myeloid,0,1.0,10,102130,6,0
+CID4463_mix0003_depth25,CID4463,3,factorial,caf0_cd80_Myeloid,0,0.25,10,25634,7,0
+CID4463_mix0004_depth100,CID4463,4,factorial,caf0_cd80_Myeloid,1,1.0,10,104998,8,0
+CID4463_mix0004_depth25,CID4463,4,factorial,caf0_cd80_Myeloid,1,0.25,10,26415,9,0
+CID4463_mix0005_depth100,CID4463,5,factorial,caf0_cd80_Myeloid,2,1.0,10,80464,10,0
+CID4463_mix0005_depth25,CID4463,5,factorial,caf0_cd80_Myeloid,2,0.25,10,20070,11,0
+CID4463_mix0006_depth100,CID4463,6,factorial,caf0_cd80_Endothelial,0,1.0,10,43994,12,0
+CID4463_mix0006_depth25,CID4463,6,factorial,caf0_cd80_Endothelial,0,0.25,10,10878,13,0
+CID4463_mix0007_depth100,CID4463,7,factorial,caf0_cd80_Endothelial,1,1.0,10,99497,14,0
+CID4463_mix0007_depth25,CID4463,7,factorial,caf0_cd80_Endothelial,1,0.25,10,24790,15,0
+CID4463_mix0008_depth100,CID4463,8,factorial,caf0_cd80_Endothelial,2,1.0,10,119800,16,0
+CID4463_mix0008_depth25,CID4463,8,factorial,caf0_cd80_Endothelial,2,0.25,10,29783,17,0
+CID4463_mix0009_depth100,CID4463,9,factorial,caf0_cd80_NK cells,0,1.0,10,103926,18,0
+CID4463_mix0009_depth25,CID4463,9,factorial,caf0_cd80_NK cells,0,0.25,10,26056,19,0
+CID4463_mix0010_depth100,CID4463,10,factorial,caf0_cd80_NK cells,1,1.0,10,104893,20,0
+CID4463_mix0010_depth25,CID4463,10,factorial,caf0_cd80_NK cells,1,0.25,10,26128,21,0
+CID4463_mix0011_depth100,CID4463,11,factorial,caf0_cd80_NK cells,2,1.0,10,74251,22,0
+CID4463_mix0011_depth25,CID4463,11,factorial,caf0_cd80_NK cells,2,0.25,10,18503,23,0
+CID4463_mix0012_depth100,CID4463,12,factorial,caf0_cd80_NKT cells,0,1.0,10,81445,24,0
+CID4463_mix0012_depth25,CID4463,12,factorial,caf0_cd80_NKT cells,0,0.25,10,20247,25,0
+CID4463_mix0013_depth100,CID4463,13,factorial,caf0_cd80_NKT cells,1,1.0,10,77001,26,0
+CID4463_mix0013_depth25,CID4463,13,factorial,caf0_cd80_NKT cells,1,0.25,10,19416,27,0
+CID4463_mix0014_depth100,CID4463,14,factorial,caf0_cd80_NKT cells,2,1.0,10,81893,28,0
+CID4463_mix0014_depth25,CID4463,14,factorial,caf0_cd80_NKT cells,2,0.25,10,20508,29,0
+CID4463_mix0015_depth100,CID4463,15,factorial,caf0_cd80_Cycling T-cells,0,1.0,10,154606,30,0
+CID4463_mix0015_depth25,CID4463,15,factorial,caf0_cd80_Cycling T-cells,0,0.25,10,38355,31,0
+CID4463_mix0016_depth100,CID4463,16,factorial,caf0_cd80_Cycling T-cells,1,1.0,10,118356,32,0
+CID4463_mix0016_depth25,CID4463,16,factorial,caf0_cd80_Cycling T-cells,1,0.25,10,29629,33,0
+CID4463_mix0017_depth100,CID4463,17,factorial,caf0_cd80_Cycling T-cells,2,1.0,10,90447,34,0
+CID4463_mix0017_depth25,CID4463,17,factorial,caf0_cd80_Cycling T-cells,2,0.25,10,22644,35,0
+CID4463_mix0018_depth100,CID4463,18,factorial,caf0_cd81_T cells CD4+,0,1.0,10,84127,36,0
+CID4463_mix0018_depth25,CID4463,18,factorial,caf0_cd81_T cells CD4+,0,0.25,10,21016,37,0
+CID4463_mix0019_depth100,CID4463,19,factorial,caf0_cd81_T cells CD4+,1,1.0,10,92085,38,0
+CID4463_mix0019_depth25,CID4463,19,factorial,caf0_cd81_T cells CD4+,1,0.25,10,23025,39,0
+CID4463_mix0020_depth100,CID4463,20,factorial,caf0_cd81_T cells CD4+,2,1.0,10,84199,40,0
+CID4463_mix0020_depth25,CID4463,20,factorial,caf0_cd81_T cells CD4+,2,0.25,10,21072,41,0
+CID4463_mix0021_depth100,CID4463,21,factorial,caf0_cd81_Myeloid,0,1.0,10,122773,42,0
+CID4463_mix0021_depth25,CID4463,21,factorial,caf0_cd81_Myeloid,0,0.25,10,30682,43,0
+CID4463_mix0022_depth100,CID4463,22,factorial,caf0_cd81_Myeloid,1,1.0,10,72561,44,0
+CID4463_mix0022_depth25,CID4463,22,factorial,caf0_cd81_Myeloid,1,0.25,10,18089,45,0
+CID4463_mix0023_depth100,CID4463,23,factorial,caf0_cd81_Myeloid,2,1.0,10,64433,46,0
+CID4463_mix0023_depth25,CID4463,23,factorial,caf0_cd81_Myeloid,2,0.25,10,16126,47,0
+CID4463_mix0024_depth100,CID4463,24,factorial,caf0_cd81_Endothelial,0,1.0,10,59109,48,0
+CID4463_mix0024_depth25,CID4463,24,factorial,caf0_cd81_Endothelial,0,0.25,10,14970,49,0
+CID4463_mix0025_depth100,CID4463,25,factorial,caf0_cd81_Endothelial,1,1.0,10,93064,50,0
+CID4463_mix0025_depth25,CID4463,25,factorial,caf0_cd81_Endothelial,1,0.25,10,23535,51,0
+CID4463_mix0026_depth100,CID4463,26,factorial,caf0_cd81_Endothelial,2,1.0,10,64269,52,0
+CID4463_mix0026_depth25,CID4463,26,factorial,caf0_cd81_Endothelial,2,0.25,10,16190,53,0
+CID4463_mix0027_depth100,CID4463,27,factorial,caf0_cd81_NK cells,0,1.0,10,40976,54,0
+CID4463_mix0027_depth25,CID4463,27,factorial,caf0_cd81_NK cells,0,0.25,10,10212,55,0
+CID4463_mix0028_depth100,CID4463,28,factorial,caf0_cd81_NK cells,1,1.0,10,65200,56,0
+CID4463_mix0028_depth25,CID4463,28,factorial,caf0_cd81_NK cells,1,0.25,10,16357,57,0
+CID4463_mix0029_depth100,CID4463,29,factorial,caf0_cd81_NK cells,2,1.0,10,71823,58,0
+CID4463_mix0029_depth25,CID4463,29,factorial,caf0_cd81_NK cells,2,0.25,10,17806,59,0
+CID4463_mix0030_depth100,CID4463,30,factorial,caf0_cd81_NKT cells,0,1.0,10,78589,60,0
+CID4463_mix0030_depth25,CID4463,30,factorial,caf0_cd81_NKT cells,0,0.25,10,19561,61,0
+CID4463_mix0031_depth100,CID4463,31,factorial,caf0_cd81_NKT cells,1,1.0,10,55681,62,0
+CID4463_mix0031_depth25,CID4463,31,factorial,caf0_cd81_NKT cells,1,0.25,10,14027,63,0
+CID4463_mix0032_depth100,CID4463,32,factorial,caf0_cd81_NKT cells,2,1.0,10,112553,64,0
+CID4463_mix0032_depth25,CID4463,32,factorial,caf0_cd81_NKT cells,2,0.25,10,28148,65,0
+CID4463_mix0033_depth100,CID4463,33,factorial,caf0_cd81_Cycling T-cells,0,1.0,10,98363,66,0
+CID4463_mix0033_depth25,CID4463,33,factorial,caf0_cd81_Cycling T-cells,0,0.25,10,24804,67,0
+CID4463_mix0034_depth100,CID4463,34,factorial,caf0_cd81_Cycling T-cells,1,1.0,10,109255,68,0
+CID4463_mix0034_depth25,CID4463,34,factorial,caf0_cd81_Cycling T-cells,1,0.25,10,27305,69,0
+CID4463_mix0035_depth100,CID4463,35,factorial,caf0_cd81_Cycling T-cells,2,1.0,10,68804,70,0
+CID4463_mix0035_depth25,CID4463,35,factorial,caf0_cd81_Cycling T-cells,2,0.25,10,17024,71,0
+CID4463_mix0036_depth100,CID4463,36,factorial,caf0_cd83_T cells CD4+,0,1.0,10,60888,72,0
+CID4463_mix0036_depth25,CID4463,36,factorial,caf0_cd83_T cells CD4+,0,0.25,10,15088,73,0
+CID4463_mix0037_depth100,CID4463,37,factorial,caf0_cd83_T cells CD4+,1,1.0,10,47903,74,0
+CID4463_mix0037_depth25,CID4463,37,factorial,caf0_cd83_T cells CD4+,1,0.25,10,11958,75,0
+CID4463_mix0038_depth100,CID4463,38,factorial,caf0_cd83_T cells CD4+,2,1.0,10,34348,76,0
+CID4463_mix0038_depth25,CID4463,38,factorial,caf0_cd83_T cells CD4+,2,0.25,10,8524,77,0
+CID4463_mix0039_depth100,CID4463,39,factorial,caf0_cd83_Myeloid,0,1.0,10,94635,78,0
+CID4463_mix0039_depth25,CID4463,39,factorial,caf0_cd83_Myeloid,0,0.25,10,23613,79,0
+CID4463_mix0040_depth100,CID4463,40,factorial,caf0_cd83_Myeloid,1,1.0,10,109337,80,0
+CID4463_mix0040_depth25,CID4463,40,factorial,caf0_cd83_Myeloid,1,0.25,10,27320,81,0
+CID4463_mix0041_depth100,CID4463,41,factorial,caf0_cd83_Myeloid,2,1.0,10,82958,82,0
+CID4463_mix0041_depth25,CID4463,41,factorial,caf0_cd83_Myeloid,2,0.25,10,20755,83,0
+CID4463_mix0042_depth100,CID4463,42,factorial,caf0_cd83_Endothelial,0,1.0,10,55633,84,0
+CID4463_mix0042_depth25,CID4463,42,factorial,caf0_cd83_Endothelial,0,0.25,10,14030,85,0
+CID4463_mix0043_depth100,CID4463,43,factorial,caf0_cd83_Endothelial,1,1.0,10,82811,86,0
+CID4463_mix0043_depth25,CID4463,43,factorial,caf0_cd83_Endothelial,1,0.25,10,20535,87,0
+CID4463_mix0044_depth100,CID4463,44,factorial,caf0_cd83_Endothelial,2,1.0,10,39682,88,0
+CID4463_mix0044_depth25,CID4463,44,factorial,caf0_cd83_Endothelial,2,0.25,10,9889,89,0
+CID4463_mix0045_depth100,CID4463,45,factorial,caf0_cd83_NK cells,0,1.0,10,52672,90,0
+CID4463_mix0045_depth25,CID4463,45,factorial,caf0_cd83_NK cells,0,0.25,10,13187,91,0
+CID4463_mix0046_depth100,CID4463,46,factorial,caf0_cd83_NK cells,1,1.0,10,52071,92,0
+CID4463_mix0046_depth25,CID4463,46,factorial,caf0_cd83_NK cells,1,0.25,10,12944,93,0
+CID4463_mix0047_depth100,CID4463,47,factorial,caf0_cd83_NK cells,2,1.0,10,85646,94,0
+CID4463_mix0047_depth25,CID4463,47,factorial,caf0_cd83_NK cells,2,0.25,10,21573,95,0
+CID4463_mix0048_depth100,CID4463,48,factorial,caf0_cd83_NKT cells,0,1.0,10,69226,96,0
+CID4463_mix0048_depth25,CID4463,48,factorial,caf0_cd83_NKT cells,0,0.25,10,17405,97,0
+CID4463_mix0049_depth100,CID4463,49,factorial,caf0_cd83_NKT cells,1,1.0,10,107556,98,0
+CID4463_mix0049_depth25,CID4463,49,factorial,caf0_cd83_NKT cells,1,0.25,10,26688,99,0
+CID4463_mix0050_depth100,CID4463,50,factorial,caf0_cd83_NKT cells,2,1.0,10,37382,100,0
+CID4463_mix0050_depth25,CID4463,50,factorial,caf0_cd83_NKT cells,2,0.25,10,9333,101,0
+CID4463_mix0051_depth100,CID4463,51,factorial,caf0_cd83_Cycling T-cells,0,1.0,10,68072,102,0
+CID4463_mix0051_depth25,CID4463,51,factorial,caf0_cd83_Cycling T-cells,0,0.25,10,17038,103,0
+CID4463_mix0052_depth100,CID4463,52,factorial,caf0_cd83_Cycling T-cells,1,1.0,10,54946,104,0
+CID4463_mix0052_depth25,CID4463,52,factorial,caf0_cd83_Cycling T-cells,1,0.25,10,13596,105,0
+CID4463_mix0053_depth100,CID4463,53,factorial,caf0_cd83_Cycling T-cells,2,1.0,10,78936,106,0
+CID4463_mix0053_depth25,CID4463,53,factorial,caf0_cd83_Cycling T-cells,2,0.25,10,19753,107,0
+CID4463_mix0054_depth100,CID4463,54,factorial,caf1_cd80_T cells CD4+,0,1.0,10,40591,108,0
+CID4463_mix0054_depth25,CID4463,54,factorial,caf1_cd80_T cells CD4+,0,0.25,10,10171,109,0
+CID4463_mix0055_depth100,CID4463,55,factorial,caf1_cd80_T cells CD4+,1,1.0,10,153936,110,0
+CID4463_mix0055_depth25,CID4463,55,factorial,caf1_cd80_T cells CD4+,1,0.25,10,38208,111,0
+CID4463_mix0056_depth100,CID4463,56,factorial,caf1_cd80_T cells CD4+,2,1.0,10,96344,112,0
+CID4463_mix0056_depth25,CID4463,56,factorial,caf1_cd80_T cells CD4+,2,0.25,10,24046,113,0
+CID4463_mix0057_depth100,CID4463,57,factorial,caf1_cd80_Myeloid,0,1.0,10,111199,114,0
+CID4463_mix0057_depth25,CID4463,57,factorial,caf1_cd80_Myeloid,0,0.25,10,27898,115,0
+CID4463_mix0058_depth100,CID4463,58,factorial,caf1_cd80_Myeloid,1,1.0,10,89741,116,0
+CID4463_mix0058_depth25,CID4463,58,factorial,caf1_cd80_Myeloid,1,0.25,10,22309,117,0
+CID4463_mix0059_depth100,CID4463,59,factorial,caf1_cd80_Myeloid,2,1.0,10,127891,118,0
+CID4463_mix0059_depth25,CID4463,59,factorial,caf1_cd80_Myeloid,2,0.25,10,32249,119,0
+CID4463_mix0060_depth100,CID4463,60,factorial,caf1_cd80_Endothelial,0,1.0,10,60976,120,0
+CID4463_mix0060_depth25,CID4463,60,factorial,caf1_cd80_Endothelial,0,0.25,10,15249,121,0
+CID4463_mix0061_depth100,CID4463,61,factorial,caf1_cd80_Endothelial,1,1.0,10,92158,122,0
+CID4463_mix0061_depth25,CID4463,61,factorial,caf1_cd80_Endothelial,1,0.25,10,23170,123,0
+CID4463_mix0062_depth100,CID4463,62,factorial,caf1_cd80_Endothelial,2,1.0,10,100662,124,0
+CID4463_mix0062_depth25,CID4463,62,factorial,caf1_cd80_Endothelial,2,0.25,10,25159,125,0
+CID4463_mix0063_depth100,CID4463,63,factorial,caf1_cd80_NK cells,0,1.0,10,142942,126,0
+CID4463_mix0063_depth25,CID4463,63,factorial,caf1_cd80_NK cells,0,0.25,10,35804,127,0
+CID4463_mix0064_depth100,CID4463,64,factorial,caf1_cd80_NK cells,1,1.0,10,76305,128,0
+CID4463_mix0064_depth25,CID4463,64,factorial,caf1_cd80_NK cells,1,0.25,10,19025,129,0
+CID4463_mix0065_depth100,CID4463,65,factorial,caf1_cd80_NK cells,2,1.0,10,108348,130,0
+CID4463_mix0065_depth25,CID4463,65,factorial,caf1_cd80_NK cells,2,0.25,10,27130,131,0
+CID4463_mix0066_depth100,CID4463,66,factorial,caf1_cd80_NKT cells,0,1.0,10,60998,132,0
+CID4463_mix0066_depth25,CID4463,66,factorial,caf1_cd80_NKT cells,0,0.25,10,15225,133,0
+CID4463_mix0067_depth100,CID4463,67,factorial,caf1_cd80_NKT cells,1,1.0,10,69772,134,0
+CID4463_mix0067_depth25,CID4463,67,factorial,caf1_cd80_NKT cells,1,0.25,10,17283,135,0
+CID4463_mix0068_depth100,CID4463,68,factorial,caf1_cd80_NKT cells,2,1.0,10,182948,136,0
+CID4463_mix0068_depth25,CID4463,68,factorial,caf1_cd80_NKT cells,2,0.25,10,45727,137,0
+CID4463_mix0069_depth100,CID4463,69,factorial,caf1_cd80_Cycling T-cells,0,1.0,10,73575,138,0
+CID4463_mix0069_depth25,CID4463,69,factorial,caf1_cd80_Cycling T-cells,0,0.25,10,18393,139,0
+CID4463_mix0070_depth100,CID4463,70,factorial,caf1_cd80_Cycling T-cells,1,1.0,10,135543,140,0
+CID4463_mix0070_depth25,CID4463,70,factorial,caf1_cd80_Cycling T-cells,1,0.25,10,34056,141,0
+CID4463_mix0071_depth100,CID4463,71,factorial,caf1_cd80_Cycling T-cells,2,1.0,10,69243,142,0
+CID4463_mix0071_depth25,CID4463,71,factorial,caf1_cd80_Cycling T-cells,2,0.25,10,17319,143,0
+CID4463_mix0072_depth100,CID4463,72,factorial,caf1_cd81_T cells CD4+,0,1.0,10,77025,144,0
+CID4463_mix0072_depth25,CID4463,72,factorial,caf1_cd81_T cells CD4+,0,0.25,10,19273,145,0
+CID4463_mix0073_depth100,CID4463,73,factorial,caf1_cd81_T cells CD4+,1,1.0,10,77504,146,0
+CID4463_mix0073_depth25,CID4463,73,factorial,caf1_cd81_T cells CD4+,1,0.25,10,19240,147,0
+CID4463_mix0074_depth100,CID4463,74,factorial,caf1_cd81_T cells CD4+,2,1.0,10,72113,148,0
+CID4463_mix0074_depth25,CID4463,74,factorial,caf1_cd81_T cells CD4+,2,0.25,10,18199,149,0
+CID4463_mix0075_depth100,CID4463,75,factorial,caf1_cd81_Myeloid,0,1.0,10,78485,150,0
+CID4463_mix0075_depth25,CID4463,75,factorial,caf1_cd81_Myeloid,0,0.25,10,19508,151,0
+CID4463_mix0076_depth100,CID4463,76,factorial,caf1_cd81_Myeloid,1,1.0,10,106263,152,0
+CID4463_mix0076_depth25,CID4463,76,factorial,caf1_cd81_Myeloid,1,0.25,10,26584,153,0
+CID4463_mix0077_depth100,CID4463,77,factorial,caf1_cd81_Myeloid,2,1.0,10,83543,154,0
+CID4463_mix0077_depth25,CID4463,77,factorial,caf1_cd81_Myeloid,2,0.25,10,20865,155,0
+CID4463_mix0078_depth100,CID4463,78,factorial,caf1_cd81_Endothelial,0,1.0,10,58695,156,0
+CID4463_mix0078_depth25,CID4463,78,factorial,caf1_cd81_Endothelial,0,0.25,10,14559,157,0
+CID4463_mix0079_depth100,CID4463,79,factorial,caf1_cd81_Endothelial,1,1.0,10,94700,158,0
+CID4463_mix0079_depth25,CID4463,79,factorial,caf1_cd81_Endothelial,1,0.25,10,23661,159,0
+CID4463_mix0080_depth100,CID4463,80,factorial,caf1_cd81_Endothelial,2,1.0,10,62508,160,0
+CID4463_mix0080_depth25,CID4463,80,factorial,caf1_cd81_Endothelial,2,0.25,10,15542,161,0
+CID4463_mix0081_depth100,CID4463,81,factorial,caf1_cd81_NK cells,0,1.0,10,61369,162,0
+CID4463_mix0081_depth25,CID4463,81,factorial,caf1_cd81_NK cells,0,0.25,10,15345,163,0
+CID4463_mix0082_depth100,CID4463,82,factorial,caf1_cd81_NK cells,1,1.0,10,86146,164,0
+CID4463_mix0082_depth25,CID4463,82,factorial,caf1_cd81_NK cells,1,0.25,10,21727,165,0
+CID4463_mix0083_depth100,CID4463,83,factorial,caf1_cd81_NK cells,2,1.0,10,68871,166,0
+CID4463_mix0083_depth25,CID4463,83,factorial,caf1_cd81_NK cells,2,0.25,10,17363,167,0
+CID4463_mix0084_depth100,CID4463,84,factorial,caf1_cd81_NKT cells,0,1.0,10,92728,168,0
+CID4463_mix0084_depth25,CID4463,84,factorial,caf1_cd81_NKT cells,0,0.25,10,23237,169,0
+CID4463_mix0085_depth100,CID4463,85,factorial,caf1_cd81_NKT cells,1,1.0,10,84385,170,0
+CID4463_mix0085_depth25,CID4463,85,factorial,caf1_cd81_NKT cells,1,0.25,10,21082,171,0
+CID4463_mix0086_depth100,CID4463,86,factorial,caf1_cd81_NKT cells,2,1.0,10,88390,172,0
+CID4463_mix0086_depth25,CID4463,86,factorial,caf1_cd81_NKT cells,2,0.25,10,21871,173,0
+CID4463_mix0087_depth100,CID4463,87,factorial,caf1_cd81_Cycling T-cells,0,1.0,10,65895,174,0
+CID4463_mix0087_depth25,CID4463,87,factorial,caf1_cd81_Cycling T-cells,0,0.25,10,16246,175,0
+CID4463_mix0088_depth100,CID4463,88,factorial,caf1_cd81_Cycling T-cells,1,1.0,10,63354,176,0
+CID4463_mix0088_depth25,CID4463,88,factorial,caf1_cd81_Cycling T-cells,1,0.25,10,15913,177,0
+CID4463_mix0089_depth100,CID4463,89,factorial,caf1_cd81_Cycling T-cells,2,1.0,10,98229,178,0
+CID4463_mix0089_depth25,CID4463,89,factorial,caf1_cd81_Cycling T-cells,2,0.25,10,24573,179,0
+CID4463_mix0090_depth100,CID4463,90,factorial,caf1_cd83_T cells CD4+,0,1.0,10,56031,180,0
+CID4463_mix0090_depth25,CID4463,90,factorial,caf1_cd83_T cells CD4+,0,0.25,10,14111,181,0
+CID4463_mix0091_depth100,CID4463,91,factorial,caf1_cd83_T cells CD4+,1,1.0,10,63197,182,0
+CID4463_mix0091_depth25,CID4463,91,factorial,caf1_cd83_T cells CD4+,1,0.25,10,16047,183,0
+CID4463_mix0092_depth100,CID4463,92,factorial,caf1_cd83_T cells CD4+,2,1.0,10,54804,184,0
+CID4463_mix0092_depth25,CID4463,92,factorial,caf1_cd83_T cells CD4+,2,0.25,10,13530,185,0
+CID4463_mix0093_depth100,CID4463,93,factorial,caf1_cd83_Myeloid,0,1.0,10,72481,186,0
+CID4463_mix0093_depth25,CID4463,93,factorial,caf1_cd83_Myeloid,0,0.25,10,17897,187,0
+CID4463_mix0094_depth100,CID4463,94,factorial,caf1_cd83_Myeloid,1,1.0,10,41495,188,0
+CID4463_mix0094_depth25,CID4463,94,factorial,caf1_cd83_Myeloid,1,0.25,10,10404,189,0
+CID4463_mix0095_depth100,CID4463,95,factorial,caf1_cd83_Myeloid,2,1.0,10,64055,190,0
+CID4463_mix0095_depth25,CID4463,95,factorial,caf1_cd83_Myeloid,2,0.25,10,16127,191,0
+CID4463_mix0096_depth100,CID4463,96,factorial,caf1_cd83_Endothelial,0,1.0,10,82388,192,0
+CID4463_mix0096_depth25,CID4463,96,factorial,caf1_cd83_Endothelial,0,0.25,10,20510,193,0
+CID4463_mix0097_depth100,CID4463,97,factorial,caf1_cd83_Endothelial,1,1.0,10,71738,194,0
+CID4463_mix0097_depth25,CID4463,97,factorial,caf1_cd83_Endothelial,1,0.25,10,18077,195,0
+CID4463_mix0098_depth100,CID4463,98,factorial,caf1_cd83_Endothelial,2,1.0,10,32261,196,0
+CID4463_mix0098_depth25,CID4463,98,factorial,caf1_cd83_Endothelial,2,0.25,10,8039,197,0
+CID4463_mix0099_depth100,CID4463,99,factorial,caf1_cd83_NK cells,0,1.0,10,65941,198,0
+CID4463_mix0099_depth25,CID4463,99,factorial,caf1_cd83_NK cells,0,0.25,10,16452,199,0
+CID4463_mix0100_depth100,CID4463,100,factorial,caf1_cd83_NK cells,1,1.0,10,47324,200,0
+CID4463_mix0100_depth25,CID4463,100,factorial,caf1_cd83_NK cells,1,0.25,10,11959,201,0
+CID4463_mix0101_depth100,CID4463,101,factorial,caf1_cd83_NK cells,2,1.0,10,70337,202,0
+CID4463_mix0101_depth25,CID4463,101,factorial,caf1_cd83_NK cells,2,0.25,10,17537,203,0
+CID4463_mix0102_depth100,CID4463,102,factorial,caf1_cd83_NKT cells,0,1.0,10,38764,204,0
+CID4463_mix0102_depth25,CID4463,102,factorial,caf1_cd83_NKT cells,0,0.25,10,9751,205,0
+CID4463_mix0103_depth100,CID4463,103,factorial,caf1_cd83_NKT cells,1,1.0,10,100158,206,0
+CID4463_mix0103_depth25,CID4463,103,factorial,caf1_cd83_NKT cells,1,0.25,10,24945,207,0
+CID4463_mix0104_depth100,CID4463,104,factorial,caf1_cd83_NKT cells,2,1.0,10,62079,208,0
+CID4463_mix0104_depth25,CID4463,104,factorial,caf1_cd83_NKT cells,2,0.25,10,15533,209,0
+CID4463_mix0105_depth100,CID4463,105,factorial,caf1_cd83_Cycling T-cells,0,1.0,10,54068,210,0
+CID4463_mix0105_depth25,CID4463,105,factorial,caf1_cd83_Cycling T-cells,0,0.25,10,13649,211,0
+CID4463_mix0106_depth100,CID4463,106,factorial,caf1_cd83_Cycling T-cells,1,1.0,10,33252,212,0
+CID4463_mix0106_depth25,CID4463,106,factorial,caf1_cd83_Cycling T-cells,1,0.25,10,8263,213,0
+CID4463_mix0107_depth100,CID4463,107,factorial,caf1_cd83_Cycling T-cells,2,1.0,10,72385,214,0
+CID4463_mix0107_depth25,CID4463,107,factorial,caf1_cd83_Cycling T-cells,2,0.25,10,18040,215,0
+CID4463_mix0108_depth100,CID4463,108,factorial,caf3_cd80_T cells CD4+,0,1.0,10,97659,216,0
+CID4463_mix0108_depth25,CID4463,108,factorial,caf3_cd80_T cells CD4+,0,0.25,10,24384,217,0
+CID4463_mix0109_depth100,CID4463,109,factorial,caf3_cd80_T cells CD4+,1,1.0,10,76296,218,0
+CID4463_mix0109_depth25,CID4463,109,factorial,caf3_cd80_T cells CD4+,1,0.25,10,19198,219,0
+CID4463_mix0110_depth100,CID4463,110,factorial,caf3_cd80_T cells CD4+,2,1.0,10,52159,220,0
+CID4463_mix0110_depth25,CID4463,110,factorial,caf3_cd80_T cells CD4+,2,0.25,10,13095,221,0
+CID4463_mix0111_depth100,CID4463,111,factorial,caf3_cd80_Myeloid,0,1.0,10,68512,222,0
+CID4463_mix0111_depth25,CID4463,111,factorial,caf3_cd80_Myeloid,0,0.25,10,17144,223,0
+CID4463_mix0112_depth100,CID4463,112,factorial,caf3_cd80_Myeloid,1,1.0,10,88538,224,0
+CID4463_mix0112_depth25,CID4463,112,factorial,caf3_cd80_Myeloid,1,0.25,10,22258,225,0
+CID4463_mix0113_depth100,CID4463,113,factorial,caf3_cd80_Myeloid,2,1.0,10,102873,226,0
+CID4463_mix0113_depth25,CID4463,113,factorial,caf3_cd80_Myeloid,2,0.25,10,25669,227,0
+CID4463_mix0114_depth100,CID4463,114,factorial,caf3_cd80_Endothelial,0,1.0,10,66851,228,0
+CID4463_mix0114_depth25,CID4463,114,factorial,caf3_cd80_Endothelial,0,0.25,10,16712,229,0
+CID4463_mix0115_depth100,CID4463,115,factorial,caf3_cd80_Endothelial,1,1.0,10,66666,230,0
+CID4463_mix0115_depth25,CID4463,115,factorial,caf3_cd80_Endothelial,1,0.25,10,16626,231,0
+CID4463_mix0116_depth100,CID4463,116,factorial,caf3_cd80_Endothelial,2,1.0,10,70518,232,0
+CID4463_mix0116_depth25,CID4463,116,factorial,caf3_cd80_Endothelial,2,0.25,10,17621,233,0
+CID4463_mix0117_depth100,CID4463,117,factorial,caf3_cd80_NK cells,0,1.0,10,74709,234,0
+CID4463_mix0117_depth25,CID4463,117,factorial,caf3_cd80_NK cells,0,0.25,10,18763,235,0
+CID4463_mix0118_depth100,CID4463,118,factorial,caf3_cd80_NK cells,1,1.0,10,61290,236,0
+CID4463_mix0118_depth25,CID4463,118,factorial,caf3_cd80_NK cells,1,0.25,10,15331,237,0
+CID4463_mix0119_depth100,CID4463,119,factorial,caf3_cd80_NK cells,2,1.0,10,101969,238,0
+CID4463_mix0119_depth25,CID4463,119,factorial,caf3_cd80_NK cells,2,0.25,10,25553,239,0
+CID4463_mix0120_depth100,CID4463,120,factorial,caf3_cd80_NKT cells,0,1.0,10,97217,240,0
+CID4463_mix0120_depth25,CID4463,120,factorial,caf3_cd80_NKT cells,0,0.25,10,24249,241,0
+CID4463_mix0121_depth100,CID4463,121,factorial,caf3_cd80_NKT cells,1,1.0,10,49872,242,0
+CID4463_mix0121_depth25,CID4463,121,factorial,caf3_cd80_NKT cells,1,0.25,10,12415,243,0
+CID4463_mix0122_depth100,CID4463,122,factorial,caf3_cd80_NKT cells,2,1.0,10,52873,244,0
+CID4463_mix0122_depth25,CID4463,122,factorial,caf3_cd80_NKT cells,2,0.25,10,13038,245,0
+CID4463_mix0123_depth100,CID4463,123,factorial,caf3_cd80_Cycling T-cells,0,1.0,10,141139,246,0
+CID4463_mix0123_depth25,CID4463,123,factorial,caf3_cd80_Cycling T-cells,0,0.25,10,35211,247,0
+CID4463_mix0124_depth100,CID4463,124,factorial,caf3_cd80_Cycling T-cells,1,1.0,10,58458,248,0
+CID4463_mix0124_depth25,CID4463,124,factorial,caf3_cd80_Cycling T-cells,1,0.25,10,14680,249,0
+CID4463_mix0125_depth100,CID4463,125,factorial,caf3_cd80_Cycling T-cells,2,1.0,10,64979,250,0
+CID4463_mix0125_depth25,CID4463,125,factorial,caf3_cd80_Cycling T-cells,2,0.25,10,16314,251,0
+CID4463_mix0126_depth100,CID4463,126,factorial,caf3_cd81_T cells CD4+,0,1.0,10,70148,252,0
+CID4463_mix0126_depth25,CID4463,126,factorial,caf3_cd81_T cells CD4+,0,0.25,10,17580,253,0
+CID4463_mix0127_depth100,CID4463,127,factorial,caf3_cd81_T cells CD4+,1,1.0,10,75615,254,0
+CID4463_mix0127_depth25,CID4463,127,factorial,caf3_cd81_T cells CD4+,1,0.25,10,19030,255,0
+CID4463_mix0128_depth100,CID4463,128,factorial,caf3_cd81_T cells CD4+,2,1.0,10,84345,256,0
+CID4463_mix0128_depth25,CID4463,128,factorial,caf3_cd81_T cells CD4+,2,0.25,10,21050,257,0
+CID4463_mix0129_depth100,CID4463,129,factorial,caf3_cd81_Myeloid,0,1.0,10,56227,258,0
+CID4463_mix0129_depth25,CID4463,129,factorial,caf3_cd81_Myeloid,0,0.25,10,13981,259,0
+CID4463_mix0130_depth100,CID4463,130,factorial,caf3_cd81_Myeloid,1,1.0,10,37609,260,0
+CID4463_mix0130_depth25,CID4463,130,factorial,caf3_cd81_Myeloid,1,0.25,10,9369,261,0
+CID4463_mix0131_depth100,CID4463,131,factorial,caf3_cd81_Myeloid,2,1.0,10,85438,262,0
+CID4463_mix0131_depth25,CID4463,131,factorial,caf3_cd81_Myeloid,2,0.25,10,21497,263,0
+CID4463_mix0132_depth100,CID4463,132,factorial,caf3_cd81_Endothelial,0,1.0,10,68197,264,0
+CID4463_mix0132_depth25,CID4463,132,factorial,caf3_cd81_Endothelial,0,0.25,10,17097,265,0
+CID4463_mix0133_depth100,CID4463,133,factorial,caf3_cd81_Endothelial,1,1.0,10,122198,266,0
+CID4463_mix0133_depth25,CID4463,133,factorial,caf3_cd81_Endothelial,1,0.25,10,30634,267,0
+CID4463_mix0134_depth100,CID4463,134,factorial,caf3_cd81_Endothelial,2,1.0,10,102898,268,0
+CID4463_mix0134_depth25,CID4463,134,factorial,caf3_cd81_Endothelial,2,0.25,10,25594,269,0
+CID4463_mix0135_depth100,CID4463,135,factorial,caf3_cd81_NK cells,0,1.0,10,92193,270,0
+CID4463_mix0135_depth25,CID4463,135,factorial,caf3_cd81_NK cells,0,0.25,10,22996,271,0
+CID4463_mix0136_depth100,CID4463,136,factorial,caf3_cd81_NK cells,1,1.0,10,80628,272,0
+CID4463_mix0136_depth25,CID4463,136,factorial,caf3_cd81_NK cells,1,0.25,10,19870,273,0
+CID4463_mix0137_depth100,CID4463,137,factorial,caf3_cd81_NK cells,2,1.0,10,89742,274,0
+CID4463_mix0137_depth25,CID4463,137,factorial,caf3_cd81_NK cells,2,0.25,10,22187,275,0
+CID4463_mix0138_depth100,CID4463,138,factorial,caf3_cd81_NKT cells,0,1.0,10,56661,276,0
+CID4463_mix0138_depth25,CID4463,138,factorial,caf3_cd81_NKT cells,0,0.25,10,14141,277,0
+CID4463_mix0139_depth100,CID4463,139,factorial,caf3_cd81_NKT cells,1,1.0,10,93795,278,0
+CID4463_mix0139_depth25,CID4463,139,factorial,caf3_cd81_NKT cells,1,0.25,10,23642,279,0
+CID4463_mix0140_depth100,CID4463,140,factorial,caf3_cd81_NKT cells,2,1.0,10,88384,280,0
+CID4463_mix0140_depth25,CID4463,140,factorial,caf3_cd81_NKT cells,2,0.25,10,21971,281,0
+CID4463_mix0141_depth100,CID4463,141,factorial,caf3_cd81_Cycling T-cells,0,1.0,10,55429,282,0
+CID4463_mix0141_depth25,CID4463,141,factorial,caf3_cd81_Cycling T-cells,0,0.25,10,13854,283,0
+CID4463_mix0142_depth100,CID4463,142,factorial,caf3_cd81_Cycling T-cells,1,1.0,10,94189,284,0
+CID4463_mix0142_depth25,CID4463,142,factorial,caf3_cd81_Cycling T-cells,1,0.25,10,23528,285,0
+CID4463_mix0143_depth100,CID4463,143,factorial,caf3_cd81_Cycling T-cells,2,1.0,10,53586,286,0
+CID4463_mix0143_depth25,CID4463,143,factorial,caf3_cd81_Cycling T-cells,2,0.25,10,13412,287,0
+CID4463_mix0144_depth100,CID4463,144,factorial,caf3_cd83_T cells CD4+,0,1.0,10,52365,288,0
+CID4463_mix0144_depth25,CID4463,144,factorial,caf3_cd83_T cells CD4+,0,0.25,10,13024,289,0
+CID4463_mix0145_depth100,CID4463,145,factorial,caf3_cd83_T cells CD4+,1,1.0,10,30086,290,0
+CID4463_mix0145_depth25,CID4463,145,factorial,caf3_cd83_T cells CD4+,1,0.25,10,7463,291,0
+CID4463_mix0146_depth100,CID4463,146,factorial,caf3_cd83_T cells CD4+,2,1.0,10,33251,292,0
+CID4463_mix0146_depth25,CID4463,146,factorial,caf3_cd83_T cells CD4+,2,0.25,10,8273,293,0
+CID4463_mix0147_depth100,CID4463,147,factorial,caf3_cd83_Myeloid,0,1.0,10,27880,294,0
+CID4463_mix0147_depth25,CID4463,147,factorial,caf3_cd83_Myeloid,0,0.25,10,6924,295,0
+CID4463_mix0148_depth100,CID4463,148,factorial,caf3_cd83_Myeloid,1,1.0,10,39251,296,0
+CID4463_mix0148_depth25,CID4463,148,factorial,caf3_cd83_Myeloid,1,0.25,10,9760,297,0
+CID4463_mix0149_depth100,CID4463,149,factorial,caf3_cd83_Myeloid,2,1.0,10,31423,298,0
+CID4463_mix0149_depth25,CID4463,149,factorial,caf3_cd83_Myeloid,2,0.25,10,7851,299,0
+CID4463_mix0150_depth100,CID4463,150,factorial,caf3_cd83_Endothelial,0,1.0,10,63494,300,0
+CID4463_mix0150_depth25,CID4463,150,factorial,caf3_cd83_Endothelial,0,0.25,10,15781,301,0
+CID4463_mix0151_depth100,CID4463,151,factorial,caf3_cd83_Endothelial,1,1.0,10,52135,302,0
+CID4463_mix0151_depth25,CID4463,151,factorial,caf3_cd83_Endothelial,1,0.25,10,12981,303,0
+CID4463_mix0152_depth100,CID4463,152,factorial,caf3_cd83_Endothelial,2,1.0,10,42896,304,0
+CID4463_mix0152_depth25,CID4463,152,factorial,caf3_cd83_Endothelial,2,0.25,10,10830,305,0
+CID4463_mix0153_depth100,CID4463,153,factorial,caf3_cd83_NK cells,0,1.0,10,24792,306,0
+CID4463_mix0153_depth25,CID4463,153,factorial,caf3_cd83_NK cells,0,0.25,10,6240,307,0
+CID4463_mix0154_depth100,CID4463,154,factorial,caf3_cd83_NK cells,1,1.0,10,59129,308,0
+CID4463_mix0154_depth25,CID4463,154,factorial,caf3_cd83_NK cells,1,0.25,10,14626,309,0
+CID4463_mix0155_depth100,CID4463,155,factorial,caf3_cd83_NK cells,2,1.0,10,39285,310,0
+CID4463_mix0155_depth25,CID4463,155,factorial,caf3_cd83_NK cells,2,0.25,10,9821,311,0
+CID4463_mix0156_depth100,CID4463,156,factorial,caf3_cd83_NKT cells,0,1.0,10,20670,312,0
+CID4463_mix0156_depth25,CID4463,156,factorial,caf3_cd83_NKT cells,0,0.25,10,5171,313,0
+CID4463_mix0157_depth100,CID4463,157,factorial,caf3_cd83_NKT cells,1,1.0,10,60864,314,0
+CID4463_mix0157_depth25,CID4463,157,factorial,caf3_cd83_NKT cells,1,0.25,10,15097,315,0
+CID4463_mix0158_depth100,CID4463,158,factorial,caf3_cd83_NKT cells,2,1.0,10,38094,316,0
+CID4463_mix0158_depth25,CID4463,158,factorial,caf3_cd83_NKT cells,2,0.25,10,9631,317,0
+CID4463_mix0159_depth100,CID4463,159,factorial,caf3_cd83_Cycling T-cells,0,1.0,10,83731,318,0
+CID4463_mix0159_depth25,CID4463,159,factorial,caf3_cd83_Cycling T-cells,0,0.25,10,21019,319,0
+CID4463_mix0160_depth100,CID4463,160,factorial,caf3_cd83_Cycling T-cells,1,1.0,10,48284,320,0
+CID4463_mix0160_depth25,CID4463,160,factorial,caf3_cd83_Cycling T-cells,1,0.25,10,11965,321,0
+CID4463_mix0161_depth100,CID4463,161,factorial,caf3_cd83_Cycling T-cells,2,1.0,10,32961,322,0
+CID4463_mix0161_depth25,CID4463,161,factorial,caf3_cd83_Cycling T-cells,2,0.25,10,8245,323,0
+CID4463_mix0162_depth100,CID4463,162,pure,CAFs,0,1.0,5,41002,324,0
+CID4463_mix0162_depth25,CID4463,162,pure,CAFs,0,0.25,5,10177,325,0
+CID4463_mix0163_depth100,CID4463,163,pure,CAFs,1,1.0,5,24427,326,0
+CID4463_mix0163_depth25,CID4463,163,pure,CAFs,1,0.25,5,6190,327,0
+CID4463_mix0164_depth100,CID4463,164,pure,CAFs,2,1.0,5,33842,328,0
+CID4463_mix0164_depth25,CID4463,164,pure,CAFs,2,0.25,5,8560,329,0
+CID4463_mix0165_depth100,CID4463,165,pure,CAFs,3,1.0,5,29190,330,0
+CID4463_mix0165_depth25,CID4463,165,pure,CAFs,3,0.25,5,7285,331,0
+CID4463_mix0166_depth100,CID4463,166,pure,CAFs,4,1.0,5,23498,332,0
+CID4463_mix0166_depth25,CID4463,166,pure,CAFs,4,0.25,5,5824,333,0
+CID4463_mix0167_depth100,CID4463,167,pure,Cancer Epithelial,0,1.0,5,83147,334,0
+CID4463_mix0167_depth25,CID4463,167,pure,Cancer Epithelial,0,0.25,5,20868,335,0
+CID4463_mix0168_depth100,CID4463,168,pure,Cancer Epithelial,1,1.0,5,91697,336,0
+CID4463_mix0168_depth25,CID4463,168,pure,Cancer Epithelial,1,0.25,5,22876,337,0
+CID4463_mix0169_depth100,CID4463,169,pure,Cancer Epithelial,2,1.0,5,73922,338,0
+CID4463_mix0169_depth25,CID4463,169,pure,Cancer Epithelial,2,0.25,5,18665,339,0
+CID4463_mix0170_depth100,CID4463,170,pure,Cancer Epithelial,3,1.0,5,50894,340,0
+CID4463_mix0170_depth25,CID4463,170,pure,Cancer Epithelial,3,0.25,5,12665,341,0
+CID4463_mix0171_depth100,CID4463,171,pure,Cancer Epithelial,4,1.0,5,111572,342,0
+CID4463_mix0171_depth25,CID4463,171,pure,Cancer Epithelial,4,0.25,5,27783,343,0
+CID4463_mix0172_depth100,CID4463,172,pure,Cycling T-cells,0,1.0,5,33266,344,0
+CID4463_mix0172_depth25,CID4463,172,pure,Cycling T-cells,0,0.25,5,8319,345,0
+CID4463_mix0173_depth100,CID4463,173,pure,Cycling T-cells,1,1.0,5,33266,346,0
+CID4463_mix0173_depth25,CID4463,173,pure,Cycling T-cells,1,0.25,5,8427,347,0
+CID4463_mix0174_depth100,CID4463,174,pure,Cycling T-cells,2,1.0,5,33266,348,0
+CID4463_mix0174_depth25,CID4463,174,pure,Cycling T-cells,2,0.25,5,8312,349,0
+CID4463_mix0175_depth100,CID4463,175,pure,Cycling T-cells,3,1.0,5,33266,350,0
+CID4463_mix0175_depth25,CID4463,175,pure,Cycling T-cells,3,0.25,5,8299,351,0
+CID4463_mix0176_depth100,CID4463,176,pure,Cycling T-cells,4,1.0,5,33266,352,0
+CID4463_mix0176_depth25,CID4463,176,pure,Cycling T-cells,4,0.25,5,8404,353,0
+CID4463_mix0177_depth100,CID4463,177,pure,Endothelial,0,1.0,5,17819,354,0
+CID4463_mix0177_depth25,CID4463,177,pure,Endothelial,0,0.25,5,4416,355,0
+CID4463_mix0178_depth100,CID4463,178,pure,Endothelial,1,1.0,5,11049,356,0
+CID4463_mix0178_depth25,CID4463,178,pure,Endothelial,1,0.25,5,2749,357,0
+CID4463_mix0179_depth100,CID4463,179,pure,Endothelial,2,1.0,5,14931,358,0
+CID4463_mix0179_depth25,CID4463,179,pure,Endothelial,2,0.25,5,3671,359,0
+CID4463_mix0180_depth100,CID4463,180,pure,Endothelial,3,1.0,5,18240,360,0
+CID4463_mix0180_depth25,CID4463,180,pure,Endothelial,3,0.25,5,4574,361,0
+CID4463_mix0181_depth100,CID4463,181,pure,Endothelial,4,1.0,5,26364,362,0
+CID4463_mix0181_depth25,CID4463,181,pure,Endothelial,4,0.25,5,6613,363,0
+CID4463_mix0182_depth100,CID4463,182,pure,Myeloid,0,1.0,5,46645,364,0
+CID4463_mix0182_depth25,CID4463,182,pure,Myeloid,0,0.25,5,11570,365,0
+CID4463_mix0183_depth100,CID4463,183,pure,Myeloid,1,1.0,5,26259,366,0
+CID4463_mix0183_depth25,CID4463,183,pure,Myeloid,1,0.25,5,6638,367,0
+CID4463_mix0184_depth100,CID4463,184,pure,Myeloid,2,1.0,5,35110,368,0
+CID4463_mix0184_depth25,CID4463,184,pure,Myeloid,2,0.25,5,8736,369,0
+CID4463_mix0185_depth100,CID4463,185,pure,Myeloid,3,1.0,5,26135,370,0
+CID4463_mix0185_depth25,CID4463,185,pure,Myeloid,3,0.25,5,6506,371,0
+CID4463_mix0186_depth100,CID4463,186,pure,Myeloid,4,1.0,5,21610,372,0
+CID4463_mix0186_depth25,CID4463,186,pure,Myeloid,4,0.25,5,5392,373,0
+CID4463_mix0187_depth100,CID4463,187,pure,NKT cells,0,1.0,5,5435,374,0
+CID4463_mix0187_depth25,CID4463,187,pure,NKT cells,0,0.25,5,1354,375,0
+CID4463_mix0188_depth100,CID4463,188,pure,NKT cells,1,1.0,5,10547,376,0
+CID4463_mix0188_depth25,CID4463,188,pure,NKT cells,1,0.25,5,2646,377,0
+CID4463_mix0189_depth100,CID4463,189,pure,NKT cells,2,1.0,5,9981,378,0
+CID4463_mix0189_depth25,CID4463,189,pure,NKT cells,2,0.25,5,2566,379,0
+CID4463_mix0190_depth100,CID4463,190,pure,NKT cells,3,1.0,5,8453,380,0
+CID4463_mix0190_depth25,CID4463,190,pure,NKT cells,3,0.25,5,2036,381,0
+CID4463_mix0191_depth100,CID4463,191,pure,NKT cells,4,1.0,5,7410,382,0
+CID4463_mix0191_depth25,CID4463,191,pure,NKT cells,4,0.25,5,1827,383,0
+CID4463_mix0192_depth100,CID4463,192,pure,Normal Epithelial,0,1.0,5,37826,384,0
+CID4463_mix0192_depth25,CID4463,192,pure,Normal Epithelial,0,0.25,5,9630,385,0
+CID4463_mix0193_depth100,CID4463,193,pure,Normal Epithelial,1,1.0,5,103365,386,0
+CID4463_mix0193_depth25,CID4463,193,pure,Normal Epithelial,1,0.25,5,26032,387,0
+CID4463_mix0194_depth100,CID4463,194,pure,Normal Epithelial,2,1.0,5,81178,388,0
+CID4463_mix0194_depth25,CID4463,194,pure,Normal Epithelial,2,0.25,5,20149,389,0
+CID4463_mix0195_depth100,CID4463,195,pure,Normal Epithelial,3,1.0,5,47901,390,0
+CID4463_mix0195_depth25,CID4463,195,pure,Normal Epithelial,3,0.25,5,12016,391,0
+CID4463_mix0196_depth100,CID4463,196,pure,Normal Epithelial,4,1.0,5,106269,392,0
+CID4463_mix0196_depth25,CID4463,196,pure,Normal Epithelial,4,0.25,5,26352,393,0
+CID4463_mix0197_depth100,CID4463,197,pure,PVL,0,1.0,5,12135,394,0
+CID4463_mix0197_depth25,CID4463,197,pure,PVL,0,0.25,5,3043,395,0
+CID4463_mix0198_depth100,CID4463,198,pure,PVL,1,1.0,5,8820,396,0
+CID4463_mix0198_depth25,CID4463,198,pure,PVL,1,0.25,5,2179,397,0
+CID4463_mix0199_depth100,CID4463,199,pure,PVL,2,1.0,5,17240,398,0
+CID4463_mix0199_depth25,CID4463,199,pure,PVL,2,0.25,5,4314,399,0
+CID4463_mix0200_depth100,CID4463,200,pure,PVL,3,1.0,5,7791,400,0
+CID4463_mix0200_depth25,CID4463,200,pure,PVL,3,0.25,5,1901,401,0
+CID4463_mix0201_depth100,CID4463,201,pure,PVL,4,1.0,5,9574,402,0
+CID4463_mix0201_depth25,CID4463,201,pure,PVL,4,0.25,5,2353,403,0
+CID4463_mix0202_depth100,CID4463,202,pure,T cells CD4+,0,1.0,5,5908,404,0
+CID4463_mix0202_depth25,CID4463,202,pure,T cells CD4+,0,0.25,5,1454,405,0
+CID4463_mix0203_depth100,CID4463,203,pure,T cells CD4+,1,1.0,5,5509,406,0
+CID4463_mix0203_depth25,CID4463,203,pure,T cells CD4+,1,0.25,5,1390,407,0
+CID4463_mix0204_depth100,CID4463,204,pure,T cells CD4+,2,1.0,5,7628,408,0
+CID4463_mix0204_depth25,CID4463,204,pure,T cells CD4+,2,0.25,5,1895,409,0
+CID4463_mix0205_depth100,CID4463,205,pure,T cells CD4+,3,1.0,5,5621,410,0
+CID4463_mix0205_depth25,CID4463,205,pure,T cells CD4+,3,0.25,5,1429,411,0
+CID4463_mix0206_depth100,CID4463,206,pure,T cells CD4+,4,1.0,5,6507,412,0
+CID4463_mix0206_depth25,CID4463,206,pure,T cells CD4+,4,0.25,5,1687,413,0
+CID4463_mix0207_depth100,CID4463,207,pure,T cells CD8+,0,1.0,5,8186,414,0
+CID4463_mix0207_depth25,CID4463,207,pure,T cells CD8+,0,0.25,5,2017,415,0
+CID4463_mix0208_depth100,CID4463,208,pure,T cells CD8+,1,1.0,5,8591,416,0
+CID4463_mix0208_depth25,CID4463,208,pure,T cells CD8+,1,0.25,5,2143,417,0
+CID4463_mix0209_depth100,CID4463,209,pure,T cells CD8+,2,1.0,5,5244,418,0
+CID4463_mix0209_depth25,CID4463,209,pure,T cells CD8+,2,0.25,5,1290,419,0
+CID4463_mix0210_depth100,CID4463,210,pure,T cells CD8+,3,1.0,5,6514,420,0
+CID4463_mix0210_depth25,CID4463,210,pure,T cells CD8+,3,0.25,5,1590,421,0
+CID4463_mix0211_depth100,CID4463,211,pure,T cells CD8+,4,1.0,5,4887,422,0
+CID4463_mix0211_depth25,CID4463,211,pure,T cells CD8+,4,0.25,5,1200,423,0
+CID4463_mix0212_depth100,CID4463,212,epithelial_titration,normal0_cancer10,0,1.0,10,138605,424,0
+CID4463_mix0212_depth25,CID4463,212,epithelial_titration,normal0_cancer10,0,0.25,10,34715,425,0
+CID4463_mix0213_depth100,CID4463,213,epithelial_titration,normal0_cancer10,1,1.0,10,175315,426,0
+CID4463_mix0213_depth25,CID4463,213,epithelial_titration,normal0_cancer10,1,0.25,10,43959,427,0
+CID4463_mix0214_depth100,CID4463,214,epithelial_titration,normal0_cancer10,2,1.0,10,165652,428,0
+CID4463_mix0214_depth25,CID4463,214,epithelial_titration,normal0_cancer10,2,0.25,10,41822,429,0
+CID4463_mix0215_depth100,CID4463,215,epithelial_titration,normal0_cancer10,3,1.0,10,103054,430,0
+CID4463_mix0215_depth25,CID4463,215,epithelial_titration,normal0_cancer10,3,0.25,10,25764,431,0
+CID4463_mix0216_depth100,CID4463,216,epithelial_titration,normal0_cancer10,4,1.0,10,124013,432,0
+CID4463_mix0216_depth25,CID4463,216,epithelial_titration,normal0_cancer10,4,0.25,10,30832,433,0
+CID4463_mix0217_depth100,CID4463,217,epithelial_titration,normal2_cancer8,0,1.0,10,112009,434,0
+CID4463_mix0217_depth25,CID4463,217,epithelial_titration,normal2_cancer8,0,0.25,10,27917,435,0
+CID4463_mix0218_depth100,CID4463,218,epithelial_titration,normal2_cancer8,1,1.0,10,115170,436,0
+CID4463_mix0218_depth25,CID4463,218,epithelial_titration,normal2_cancer8,1,0.25,10,28840,437,0
+CID4463_mix0219_depth100,CID4463,219,epithelial_titration,normal2_cancer8,2,1.0,10,130504,438,0
+CID4463_mix0219_depth25,CID4463,219,epithelial_titration,normal2_cancer8,2,0.25,10,33000,439,0
+CID4463_mix0220_depth100,CID4463,220,epithelial_titration,normal2_cancer8,3,1.0,10,122481,440,0
+CID4463_mix0220_depth25,CID4463,220,epithelial_titration,normal2_cancer8,3,0.25,10,30668,441,0
+CID4463_mix0221_depth100,CID4463,221,epithelial_titration,normal2_cancer8,4,1.0,10,63750,442,0
+CID4463_mix0221_depth25,CID4463,221,epithelial_titration,normal2_cancer8,4,0.25,10,15961,443,0
+CID4463_mix0222_depth100,CID4463,222,epithelial_titration,normal5_cancer5,0,1.0,10,154667,444,0
+CID4463_mix0222_depth25,CID4463,222,epithelial_titration,normal5_cancer5,0,0.25,10,38592,445,0
+CID4463_mix0223_depth100,CID4463,223,epithelial_titration,normal5_cancer5,1,1.0,10,119881,446,0
+CID4463_mix0223_depth25,CID4463,223,epithelial_titration,normal5_cancer5,1,0.25,10,29730,447,0
+CID4463_mix0224_depth100,CID4463,224,epithelial_titration,normal5_cancer5,2,1.0,10,145866,448,0
+CID4463_mix0224_depth25,CID4463,224,epithelial_titration,normal5_cancer5,2,0.25,10,36177,449,0
+CID4463_mix0225_depth100,CID4463,225,epithelial_titration,normal5_cancer5,3,1.0,10,131427,450,0
+CID4463_mix0225_depth25,CID4463,225,epithelial_titration,normal5_cancer5,3,0.25,10,32766,451,0
+CID4463_mix0226_depth100,CID4463,226,epithelial_titration,normal5_cancer5,4,1.0,10,76514,452,0
+CID4463_mix0226_depth25,CID4463,226,epithelial_titration,normal5_cancer5,4,0.25,10,18873,453,0
+CID4463_mix0227_depth100,CID4463,227,epithelial_titration,normal8_cancer2,0,1.0,10,110631,454,0
+CID4463_mix0227_depth25,CID4463,227,epithelial_titration,normal8_cancer2,0,0.25,10,27685,455,0
+CID4463_mix0228_depth100,CID4463,228,epithelial_titration,normal8_cancer2,1,1.0,10,163837,456,0
+CID4463_mix0228_depth25,CID4463,228,epithelial_titration,normal8_cancer2,1,0.25,10,40900,457,0
+CID4463_mix0229_depth100,CID4463,229,epithelial_titration,normal8_cancer2,2,1.0,10,100903,458,0
+CID4463_mix0229_depth25,CID4463,229,epithelial_titration,normal8_cancer2,2,0.25,10,25101,459,0
+CID4463_mix0230_depth100,CID4463,230,epithelial_titration,normal8_cancer2,3,1.0,10,166711,460,0
+CID4463_mix0230_depth25,CID4463,230,epithelial_titration,normal8_cancer2,3,0.25,10,41295,461,0
+CID4463_mix0231_depth100,CID4463,231,epithelial_titration,normal8_cancer2,4,1.0,10,81181,462,0
+CID4463_mix0231_depth25,CID4463,231,epithelial_titration,normal8_cancer2,4,0.25,10,20237,463,0
+CID4463_mix0232_depth100,CID4463,232,epithelial_titration,normal10_cancer0,0,1.0,10,232302,464,0
+CID4463_mix0232_depth25,CID4463,232,epithelial_titration,normal10_cancer0,0,0.25,10,57632,465,0
+CID4463_mix0233_depth100,CID4463,233,epithelial_titration,normal10_cancer0,1,1.0,10,106497,466,0
+CID4463_mix0233_depth25,CID4463,233,epithelial_titration,normal10_cancer0,1,0.25,10,26733,467,0
+CID4463_mix0234_depth100,CID4463,234,epithelial_titration,normal10_cancer0,2,1.0,10,168827,468,0
+CID4463_mix0234_depth25,CID4463,234,epithelial_titration,normal10_cancer0,2,0.25,10,41949,469,0
+CID4463_mix0235_depth100,CID4463,235,epithelial_titration,normal10_cancer0,3,1.0,10,114335,470,0
+CID4463_mix0235_depth25,CID4463,235,epithelial_titration,normal10_cancer0,3,0.25,10,28542,471,0
+CID4463_mix0236_depth100,CID4463,236,epithelial_titration,normal10_cancer0,4,1.0,10,158577,472,0
+CID4463_mix0236_depth25,CID4463,236,epithelial_titration,normal10_cancer0,4,0.25,10,39766,473,0

@@ -1,0 +1,58 @@
+Number of cells in reference: 12570
+Number of genes in reference: 29733
+
+          B-cells              CAFs Cancer Epithelial   Cycling T-cells 
+              155              1394              2435                27 
+      Endothelial           Myeloid          NK cells         NKT cells 
+             2997               540                55                47 
+Normal Epithelial      Plasmablasts               PVL      T cells CD4+ 
+             1988               147              1877               651 
+     T cells CD8+ 
+              257 
+Getting regression differentially expressed genes: 
+B-cells found DE genes: 71
+CAFs found DE genes: 213
+Cancer Epithelial found DE genes: 169
+Cycling T-cells found DE genes: 285
+Endothelial found DE genes: 185
+Myeloid found DE genes: 157
+NK cells found DE genes: 98
+NKT cells found DE genes: 176
+Normal Epithelial found DE genes: 111
+Plasmablasts found DE genes: 56
+PVL found DE genes: 187
+T cells CD4+ found DE genes: 48
+T cells CD8+ found DE genes: 113
+Total DE genes: 1352
+Getting bulk differentially expressed genes: 
+B-cells found DE genes: 190
+CAFs found DE genes: 369
+Cancer Epithelial found DE genes: 402
+Cycling T-cells found DE genes: 735
+Endothelial found DE genes: 378
+Myeloid found DE genes: 310
+NK cells found DE genes: 239
+NKT cells found DE genes: 420
+Normal Epithelial found DE genes: 250
+Plasmablasts found DE genes: 77
+PVL found DE genes: 314
+T cells CD4+ found DE genes: 151
+T cells CD8+ found DE genes: 248
+Total DE genes: 2604
+fitBulk: decomposing bulk
+chooseSigma: using initial Q_mat with sigma = 1
+Likelihood value: 1016418.30990934
+Sigma value: 0.84
+Likelihood value: 995034.449202717
+Sigma value: 0.69
+Likelihood value: 977751.069195111
+Sigma value: 0.61
+Likelihood value: 970409.530956061
+Sigma value: 0.53
+Likelihood value: 965023.332772961
+Sigma value: 0.45
+Likelihood value: 962304.875870078
+Sigma value: 0.43
+Likelihood value: 962148.244452935
+Sigma value: 0.43
+完成RCTD： 488 个模拟spot； 13 种细胞类型

@@ -1,0 +1,69 @@
+{
+  "frozen_at_utc": "2026-09-15T06:29:15.481737+00:00",
+  "reference_donors": [
+    "CID4471",
+    "CID4535"
+  ],
+  "merge_to_T_cells": [
+    "T cells CD4+",
+    "T cells CD8+",
+    "NKT cells",
+    "Cycling T-cells"
+  ],
+  "NK_policy": "Separate NK cells; author major T-cells includes NK, so major labels alone are not used.",
+  "n_coarse_types": 10,
+  "datasets": [
+    {
+      "donor_id": "CID4067",
+      "input_dir": "data/processed/Wu2021_known_composition_v1",
+      "result_dir": "results/Wu2021_known_composition_v1",
+      "fine_prediction_dir": "results/Wu2021_known_composition_v1"
+    },
+    {
+      "donor_id": "CID4463",
+      "input_dir": "data/processed/Wu2021_independent_validation_v1",
+      "result_dir": "results/Wu2021_independent_validation_v1",
+      "fine_prediction_dir": "results/Wu2021_independent_validation_v1/baseline"
+    },
+    {
+      "donor_id": "CID3941",
+      "input_dir": "data/processed/Wu2021_tcell_validation_v1/CID3941",
+      "result_dir": "results/Wu2021_tcell_validation_v1/CID3941",
+      "fine_prediction_dir": "results/Wu2021_tcell_validation_v1/CID3941/baseline"
+    },
+    {
+      "donor_id": "CID3948",
+      "input_dir": "data/processed/Wu2021_tcell_validation_v1/CID3948",
+      "result_dir": "results/Wu2021_tcell_validation_v1/CID3948",
+      "fine_prediction_dir": "results/Wu2021_tcell_validation_v1/CID3948/baseline"
+    },
+    {
+      "donor_id": "CID4461",
+      "input_dir": "data/processed/Wu2021_tcell_validation_v1/CID4461",
+      "result_dir": "results/Wu2021_tcell_validation_v1/CID4461",
+      "fine_prediction_dir": "results/Wu2021_tcell_validation_v1/CID4461/baseline"
+    }
+  ],
+  "comparisons": [
+    "fine_fit_then_sum",
+    "coarse_reference_refit"
+  ],
+  "reference_cells": "All original 12570 reference cells, no filtering or donor reweighting",
+  "rctd": {
+    "seed": 9,
+    "mode": "full",
+    "max_cores": 2,
+    "ref_UMI_min": 100,
+    "ref_n_cells_min": 25
+  },
+  "nnls": {
+    "features": 2000,
+    "selection": "variance/mean across coarse reference means; reference only"
+  },
+  "truths": [
+    "captured RNA fraction",
+    "cell-number fraction"
+  ],
+  "evaluation": "Per donor, scenario and depth; T-zero controls and NK pure controls; all coarse classes retained.",
+  "status": "Reference development comparison using previously inspected donors, not a new independent validation."
+}

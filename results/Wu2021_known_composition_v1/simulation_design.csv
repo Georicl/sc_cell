@@ -1,0 +1,489 @@
+spot_id,base_mixture,scenario,recipe,repeat,depth_fraction,n_cells,nUMI,x,y,coordinate_type
+mix_0000_depth100,0,factorial,caf0_cd80_T cells CD4+,0,1.0,10,38695,0,0,synthetic_index
+mix_0000_depth25,0,factorial,caf0_cd80_T cells CD4+,0,0.25,10,9634,1,0,synthetic_index
+mix_0001_depth100,1,factorial,caf0_cd80_T cells CD4+,1,1.0,10,46627,2,0,synthetic_index
+mix_0001_depth25,1,factorial,caf0_cd80_T cells CD4+,1,0.25,10,11732,3,0,synthetic_index
+mix_0002_depth100,2,factorial,caf0_cd80_T cells CD4+,2,1.0,10,54479,4,0,synthetic_index
+mix_0002_depth25,2,factorial,caf0_cd80_T cells CD4+,2,0.25,10,13655,5,0,synthetic_index
+mix_0003_depth100,3,factorial,caf0_cd80_Myeloid,0,1.0,10,57574,6,0,synthetic_index
+mix_0003_depth25,3,factorial,caf0_cd80_Myeloid,0,0.25,10,14490,7,0,synthetic_index
+mix_0004_depth100,4,factorial,caf0_cd80_Myeloid,1,1.0,10,44696,8,0,synthetic_index
+mix_0004_depth25,4,factorial,caf0_cd80_Myeloid,1,0.25,10,11139,9,0,synthetic_index
+mix_0005_depth100,5,factorial,caf0_cd80_Myeloid,2,1.0,10,42761,10,0,synthetic_index
+mix_0005_depth25,5,factorial,caf0_cd80_Myeloid,2,0.25,10,10713,11,0,synthetic_index
+mix_0006_depth100,6,factorial,caf0_cd80_Endothelial,0,1.0,10,41894,12,0,synthetic_index
+mix_0006_depth25,6,factorial,caf0_cd80_Endothelial,0,0.25,10,10463,13,0,synthetic_index
+mix_0007_depth100,7,factorial,caf0_cd80_Endothelial,1,1.0,10,43841,14,0,synthetic_index
+mix_0007_depth25,7,factorial,caf0_cd80_Endothelial,1,0.25,10,10926,15,0,synthetic_index
+mix_0008_depth100,8,factorial,caf0_cd80_Endothelial,2,1.0,10,46924,16,0,synthetic_index
+mix_0008_depth25,8,factorial,caf0_cd80_Endothelial,2,0.25,10,11679,17,0,synthetic_index
+mix_0009_depth100,9,factorial,caf0_cd80_B-cells,0,1.0,10,34134,18,0,synthetic_index
+mix_0009_depth25,9,factorial,caf0_cd80_B-cells,0,0.25,10,8406,19,0,synthetic_index
+mix_0010_depth100,10,factorial,caf0_cd80_B-cells,1,1.0,10,32907,20,0,synthetic_index
+mix_0010_depth25,10,factorial,caf0_cd80_B-cells,1,0.25,10,8125,21,0,synthetic_index
+mix_0011_depth100,11,factorial,caf0_cd80_B-cells,2,1.0,10,30746,22,0,synthetic_index
+mix_0011_depth25,11,factorial,caf0_cd80_B-cells,2,0.25,10,7723,23,0,synthetic_index
+mix_0012_depth100,12,factorial,caf0_cd80_NK cells,0,1.0,10,49243,24,0,synthetic_index
+mix_0012_depth25,12,factorial,caf0_cd80_NK cells,0,0.25,10,12223,25,0,synthetic_index
+mix_0013_depth100,13,factorial,caf0_cd80_NK cells,1,1.0,10,33285,26,0,synthetic_index
+mix_0013_depth25,13,factorial,caf0_cd80_NK cells,1,0.25,10,8193,27,0,synthetic_index
+mix_0014_depth100,14,factorial,caf0_cd80_NK cells,2,1.0,10,26965,28,0,synthetic_index
+mix_0014_depth25,14,factorial,caf0_cd80_NK cells,2,0.25,10,6883,29,0,synthetic_index
+mix_0015_depth100,15,factorial,caf0_cd80_NKT cells,0,1.0,10,44634,30,0,synthetic_index
+mix_0015_depth25,15,factorial,caf0_cd80_NKT cells,0,0.25,10,11249,31,0,synthetic_index
+mix_0016_depth100,16,factorial,caf0_cd80_NKT cells,1,1.0,10,51395,32,0,synthetic_index
+mix_0016_depth25,16,factorial,caf0_cd80_NKT cells,1,0.25,10,12813,33,0,synthetic_index
+mix_0017_depth100,17,factorial,caf0_cd80_NKT cells,2,1.0,10,38193,34,0,synthetic_index
+mix_0017_depth25,17,factorial,caf0_cd80_NKT cells,2,0.25,10,9563,35,0,synthetic_index
+mix_0018_depth100,18,factorial,caf0_cd80_Cycling T-cells,0,1.0,10,36292,36,0,synthetic_index
+mix_0018_depth25,18,factorial,caf0_cd80_Cycling T-cells,0,0.25,10,8954,37,0,synthetic_index
+mix_0019_depth100,19,factorial,caf0_cd80_Cycling T-cells,1,1.0,10,87129,38,0,synthetic_index
+mix_0019_depth25,19,factorial,caf0_cd80_Cycling T-cells,1,0.25,10,21924,39,0,synthetic_index
+mix_0020_depth100,20,factorial,caf0_cd80_Cycling T-cells,2,1.0,10,32635,40,0,synthetic_index
+mix_0020_depth25,20,factorial,caf0_cd80_Cycling T-cells,2,0.25,10,8061,41,0,synthetic_index
+mix_0021_depth100,21,factorial,caf0_cd81_T cells CD4+,0,1.0,10,39853,42,0,synthetic_index
+mix_0021_depth25,21,factorial,caf0_cd81_T cells CD4+,0,0.25,10,10025,43,0,synthetic_index
+mix_0022_depth100,22,factorial,caf0_cd81_T cells CD4+,1,1.0,10,36665,44,0,synthetic_index
+mix_0022_depth25,22,factorial,caf0_cd81_T cells CD4+,1,0.25,10,9015,45,0,synthetic_index
+mix_0023_depth100,23,factorial,caf0_cd81_T cells CD4+,2,1.0,10,28194,46,0,synthetic_index
+mix_0023_depth25,23,factorial,caf0_cd81_T cells CD4+,2,0.25,10,7210,47,0,synthetic_index
+mix_0024_depth100,24,factorial,caf0_cd81_Myeloid,0,1.0,10,38022,48,0,synthetic_index
+mix_0024_depth25,24,factorial,caf0_cd81_Myeloid,0,0.25,10,9656,49,0,synthetic_index
+mix_0025_depth100,25,factorial,caf0_cd81_Myeloid,1,1.0,10,44900,50,0,synthetic_index
+mix_0025_depth25,25,factorial,caf0_cd81_Myeloid,1,0.25,10,11254,51,0,synthetic_index
+mix_0026_depth100,26,factorial,caf0_cd81_Myeloid,2,1.0,10,27223,52,0,synthetic_index
+mix_0026_depth25,26,factorial,caf0_cd81_Myeloid,2,0.25,10,6797,53,0,synthetic_index
+mix_0027_depth100,27,factorial,caf0_cd81_Endothelial,0,1.0,10,65035,54,0,synthetic_index
+mix_0027_depth25,27,factorial,caf0_cd81_Endothelial,0,0.25,10,16152,55,0,synthetic_index
+mix_0028_depth100,28,factorial,caf0_cd81_Endothelial,1,1.0,10,47988,56,0,synthetic_index
+mix_0028_depth25,28,factorial,caf0_cd81_Endothelial,1,0.25,10,11945,57,0,synthetic_index
+mix_0029_depth100,29,factorial,caf0_cd81_Endothelial,2,1.0,10,37944,58,0,synthetic_index
+mix_0029_depth25,29,factorial,caf0_cd81_Endothelial,2,0.25,10,9462,59,0,synthetic_index
+mix_0030_depth100,30,factorial,caf0_cd81_B-cells,0,1.0,10,34531,60,0,synthetic_index
+mix_0030_depth25,30,factorial,caf0_cd81_B-cells,0,0.25,10,8599,61,0,synthetic_index
+mix_0031_depth100,31,factorial,caf0_cd81_B-cells,1,1.0,10,32825,62,0,synthetic_index
+mix_0031_depth25,31,factorial,caf0_cd81_B-cells,1,0.25,10,8308,63,0,synthetic_index
+mix_0032_depth100,32,factorial,caf0_cd81_B-cells,2,1.0,10,34742,64,0,synthetic_index
+mix_0032_depth25,32,factorial,caf0_cd81_B-cells,2,0.25,10,8622,65,0,synthetic_index
+mix_0033_depth100,33,factorial,caf0_cd81_NK cells,0,1.0,10,52691,66,0,synthetic_index
+mix_0033_depth25,33,factorial,caf0_cd81_NK cells,0,0.25,10,13314,67,0,synthetic_index
+mix_0034_depth100,34,factorial,caf0_cd81_NK cells,1,1.0,10,31793,68,0,synthetic_index
+mix_0034_depth25,34,factorial,caf0_cd81_NK cells,1,0.25,10,8045,69,0,synthetic_index
+mix_0035_depth100,35,factorial,caf0_cd81_NK cells,2,1.0,10,35564,70,0,synthetic_index
+mix_0035_depth25,35,factorial,caf0_cd81_NK cells,2,0.25,10,8857,71,0,synthetic_index
+mix_0036_depth100,36,factorial,caf0_cd81_NKT cells,0,1.0,10,45451,72,0,synthetic_index
+mix_0036_depth25,36,factorial,caf0_cd81_NKT cells,0,0.25,10,11330,73,0,synthetic_index
+mix_0037_depth100,37,factorial,caf0_cd81_NKT cells,1,1.0,10,32178,74,0,synthetic_index
+mix_0037_depth25,37,factorial,caf0_cd81_NKT cells,1,0.25,10,8104,75,0,synthetic_index
+mix_0038_depth100,38,factorial,caf0_cd81_NKT cells,2,1.0,10,31822,76,0,synthetic_index
+mix_0038_depth25,38,factorial,caf0_cd81_NKT cells,2,0.25,10,7976,77,0,synthetic_index
+mix_0039_depth100,39,factorial,caf0_cd81_Cycling T-cells,0,1.0,10,23068,78,0,synthetic_index
+mix_0039_depth25,39,factorial,caf0_cd81_Cycling T-cells,0,0.25,10,5741,79,0,synthetic_index
+mix_0040_depth100,40,factorial,caf0_cd81_Cycling T-cells,1,1.0,10,45877,80,0,synthetic_index
+mix_0040_depth25,40,factorial,caf0_cd81_Cycling T-cells,1,0.25,10,11481,81,0,synthetic_index
+mix_0041_depth100,41,factorial,caf0_cd81_Cycling T-cells,2,1.0,10,37273,82,0,synthetic_index
+mix_0041_depth25,41,factorial,caf0_cd81_Cycling T-cells,2,0.25,10,9273,83,0,synthetic_index
+mix_0042_depth100,42,factorial,caf0_cd83_T cells CD4+,0,1.0,10,42731,84,0,synthetic_index
+mix_0042_depth25,42,factorial,caf0_cd83_T cells CD4+,0,0.25,10,10669,85,0,synthetic_index
+mix_0043_depth100,43,factorial,caf0_cd83_T cells CD4+,1,1.0,10,17623,86,0,synthetic_index
+mix_0043_depth25,43,factorial,caf0_cd83_T cells CD4+,1,0.25,10,4438,87,0,synthetic_index
+mix_0044_depth100,44,factorial,caf0_cd83_T cells CD4+,2,1.0,10,22602,88,0,synthetic_index
+mix_0044_depth25,44,factorial,caf0_cd83_T cells CD4+,2,0.25,10,5660,89,0,synthetic_index
+mix_0045_depth100,45,factorial,caf0_cd83_Myeloid,0,1.0,10,24362,90,0,synthetic_index
+mix_0045_depth25,45,factorial,caf0_cd83_Myeloid,0,0.25,10,6094,91,0,synthetic_index
+mix_0046_depth100,46,factorial,caf0_cd83_Myeloid,1,1.0,10,24649,92,0,synthetic_index
+mix_0046_depth25,46,factorial,caf0_cd83_Myeloid,1,0.25,10,6114,93,0,synthetic_index
+mix_0047_depth100,47,factorial,caf0_cd83_Myeloid,2,1.0,10,34563,94,0,synthetic_index
+mix_0047_depth25,47,factorial,caf0_cd83_Myeloid,2,0.25,10,8622,95,0,synthetic_index
+mix_0048_depth100,48,factorial,caf0_cd83_Endothelial,0,1.0,10,35927,96,0,synthetic_index
+mix_0048_depth25,48,factorial,caf0_cd83_Endothelial,0,0.25,10,8938,97,0,synthetic_index
+mix_0049_depth100,49,factorial,caf0_cd83_Endothelial,1,1.0,10,26048,98,0,synthetic_index
+mix_0049_depth25,49,factorial,caf0_cd83_Endothelial,1,0.25,10,6597,99,0,synthetic_index
+mix_0050_depth100,50,factorial,caf0_cd83_Endothelial,2,1.0,10,29199,100,0,synthetic_index
+mix_0050_depth25,50,factorial,caf0_cd83_Endothelial,2,0.25,10,7448,101,0,synthetic_index
+mix_0051_depth100,51,factorial,caf0_cd83_B-cells,0,1.0,10,40979,102,0,synthetic_index
+mix_0051_depth25,51,factorial,caf0_cd83_B-cells,0,0.25,10,10282,103,0,synthetic_index
+mix_0052_depth100,52,factorial,caf0_cd83_B-cells,1,1.0,10,30908,104,0,synthetic_index
+mix_0052_depth25,52,factorial,caf0_cd83_B-cells,1,0.25,10,7733,105,0,synthetic_index
+mix_0053_depth100,53,factorial,caf0_cd83_B-cells,2,1.0,10,25768,106,0,synthetic_index
+mix_0053_depth25,53,factorial,caf0_cd83_B-cells,2,0.25,10,6446,107,0,synthetic_index
+mix_0054_depth100,54,factorial,caf0_cd83_NK cells,0,1.0,10,36551,108,0,synthetic_index
+mix_0054_depth25,54,factorial,caf0_cd83_NK cells,0,0.25,10,9038,109,0,synthetic_index
+mix_0055_depth100,55,factorial,caf0_cd83_NK cells,1,1.0,10,29185,110,0,synthetic_index
+mix_0055_depth25,55,factorial,caf0_cd83_NK cells,1,0.25,10,7238,111,0,synthetic_index
+mix_0056_depth100,56,factorial,caf0_cd83_NK cells,2,1.0,10,46826,112,0,synthetic_index
+mix_0056_depth25,56,factorial,caf0_cd83_NK cells,2,0.25,10,11767,113,0,synthetic_index
+mix_0057_depth100,57,factorial,caf0_cd83_NKT cells,0,1.0,10,21969,114,0,synthetic_index
+mix_0057_depth25,57,factorial,caf0_cd83_NKT cells,0,0.25,10,5554,115,0,synthetic_index
+mix_0058_depth100,58,factorial,caf0_cd83_NKT cells,1,1.0,10,50866,116,0,synthetic_index
+mix_0058_depth25,58,factorial,caf0_cd83_NKT cells,1,0.25,10,12510,117,0,synthetic_index
+mix_0059_depth100,59,factorial,caf0_cd83_NKT cells,2,1.0,10,30206,118,0,synthetic_index
+mix_0059_depth25,59,factorial,caf0_cd83_NKT cells,2,0.25,10,7665,119,0,synthetic_index
+mix_0060_depth100,60,factorial,caf0_cd83_Cycling T-cells,0,1.0,10,31479,120,0,synthetic_index
+mix_0060_depth25,60,factorial,caf0_cd83_Cycling T-cells,0,0.25,10,7927,121,0,synthetic_index
+mix_0061_depth100,61,factorial,caf0_cd83_Cycling T-cells,1,1.0,10,31094,122,0,synthetic_index
+mix_0061_depth25,61,factorial,caf0_cd83_Cycling T-cells,1,0.25,10,7795,123,0,synthetic_index
+mix_0062_depth100,62,factorial,caf0_cd83_Cycling T-cells,2,1.0,10,15987,124,0,synthetic_index
+mix_0062_depth25,62,factorial,caf0_cd83_Cycling T-cells,2,0.25,10,3845,125,0,synthetic_index
+mix_0063_depth100,63,factorial,caf1_cd80_T cells CD4+,0,1.0,10,34226,126,0,synthetic_index
+mix_0063_depth25,63,factorial,caf1_cd80_T cells CD4+,0,0.25,10,8766,127,0,synthetic_index
+mix_0064_depth100,64,factorial,caf1_cd80_T cells CD4+,1,1.0,10,33123,128,0,synthetic_index
+mix_0064_depth25,64,factorial,caf1_cd80_T cells CD4+,1,0.25,10,8457,129,0,synthetic_index
+mix_0065_depth100,65,factorial,caf1_cd80_T cells CD4+,2,1.0,10,48596,130,0,synthetic_index
+mix_0065_depth25,65,factorial,caf1_cd80_T cells CD4+,2,0.25,10,12263,131,0,synthetic_index
+mix_0066_depth100,66,factorial,caf1_cd80_Myeloid,0,1.0,10,38908,132,0,synthetic_index
+mix_0066_depth25,66,factorial,caf1_cd80_Myeloid,0,0.25,10,9815,133,0,synthetic_index
+mix_0067_depth100,67,factorial,caf1_cd80_Myeloid,1,1.0,10,38379,134,0,synthetic_index
+mix_0067_depth25,67,factorial,caf1_cd80_Myeloid,1,0.25,10,9689,135,0,synthetic_index
+mix_0068_depth100,68,factorial,caf1_cd80_Myeloid,2,1.0,10,44964,136,0,synthetic_index
+mix_0068_depth25,68,factorial,caf1_cd80_Myeloid,2,0.25,10,11339,137,0,synthetic_index
+mix_0069_depth100,69,factorial,caf1_cd80_Endothelial,0,1.0,10,32727,138,0,synthetic_index
+mix_0069_depth25,69,factorial,caf1_cd80_Endothelial,0,0.25,10,8106,139,0,synthetic_index
+mix_0070_depth100,70,factorial,caf1_cd80_Endothelial,1,1.0,10,42004,140,0,synthetic_index
+mix_0070_depth25,70,factorial,caf1_cd80_Endothelial,1,0.25,10,10521,141,0,synthetic_index
+mix_0071_depth100,71,factorial,caf1_cd80_Endothelial,2,1.0,10,46483,142,0,synthetic_index
+mix_0071_depth25,71,factorial,caf1_cd80_Endothelial,2,0.25,10,11578,143,0,synthetic_index
+mix_0072_depth100,72,factorial,caf1_cd80_B-cells,0,1.0,10,62161,144,0,synthetic_index
+mix_0072_depth25,72,factorial,caf1_cd80_B-cells,0,0.25,10,15438,145,0,synthetic_index
+mix_0073_depth100,73,factorial,caf1_cd80_B-cells,1,1.0,10,37959,146,0,synthetic_index
+mix_0073_depth25,73,factorial,caf1_cd80_B-cells,1,0.25,10,9511,147,0,synthetic_index
+mix_0074_depth100,74,factorial,caf1_cd80_B-cells,2,1.0,10,34603,148,0,synthetic_index
+mix_0074_depth25,74,factorial,caf1_cd80_B-cells,2,0.25,10,8775,149,0,synthetic_index
+mix_0075_depth100,75,factorial,caf1_cd80_NK cells,0,1.0,10,38359,150,0,synthetic_index
+mix_0075_depth25,75,factorial,caf1_cd80_NK cells,0,0.25,10,9576,151,0,synthetic_index
+mix_0076_depth100,76,factorial,caf1_cd80_NK cells,1,1.0,10,45556,152,0,synthetic_index
+mix_0076_depth25,76,factorial,caf1_cd80_NK cells,1,0.25,10,11397,153,0,synthetic_index
+mix_0077_depth100,77,factorial,caf1_cd80_NK cells,2,1.0,10,55860,154,0,synthetic_index
+mix_0077_depth25,77,factorial,caf1_cd80_NK cells,2,0.25,10,13930,155,0,synthetic_index
+mix_0078_depth100,78,factorial,caf1_cd80_NKT cells,0,1.0,10,49184,156,0,synthetic_index
+mix_0078_depth25,78,factorial,caf1_cd80_NKT cells,0,0.25,10,12308,157,0,synthetic_index
+mix_0079_depth100,79,factorial,caf1_cd80_NKT cells,1,1.0,10,36789,158,0,synthetic_index
+mix_0079_depth25,79,factorial,caf1_cd80_NKT cells,1,0.25,10,9200,159,0,synthetic_index
+mix_0080_depth100,80,factorial,caf1_cd80_NKT cells,2,1.0,10,53747,160,0,synthetic_index
+mix_0080_depth25,80,factorial,caf1_cd80_NKT cells,2,0.25,10,13378,161,0,synthetic_index
+mix_0081_depth100,81,factorial,caf1_cd80_Cycling T-cells,0,1.0,10,50676,162,0,synthetic_index
+mix_0081_depth25,81,factorial,caf1_cd80_Cycling T-cells,0,0.25,10,12854,163,0,synthetic_index
+mix_0082_depth100,82,factorial,caf1_cd80_Cycling T-cells,1,1.0,10,32175,164,0,synthetic_index
+mix_0082_depth25,82,factorial,caf1_cd80_Cycling T-cells,1,0.25,10,8061,165,0,synthetic_index
+mix_0083_depth100,83,factorial,caf1_cd80_Cycling T-cells,2,1.0,10,38640,166,0,synthetic_index
+mix_0083_depth25,83,factorial,caf1_cd80_Cycling T-cells,2,0.25,10,9670,167,0,synthetic_index
+mix_0084_depth100,84,factorial,caf1_cd81_T cells CD4+,0,1.0,10,58001,168,0,synthetic_index
+mix_0084_depth25,84,factorial,caf1_cd81_T cells CD4+,0,0.25,10,14479,169,0,synthetic_index
+mix_0085_depth100,85,factorial,caf1_cd81_T cells CD4+,1,1.0,10,26796,170,0,synthetic_index
+mix_0085_depth25,85,factorial,caf1_cd81_T cells CD4+,1,0.25,10,6605,171,0,synthetic_index
+mix_0086_depth100,86,factorial,caf1_cd81_T cells CD4+,2,1.0,10,39487,172,0,synthetic_index
+mix_0086_depth25,86,factorial,caf1_cd81_T cells CD4+,2,0.25,10,9725,173,0,synthetic_index
+mix_0087_depth100,87,factorial,caf1_cd81_Myeloid,0,1.0,10,41624,174,0,synthetic_index
+mix_0087_depth25,87,factorial,caf1_cd81_Myeloid,0,0.25,10,10396,175,0,synthetic_index
+mix_0088_depth100,88,factorial,caf1_cd81_Myeloid,1,1.0,10,44785,176,0,synthetic_index
+mix_0088_depth25,88,factorial,caf1_cd81_Myeloid,1,0.25,10,11269,177,0,synthetic_index
+mix_0089_depth100,89,factorial,caf1_cd81_Myeloid,2,1.0,10,39936,178,0,synthetic_index
+mix_0089_depth25,89,factorial,caf1_cd81_Myeloid,2,0.25,10,9870,179,0,synthetic_index
+mix_0090_depth100,90,factorial,caf1_cd81_Endothelial,0,1.0,10,43724,180,0,synthetic_index
+mix_0090_depth25,90,factorial,caf1_cd81_Endothelial,0,0.25,10,10911,181,0,synthetic_index
+mix_0091_depth100,91,factorial,caf1_cd81_Endothelial,1,1.0,10,31235,182,0,synthetic_index
+mix_0091_depth25,91,factorial,caf1_cd81_Endothelial,1,0.25,10,7808,183,0,synthetic_index
+mix_0092_depth100,92,factorial,caf1_cd81_Endothelial,2,1.0,10,46102,184,0,synthetic_index
+mix_0092_depth25,92,factorial,caf1_cd81_Endothelial,2,0.25,10,11727,185,0,synthetic_index
+mix_0093_depth100,93,factorial,caf1_cd81_B-cells,0,1.0,10,37261,186,0,synthetic_index
+mix_0093_depth25,93,factorial,caf1_cd81_B-cells,0,0.25,10,9398,187,0,synthetic_index
+mix_0094_depth100,94,factorial,caf1_cd81_B-cells,1,1.0,10,40150,188,0,synthetic_index
+mix_0094_depth25,94,factorial,caf1_cd81_B-cells,1,0.25,10,9885,189,0,synthetic_index
+mix_0095_depth100,95,factorial,caf1_cd81_B-cells,2,1.0,10,39108,190,0,synthetic_index
+mix_0095_depth25,95,factorial,caf1_cd81_B-cells,2,0.25,10,9904,191,0,synthetic_index
+mix_0096_depth100,96,factorial,caf1_cd81_NK cells,0,1.0,10,40081,192,0,synthetic_index
+mix_0096_depth25,96,factorial,caf1_cd81_NK cells,0,0.25,10,10012,193,0,synthetic_index
+mix_0097_depth100,97,factorial,caf1_cd81_NK cells,1,1.0,10,25212,194,0,synthetic_index
+mix_0097_depth25,97,factorial,caf1_cd81_NK cells,1,0.25,10,6277,195,0,synthetic_index
+mix_0098_depth100,98,factorial,caf1_cd81_NK cells,2,1.0,10,33443,196,0,synthetic_index
+mix_0098_depth25,98,factorial,caf1_cd81_NK cells,2,0.25,10,8477,197,0,synthetic_index
+mix_0099_depth100,99,factorial,caf1_cd81_NKT cells,0,1.0,10,39477,198,0,synthetic_index
+mix_0099_depth25,99,factorial,caf1_cd81_NKT cells,0,0.25,10,9870,199,0,synthetic_index
+mix_0100_depth100,100,factorial,caf1_cd81_NKT cells,1,1.0,10,62255,200,0,synthetic_index
+mix_0100_depth25,100,factorial,caf1_cd81_NKT cells,1,0.25,10,15583,201,0,synthetic_index
+mix_0101_depth100,101,factorial,caf1_cd81_NKT cells,2,1.0,10,39538,202,0,synthetic_index
+mix_0101_depth25,101,factorial,caf1_cd81_NKT cells,2,0.25,10,9861,203,0,synthetic_index
+mix_0102_depth100,102,factorial,caf1_cd81_Cycling T-cells,0,1.0,10,28424,204,0,synthetic_index
+mix_0102_depth25,102,factorial,caf1_cd81_Cycling T-cells,0,0.25,10,7158,205,0,synthetic_index
+mix_0103_depth100,103,factorial,caf1_cd81_Cycling T-cells,1,1.0,10,48620,206,0,synthetic_index
+mix_0103_depth25,103,factorial,caf1_cd81_Cycling T-cells,1,0.25,10,12292,207,0,synthetic_index
+mix_0104_depth100,104,factorial,caf1_cd81_Cycling T-cells,2,1.0,10,32556,208,0,synthetic_index
+mix_0104_depth25,104,factorial,caf1_cd81_Cycling T-cells,2,0.25,10,8100,209,0,synthetic_index
+mix_0105_depth100,105,factorial,caf1_cd83_T cells CD4+,0,1.0,10,26746,210,0,synthetic_index
+mix_0105_depth25,105,factorial,caf1_cd83_T cells CD4+,0,0.25,10,6776,211,0,synthetic_index
+mix_0106_depth100,106,factorial,caf1_cd83_T cells CD4+,1,1.0,10,34144,212,0,synthetic_index
+mix_0106_depth25,106,factorial,caf1_cd83_T cells CD4+,1,0.25,10,8563,213,0,synthetic_index
+mix_0107_depth100,107,factorial,caf1_cd83_T cells CD4+,2,1.0,10,31276,214,0,synthetic_index
+mix_0107_depth25,107,factorial,caf1_cd83_T cells CD4+,2,0.25,10,7802,215,0,synthetic_index
+mix_0108_depth100,108,factorial,caf1_cd83_Myeloid,0,1.0,10,27455,216,0,synthetic_index
+mix_0108_depth25,108,factorial,caf1_cd83_Myeloid,0,0.25,10,6912,217,0,synthetic_index
+mix_0109_depth100,109,factorial,caf1_cd83_Myeloid,1,1.0,10,25764,218,0,synthetic_index
+mix_0109_depth25,109,factorial,caf1_cd83_Myeloid,1,0.25,10,6491,219,0,synthetic_index
+mix_0110_depth100,110,factorial,caf1_cd83_Myeloid,2,1.0,10,21283,220,0,synthetic_index
+mix_0110_depth25,110,factorial,caf1_cd83_Myeloid,2,0.25,10,5342,221,0,synthetic_index
+mix_0111_depth100,111,factorial,caf1_cd83_Endothelial,0,1.0,10,43386,222,0,synthetic_index
+mix_0111_depth25,111,factorial,caf1_cd83_Endothelial,0,0.25,10,10896,223,0,synthetic_index
+mix_0112_depth100,112,factorial,caf1_cd83_Endothelial,1,1.0,10,27078,224,0,synthetic_index
+mix_0112_depth25,112,factorial,caf1_cd83_Endothelial,1,0.25,10,6836,225,0,synthetic_index
+mix_0113_depth100,113,factorial,caf1_cd83_Endothelial,2,1.0,10,20514,226,0,synthetic_index
+mix_0113_depth25,113,factorial,caf1_cd83_Endothelial,2,0.25,10,5255,227,0,synthetic_index
+mix_0114_depth100,114,factorial,caf1_cd83_B-cells,0,1.0,10,25066,228,0,synthetic_index
+mix_0114_depth25,114,factorial,caf1_cd83_B-cells,0,0.25,10,6411,229,0,synthetic_index
+mix_0115_depth100,115,factorial,caf1_cd83_B-cells,1,1.0,10,22441,230,0,synthetic_index
+mix_0115_depth25,115,factorial,caf1_cd83_B-cells,1,0.25,10,5542,231,0,synthetic_index
+mix_0116_depth100,116,factorial,caf1_cd83_B-cells,2,1.0,10,28503,232,0,synthetic_index
+mix_0116_depth25,116,factorial,caf1_cd83_B-cells,2,0.25,10,7066,233,0,synthetic_index
+mix_0117_depth100,117,factorial,caf1_cd83_NK cells,0,1.0,10,39113,234,0,synthetic_index
+mix_0117_depth25,117,factorial,caf1_cd83_NK cells,0,0.25,10,9909,235,0,synthetic_index
+mix_0118_depth100,118,factorial,caf1_cd83_NK cells,1,1.0,10,34823,236,0,synthetic_index
+mix_0118_depth25,118,factorial,caf1_cd83_NK cells,1,0.25,10,8712,237,0,synthetic_index
+mix_0119_depth100,119,factorial,caf1_cd83_NK cells,2,1.0,10,28203,238,0,synthetic_index
+mix_0119_depth25,119,factorial,caf1_cd83_NK cells,2,0.25,10,7070,239,0,synthetic_index
+mix_0120_depth100,120,factorial,caf1_cd83_NKT cells,0,1.0,10,29768,240,0,synthetic_index
+mix_0120_depth25,120,factorial,caf1_cd83_NKT cells,0,0.25,10,7498,241,0,synthetic_index
+mix_0121_depth100,121,factorial,caf1_cd83_NKT cells,1,1.0,10,42914,242,0,synthetic_index
+mix_0121_depth25,121,factorial,caf1_cd83_NKT cells,1,0.25,10,10691,243,0,synthetic_index
+mix_0122_depth100,122,factorial,caf1_cd83_NKT cells,2,1.0,10,45762,244,0,synthetic_index
+mix_0122_depth25,122,factorial,caf1_cd83_NKT cells,2,0.25,10,11374,245,0,synthetic_index
+mix_0123_depth100,123,factorial,caf1_cd83_Cycling T-cells,0,1.0,10,29924,246,0,synthetic_index
+mix_0123_depth25,123,factorial,caf1_cd83_Cycling T-cells,0,0.25,10,7571,247,0,synthetic_index
+mix_0124_depth100,124,factorial,caf1_cd83_Cycling T-cells,1,1.0,10,41813,248,0,synthetic_index
+mix_0124_depth25,124,factorial,caf1_cd83_Cycling T-cells,1,0.25,10,10282,249,0,synthetic_index
+mix_0125_depth100,125,factorial,caf1_cd83_Cycling T-cells,2,1.0,10,25885,250,0,synthetic_index
+mix_0125_depth25,125,factorial,caf1_cd83_Cycling T-cells,2,0.25,10,6492,251,0,synthetic_index
+mix_0126_depth100,126,factorial,caf3_cd80_T cells CD4+,0,1.0,10,27406,252,0,synthetic_index
+mix_0126_depth25,126,factorial,caf3_cd80_T cells CD4+,0,0.25,10,6918,253,0,synthetic_index
+mix_0127_depth100,127,factorial,caf3_cd80_T cells CD4+,1,1.0,10,36382,254,0,synthetic_index
+mix_0127_depth25,127,factorial,caf3_cd80_T cells CD4+,1,0.25,10,9096,255,0,synthetic_index
+mix_0128_depth100,128,factorial,caf3_cd80_T cells CD4+,2,1.0,10,43904,256,0,synthetic_index
+mix_0128_depth25,128,factorial,caf3_cd80_T cells CD4+,2,0.25,10,11016,257,0,synthetic_index
+mix_0129_depth100,129,factorial,caf3_cd80_Myeloid,0,1.0,10,56502,258,0,synthetic_index
+mix_0129_depth25,129,factorial,caf3_cd80_Myeloid,0,0.25,10,14124,259,0,synthetic_index
+mix_0130_depth100,130,factorial,caf3_cd80_Myeloid,1,1.0,10,48299,260,0,synthetic_index
+mix_0130_depth25,130,factorial,caf3_cd80_Myeloid,1,0.25,10,12307,261,0,synthetic_index
+mix_0131_depth100,131,factorial,caf3_cd80_Myeloid,2,1.0,10,42534,262,0,synthetic_index
+mix_0131_depth25,131,factorial,caf3_cd80_Myeloid,2,0.25,10,10473,263,0,synthetic_index
+mix_0132_depth100,132,factorial,caf3_cd80_Endothelial,0,1.0,10,51911,264,0,synthetic_index
+mix_0132_depth25,132,factorial,caf3_cd80_Endothelial,0,0.25,10,12865,265,0,synthetic_index
+mix_0133_depth100,133,factorial,caf3_cd80_Endothelial,1,1.0,10,40556,266,0,synthetic_index
+mix_0133_depth25,133,factorial,caf3_cd80_Endothelial,1,0.25,10,10190,267,0,synthetic_index
+mix_0134_depth100,134,factorial,caf3_cd80_Endothelial,2,1.0,10,42957,268,0,synthetic_index
+mix_0134_depth25,134,factorial,caf3_cd80_Endothelial,2,0.25,10,10878,269,0,synthetic_index
+mix_0135_depth100,135,factorial,caf3_cd80_B-cells,0,1.0,10,42385,270,0,synthetic_index
+mix_0135_depth25,135,factorial,caf3_cd80_B-cells,0,0.25,10,10573,271,0,synthetic_index
+mix_0136_depth100,136,factorial,caf3_cd80_B-cells,1,1.0,10,44922,272,0,synthetic_index
+mix_0136_depth25,136,factorial,caf3_cd80_B-cells,1,0.25,10,11268,273,0,synthetic_index
+mix_0137_depth100,137,factorial,caf3_cd80_B-cells,2,1.0,10,35663,274,0,synthetic_index
+mix_0137_depth25,137,factorial,caf3_cd80_B-cells,2,0.25,10,8887,275,0,synthetic_index
+mix_0138_depth100,138,factorial,caf3_cd80_NK cells,0,1.0,10,39664,276,0,synthetic_index
+mix_0138_depth25,138,factorial,caf3_cd80_NK cells,0,0.25,10,9766,277,0,synthetic_index
+mix_0139_depth100,139,factorial,caf3_cd80_NK cells,1,1.0,10,36734,278,0,synthetic_index
+mix_0139_depth25,139,factorial,caf3_cd80_NK cells,1,0.25,10,9183,279,0,synthetic_index
+mix_0140_depth100,140,factorial,caf3_cd80_NK cells,2,1.0,10,43645,280,0,synthetic_index
+mix_0140_depth25,140,factorial,caf3_cd80_NK cells,2,0.25,10,10910,281,0,synthetic_index
+mix_0141_depth100,141,factorial,caf3_cd80_NKT cells,0,1.0,10,30707,282,0,synthetic_index
+mix_0141_depth25,141,factorial,caf3_cd80_NKT cells,0,0.25,10,7810,283,0,synthetic_index
+mix_0142_depth100,142,factorial,caf3_cd80_NKT cells,1,1.0,10,50800,284,0,synthetic_index
+mix_0142_depth25,142,factorial,caf3_cd80_NKT cells,1,0.25,10,12799,285,0,synthetic_index
+mix_0143_depth100,143,factorial,caf3_cd80_NKT cells,2,1.0,10,42495,286,0,synthetic_index
+mix_0143_depth25,143,factorial,caf3_cd80_NKT cells,2,0.25,10,10715,287,0,synthetic_index
+mix_0144_depth100,144,factorial,caf3_cd80_Cycling T-cells,0,1.0,10,34208,288,0,synthetic_index
+mix_0144_depth25,144,factorial,caf3_cd80_Cycling T-cells,0,0.25,10,8621,289,0,synthetic_index
+mix_0145_depth100,145,factorial,caf3_cd80_Cycling T-cells,1,1.0,10,28596,290,0,synthetic_index
+mix_0145_depth25,145,factorial,caf3_cd80_Cycling T-cells,1,0.25,10,7212,291,0,synthetic_index
+mix_0146_depth100,146,factorial,caf3_cd80_Cycling T-cells,2,1.0,10,35381,292,0,synthetic_index
+mix_0146_depth25,146,factorial,caf3_cd80_Cycling T-cells,2,0.25,10,8679,293,0,synthetic_index
+mix_0147_depth100,147,factorial,caf3_cd81_T cells CD4+,0,1.0,10,33722,294,0,synthetic_index
+mix_0147_depth25,147,factorial,caf3_cd81_T cells CD4+,0,0.25,10,8346,295,0,synthetic_index
+mix_0148_depth100,148,factorial,caf3_cd81_T cells CD4+,1,1.0,10,48367,296,0,synthetic_index
+mix_0148_depth25,148,factorial,caf3_cd81_T cells CD4+,1,0.25,10,11936,297,0,synthetic_index
+mix_0149_depth100,149,factorial,caf3_cd81_T cells CD4+,2,1.0,10,26306,298,0,synthetic_index
+mix_0149_depth25,149,factorial,caf3_cd81_T cells CD4+,2,0.25,10,6701,299,0,synthetic_index
+mix_0150_depth100,150,factorial,caf3_cd81_Myeloid,0,1.0,10,35895,300,0,synthetic_index
+mix_0150_depth25,150,factorial,caf3_cd81_Myeloid,0,0.25,10,8877,301,0,synthetic_index
+mix_0151_depth100,151,factorial,caf3_cd81_Myeloid,1,1.0,10,33662,302,0,synthetic_index
+mix_0151_depth25,151,factorial,caf3_cd81_Myeloid,1,0.25,10,8343,303,0,synthetic_index
+mix_0152_depth100,152,factorial,caf3_cd81_Myeloid,2,1.0,10,42234,304,0,synthetic_index
+mix_0152_depth25,152,factorial,caf3_cd81_Myeloid,2,0.25,10,10517,305,0,synthetic_index
+mix_0153_depth100,153,factorial,caf3_cd81_Endothelial,0,1.0,10,40080,306,0,synthetic_index
+mix_0153_depth25,153,factorial,caf3_cd81_Endothelial,0,0.25,10,10152,307,0,synthetic_index
+mix_0154_depth100,154,factorial,caf3_cd81_Endothelial,1,1.0,10,32823,308,0,synthetic_index
+mix_0154_depth25,154,factorial,caf3_cd81_Endothelial,1,0.25,10,8311,309,0,synthetic_index
+mix_0155_depth100,155,factorial,caf3_cd81_Endothelial,2,1.0,10,38561,310,0,synthetic_index
+mix_0155_depth25,155,factorial,caf3_cd81_Endothelial,2,0.25,10,9574,311,0,synthetic_index
+mix_0156_depth100,156,factorial,caf3_cd81_B-cells,0,1.0,10,47735,312,0,synthetic_index
+mix_0156_depth25,156,factorial,caf3_cd81_B-cells,0,0.25,10,11941,313,0,synthetic_index
+mix_0157_depth100,157,factorial,caf3_cd81_B-cells,1,1.0,10,36110,314,0,synthetic_index
+mix_0157_depth25,157,factorial,caf3_cd81_B-cells,1,0.25,10,9060,315,0,synthetic_index
+mix_0158_depth100,158,factorial,caf3_cd81_B-cells,2,1.0,10,45895,316,0,synthetic_index
+mix_0158_depth25,158,factorial,caf3_cd81_B-cells,2,0.25,10,11461,317,0,synthetic_index
+mix_0159_depth100,159,factorial,caf3_cd81_NK cells,0,1.0,10,26059,318,0,synthetic_index
+mix_0159_depth25,159,factorial,caf3_cd81_NK cells,0,0.25,10,6523,319,0,synthetic_index
+mix_0160_depth100,160,factorial,caf3_cd81_NK cells,1,1.0,10,52469,320,0,synthetic_index
+mix_0160_depth25,160,factorial,caf3_cd81_NK cells,1,0.25,10,13159,321,0,synthetic_index
+mix_0161_depth100,161,factorial,caf3_cd81_NK cells,2,1.0,10,26350,322,0,synthetic_index
+mix_0161_depth25,161,factorial,caf3_cd81_NK cells,2,0.25,10,6568,323,0,synthetic_index
+mix_0162_depth100,162,factorial,caf3_cd81_NKT cells,0,1.0,10,37957,324,0,synthetic_index
+mix_0162_depth25,162,factorial,caf3_cd81_NKT cells,0,0.25,10,9673,325,0,synthetic_index
+mix_0163_depth100,163,factorial,caf3_cd81_NKT cells,1,1.0,10,30214,326,0,synthetic_index
+mix_0163_depth25,163,factorial,caf3_cd81_NKT cells,1,0.25,10,7549,327,0,synthetic_index
+mix_0164_depth100,164,factorial,caf3_cd81_NKT cells,2,1.0,10,37003,328,0,synthetic_index
+mix_0164_depth25,164,factorial,caf3_cd81_NKT cells,2,0.25,10,9188,329,0,synthetic_index
+mix_0165_depth100,165,factorial,caf3_cd81_Cycling T-cells,0,1.0,10,31455,330,0,synthetic_index
+mix_0165_depth25,165,factorial,caf3_cd81_Cycling T-cells,0,0.25,10,7767,331,0,synthetic_index
+mix_0166_depth100,166,factorial,caf3_cd81_Cycling T-cells,1,1.0,10,31066,332,0,synthetic_index
+mix_0166_depth25,166,factorial,caf3_cd81_Cycling T-cells,1,0.25,10,7772,333,0,synthetic_index
+mix_0167_depth100,167,factorial,caf3_cd81_Cycling T-cells,2,1.0,10,33874,334,0,synthetic_index
+mix_0167_depth25,167,factorial,caf3_cd81_Cycling T-cells,2,0.25,10,8424,335,0,synthetic_index
+mix_0168_depth100,168,factorial,caf3_cd83_T cells CD4+,0,1.0,10,28406,336,0,synthetic_index
+mix_0168_depth25,168,factorial,caf3_cd83_T cells CD4+,0,0.25,10,7167,337,0,synthetic_index
+mix_0169_depth100,169,factorial,caf3_cd83_T cells CD4+,1,1.0,10,31861,338,0,synthetic_index
+mix_0169_depth25,169,factorial,caf3_cd83_T cells CD4+,1,0.25,10,7983,339,0,synthetic_index
+mix_0170_depth100,170,factorial,caf3_cd83_T cells CD4+,2,1.0,10,28082,340,0,synthetic_index
+mix_0170_depth25,170,factorial,caf3_cd83_T cells CD4+,2,0.25,10,7057,341,0,synthetic_index
+mix_0171_depth100,171,factorial,caf3_cd83_Myeloid,0,1.0,10,37229,342,0,synthetic_index
+mix_0171_depth25,171,factorial,caf3_cd83_Myeloid,0,0.25,10,9361,343,0,synthetic_index
+mix_0172_depth100,172,factorial,caf3_cd83_Myeloid,1,1.0,10,26253,344,0,synthetic_index
+mix_0172_depth25,172,factorial,caf3_cd83_Myeloid,1,0.25,10,6657,345,0,synthetic_index
+mix_0173_depth100,173,factorial,caf3_cd83_Myeloid,2,1.0,10,30501,346,0,synthetic_index
+mix_0173_depth25,173,factorial,caf3_cd83_Myeloid,2,0.25,10,7678,347,0,synthetic_index
+mix_0174_depth100,174,factorial,caf3_cd83_Endothelial,0,1.0,10,36191,348,0,synthetic_index
+mix_0174_depth25,174,factorial,caf3_cd83_Endothelial,0,0.25,10,8997,349,0,synthetic_index
+mix_0175_depth100,175,factorial,caf3_cd83_Endothelial,1,1.0,10,23935,350,0,synthetic_index
+mix_0175_depth25,175,factorial,caf3_cd83_Endothelial,1,0.25,10,5896,351,0,synthetic_index
+mix_0176_depth100,176,factorial,caf3_cd83_Endothelial,2,1.0,10,43507,352,0,synthetic_index
+mix_0176_depth25,176,factorial,caf3_cd83_Endothelial,2,0.25,10,10836,353,0,synthetic_index
+mix_0177_depth100,177,factorial,caf3_cd83_B-cells,0,1.0,10,33309,354,0,synthetic_index
+mix_0177_depth25,177,factorial,caf3_cd83_B-cells,0,0.25,10,8282,355,0,synthetic_index
+mix_0178_depth100,178,factorial,caf3_cd83_B-cells,1,1.0,10,29594,356,0,synthetic_index
+mix_0178_depth25,178,factorial,caf3_cd83_B-cells,1,0.25,10,7362,357,0,synthetic_index
+mix_0179_depth100,179,factorial,caf3_cd83_B-cells,2,1.0,10,32055,358,0,synthetic_index
+mix_0179_depth25,179,factorial,caf3_cd83_B-cells,2,0.25,10,8066,359,0,synthetic_index
+mix_0180_depth100,180,factorial,caf3_cd83_NK cells,0,1.0,10,39455,360,0,synthetic_index
+mix_0180_depth25,180,factorial,caf3_cd83_NK cells,0,0.25,10,10057,361,0,synthetic_index
+mix_0181_depth100,181,factorial,caf3_cd83_NK cells,1,1.0,10,31223,362,0,synthetic_index
+mix_0181_depth25,181,factorial,caf3_cd83_NK cells,1,0.25,10,7873,363,0,synthetic_index
+mix_0182_depth100,182,factorial,caf3_cd83_NK cells,2,1.0,10,52363,364,0,synthetic_index
+mix_0182_depth25,182,factorial,caf3_cd83_NK cells,2,0.25,10,13179,365,0,synthetic_index
+mix_0183_depth100,183,factorial,caf3_cd83_NKT cells,0,1.0,10,21696,366,0,synthetic_index
+mix_0183_depth25,183,factorial,caf3_cd83_NKT cells,0,0.25,10,5430,367,0,synthetic_index
+mix_0184_depth100,184,factorial,caf3_cd83_NKT cells,1,1.0,10,34410,368,0,synthetic_index
+mix_0184_depth25,184,factorial,caf3_cd83_NKT cells,1,0.25,10,8638,369,0,synthetic_index
+mix_0185_depth100,185,factorial,caf3_cd83_NKT cells,2,1.0,10,26575,370,0,synthetic_index
+mix_0185_depth25,185,factorial,caf3_cd83_NKT cells,2,0.25,10,6678,371,0,synthetic_index
+mix_0186_depth100,186,factorial,caf3_cd83_Cycling T-cells,0,1.0,10,52510,372,0,synthetic_index
+mix_0186_depth25,186,factorial,caf3_cd83_Cycling T-cells,0,0.25,10,13084,373,0,synthetic_index
+mix_0187_depth100,187,factorial,caf3_cd83_Cycling T-cells,1,1.0,10,35667,374,0,synthetic_index
+mix_0187_depth25,187,factorial,caf3_cd83_Cycling T-cells,1,0.25,10,9099,375,0,synthetic_index
+mix_0188_depth100,188,factorial,caf3_cd83_Cycling T-cells,2,1.0,10,33802,376,0,synthetic_index
+mix_0188_depth25,188,factorial,caf3_cd83_Cycling T-cells,2,0.25,10,8467,377,0,synthetic_index
+mix_0189_depth100,189,pure,B-cells,0,1.0,5,6208,378,0,synthetic_index
+mix_0189_depth25,189,pure,B-cells,0,0.25,5,1566,379,0,synthetic_index
+mix_0190_depth100,190,pure,B-cells,1,1.0,5,4868,380,0,synthetic_index
+mix_0190_depth25,190,pure,B-cells,1,0.25,5,1134,381,0,synthetic_index
+mix_0191_depth100,191,pure,B-cells,2,1.0,5,3760,382,0,synthetic_index
+mix_0191_depth25,191,pure,B-cells,2,0.25,5,896,383,0,synthetic_index
+mix_0192_depth100,192,pure,B-cells,3,1.0,5,4883,384,0,synthetic_index
+mix_0192_depth25,192,pure,B-cells,3,0.25,5,1241,385,0,synthetic_index
+mix_0193_depth100,193,pure,B-cells,4,1.0,5,4403,386,0,synthetic_index
+mix_0193_depth25,193,pure,B-cells,4,0.25,5,1048,387,0,synthetic_index
+mix_0194_depth100,194,pure,CAFs,0,1.0,5,26341,388,0,synthetic_index
+mix_0194_depth25,194,pure,CAFs,0,0.25,5,6513,389,0,synthetic_index
+mix_0195_depth100,195,pure,CAFs,1,1.0,5,32188,390,0,synthetic_index
+mix_0195_depth25,195,pure,CAFs,1,0.25,5,8029,391,0,synthetic_index
+mix_0196_depth100,196,pure,CAFs,2,1.0,5,17567,392,0,synthetic_index
+mix_0196_depth25,196,pure,CAFs,2,0.25,5,4365,393,0,synthetic_index
+mix_0197_depth100,197,pure,CAFs,3,1.0,5,20080,394,0,synthetic_index
+mix_0197_depth25,197,pure,CAFs,3,0.25,5,5061,395,0,synthetic_index
+mix_0198_depth100,198,pure,CAFs,4,1.0,5,23193,396,0,synthetic_index
+mix_0198_depth25,198,pure,CAFs,4,0.25,5,5805,397,0,synthetic_index
+mix_0199_depth100,199,pure,Cancer Epithelial,0,1.0,5,26714,398,0,synthetic_index
+mix_0199_depth25,199,pure,Cancer Epithelial,0,0.25,5,6678,399,0,synthetic_index
+mix_0200_depth100,200,pure,Cancer Epithelial,1,1.0,5,19158,400,0,synthetic_index
+mix_0200_depth25,200,pure,Cancer Epithelial,1,0.25,5,4830,401,0,synthetic_index
+mix_0201_depth100,201,pure,Cancer Epithelial,2,1.0,5,15723,402,0,synthetic_index
+mix_0201_depth25,201,pure,Cancer Epithelial,2,0.25,5,3999,403,0,synthetic_index
+mix_0202_depth100,202,pure,Cancer Epithelial,3,1.0,5,18937,404,0,synthetic_index
+mix_0202_depth25,202,pure,Cancer Epithelial,3,0.25,5,4774,405,0,synthetic_index
+mix_0203_depth100,203,pure,Cancer Epithelial,4,1.0,5,28522,406,0,synthetic_index
+mix_0203_depth25,203,pure,Cancer Epithelial,4,0.25,5,7216,407,0,synthetic_index
+mix_0204_depth100,204,pure,Cycling T-cells,0,1.0,5,11055,408,0,synthetic_index
+mix_0204_depth25,204,pure,Cycling T-cells,0,0.25,5,2848,409,0,synthetic_index
+mix_0205_depth100,205,pure,Cycling T-cells,1,1.0,5,11386,410,0,synthetic_index
+mix_0205_depth25,205,pure,Cycling T-cells,1,0.25,5,2907,411,0,synthetic_index
+mix_0206_depth100,206,pure,Cycling T-cells,2,1.0,5,11539,412,0,synthetic_index
+mix_0206_depth25,206,pure,Cycling T-cells,2,0.25,5,2906,413,0,synthetic_index
+mix_0207_depth100,207,pure,Cycling T-cells,3,1.0,5,7852,414,0,synthetic_index
+mix_0207_depth25,207,pure,Cycling T-cells,3,0.25,5,1953,415,0,synthetic_index
+mix_0208_depth100,208,pure,Cycling T-cells,4,1.0,5,11739,416,0,synthetic_index
+mix_0208_depth25,208,pure,Cycling T-cells,4,0.25,5,2948,417,0,synthetic_index
+mix_0209_depth100,209,pure,Endothelial,0,1.0,5,10798,418,0,synthetic_index
+mix_0209_depth25,209,pure,Endothelial,0,0.25,5,2776,419,0,synthetic_index
+mix_0210_depth100,210,pure,Endothelial,1,1.0,5,6786,420,0,synthetic_index
+mix_0210_depth25,210,pure,Endothelial,1,0.25,5,1733,421,0,synthetic_index
+mix_0211_depth100,211,pure,Endothelial,2,1.0,5,6986,422,0,synthetic_index
+mix_0211_depth25,211,pure,Endothelial,2,0.25,5,1728,423,0,synthetic_index
+mix_0212_depth100,212,pure,Endothelial,3,1.0,5,5836,424,0,synthetic_index
+mix_0212_depth25,212,pure,Endothelial,3,0.25,5,1464,425,0,synthetic_index
+mix_0213_depth100,213,pure,Endothelial,4,1.0,5,20771,426,0,synthetic_index
+mix_0213_depth25,213,pure,Endothelial,4,0.25,5,5315,427,0,synthetic_index
+mix_0214_depth100,214,pure,Myeloid,0,1.0,5,19299,428,0,synthetic_index
+mix_0214_depth25,214,pure,Myeloid,0,0.25,5,4907,429,0,synthetic_index
+mix_0215_depth100,215,pure,Myeloid,1,1.0,5,19853,430,0,synthetic_index
+mix_0215_depth25,215,pure,Myeloid,1,0.25,5,4995,431,0,synthetic_index
+mix_0216_depth100,216,pure,Myeloid,2,1.0,5,18901,432,0,synthetic_index
+mix_0216_depth25,216,pure,Myeloid,2,0.25,5,4795,433,0,synthetic_index
+mix_0217_depth100,217,pure,Myeloid,3,1.0,5,18888,434,0,synthetic_index
+mix_0217_depth25,217,pure,Myeloid,3,0.25,5,4774,435,0,synthetic_index
+mix_0218_depth100,218,pure,Myeloid,4,1.0,5,14241,436,0,synthetic_index
+mix_0218_depth25,218,pure,Myeloid,4,0.25,5,3591,437,0,synthetic_index
+mix_0219_depth100,219,pure,NK cells,0,1.0,5,6495,438,0,synthetic_index
+mix_0219_depth25,219,pure,NK cells,0,0.25,5,1652,439,0,synthetic_index
+mix_0220_depth100,220,pure,NK cells,1,1.0,5,3546,440,0,synthetic_index
+mix_0220_depth25,220,pure,NK cells,1,0.25,5,874,441,0,synthetic_index
+mix_0221_depth100,221,pure,NK cells,2,1.0,5,4161,442,0,synthetic_index
+mix_0221_depth25,221,pure,NK cells,2,0.25,5,1021,443,0,synthetic_index
+mix_0222_depth100,222,pure,NK cells,3,1.0,5,5001,444,0,synthetic_index
+mix_0222_depth25,222,pure,NK cells,3,0.25,5,1231,445,0,synthetic_index
+mix_0223_depth100,223,pure,NK cells,4,1.0,5,4355,446,0,synthetic_index
+mix_0223_depth25,223,pure,NK cells,4,0.25,5,1114,447,0,synthetic_index
+mix_0224_depth100,224,pure,NKT cells,0,1.0,5,4896,448,0,synthetic_index
+mix_0224_depth25,224,pure,NKT cells,0,0.25,5,1223,449,0,synthetic_index
+mix_0225_depth100,225,pure,NKT cells,1,1.0,5,4556,450,0,synthetic_index
+mix_0225_depth25,225,pure,NKT cells,1,0.25,5,1125,451,0,synthetic_index
+mix_0226_depth100,226,pure,NKT cells,2,1.0,5,6226,452,0,synthetic_index
+mix_0226_depth25,226,pure,NKT cells,2,0.25,5,1524,453,0,synthetic_index
+mix_0227_depth100,227,pure,NKT cells,3,1.0,5,5243,454,0,synthetic_index
+mix_0227_depth25,227,pure,NKT cells,3,0.25,5,1309,455,0,synthetic_index
+mix_0228_depth100,228,pure,NKT cells,4,1.0,5,5329,456,0,synthetic_index
+mix_0228_depth25,228,pure,NKT cells,4,0.25,5,1321,457,0,synthetic_index
+mix_0229_depth100,229,pure,PVL,0,1.0,5,18520,458,0,synthetic_index
+mix_0229_depth25,229,pure,PVL,0,0.25,5,4770,459,0,synthetic_index
+mix_0230_depth100,230,pure,PVL,1,1.0,5,12094,460,0,synthetic_index
+mix_0230_depth25,230,pure,PVL,1,0.25,5,3055,461,0,synthetic_index
+mix_0231_depth100,231,pure,PVL,2,1.0,5,10261,462,0,synthetic_index
+mix_0231_depth25,231,pure,PVL,2,0.25,5,2517,463,0,synthetic_index
+mix_0232_depth100,232,pure,PVL,3,1.0,5,8927,464,0,synthetic_index
+mix_0232_depth25,232,pure,PVL,3,0.25,5,2150,465,0,synthetic_index
+mix_0233_depth100,233,pure,PVL,4,1.0,5,13451,466,0,synthetic_index
+mix_0233_depth25,233,pure,PVL,4,0.25,5,3448,467,0,synthetic_index
+mix_0234_depth100,234,pure,T cells CD4+,0,1.0,5,4761,468,0,synthetic_index
+mix_0234_depth25,234,pure,T cells CD4+,0,0.25,5,1204,469,0,synthetic_index
+mix_0235_depth100,235,pure,T cells CD4+,1,1.0,5,7965,470,0,synthetic_index
+mix_0235_depth25,235,pure,T cells CD4+,1,0.25,5,2006,471,0,synthetic_index
+mix_0236_depth100,236,pure,T cells CD4+,2,1.0,5,5790,472,0,synthetic_index
+mix_0236_depth25,236,pure,T cells CD4+,2,0.25,5,1448,473,0,synthetic_index
+mix_0237_depth100,237,pure,T cells CD4+,3,1.0,5,6908,474,0,synthetic_index
+mix_0237_depth25,237,pure,T cells CD4+,3,0.25,5,1714,475,0,synthetic_index
+mix_0238_depth100,238,pure,T cells CD4+,4,1.0,5,4328,476,0,synthetic_index
+mix_0238_depth25,238,pure,T cells CD4+,4,0.25,5,1093,477,0,synthetic_index
+mix_0239_depth100,239,pure,T cells CD8+,0,1.0,5,6628,478,0,synthetic_index
+mix_0239_depth25,239,pure,T cells CD8+,0,0.25,5,1682,479,0,synthetic_index
+mix_0240_depth100,240,pure,T cells CD8+,1,1.0,5,6403,480,0,synthetic_index
+mix_0240_depth25,240,pure,T cells CD8+,1,0.25,5,1593,481,0,synthetic_index
+mix_0241_depth100,241,pure,T cells CD8+,2,1.0,5,5545,482,0,synthetic_index
+mix_0241_depth25,241,pure,T cells CD8+,2,0.25,5,1404,483,0,synthetic_index
+mix_0242_depth100,242,pure,T cells CD8+,3,1.0,5,4729,484,0,synthetic_index
+mix_0242_depth25,242,pure,T cells CD8+,3,0.25,5,1170,485,0,synthetic_index
+mix_0243_depth100,243,pure,T cells CD8+,4,1.0,5,5088,486,0,synthetic_index
+mix_0243_depth25,243,pure,T cells CD8+,4,0.25,5,1184,487,0,synthetic_index

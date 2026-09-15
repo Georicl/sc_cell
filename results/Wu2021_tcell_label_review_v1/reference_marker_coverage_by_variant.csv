@@ -1,0 +1,21 @@
+variant,reference_label,n_cells,CID4535_cells,no_T_or_CD8,no_T_or_CD8_fraction
+baseline,Cycling T-cells,27,19,15,0.5555555555555556
+baseline,NK cells,55,25,10,0.18181818181818182
+baseline,NKT cells,47,15,4,0.0851063829787234
+baseline,T cells CD4+,651,239,136,0.20890937019969277
+baseline,T cells CD8+,257,98,6,0.023346303501945526
+donor_balanced,Cycling T-cells,27,19,15,0.5555555555555556
+donor_balanced,NK cells,50,25,9,0.18
+donor_balanced,NKT cells,30,15,4,0.13333333333333333
+donor_balanced,T cells CD4+,478,239,135,0.2824267782426778
+donor_balanced,T cells CD8+,196,98,5,0.025510204081632654
+epithelial_split,Cycling T-cells,27,19,15,0.5555555555555556
+epithelial_split,NK cells,55,25,10,0.18181818181818182
+epithelial_split,NKT cells,47,15,4,0.0851063829787234
+epithelial_split,T cells CD4+,651,239,136,0.20890937019969277
+epithelial_split,T cells CD8+,257,98,6,0.023346303501945526
+balanced_split,Cycling T-cells,27,19,15,0.5555555555555556
+balanced_split,NK cells,50,25,9,0.18
+balanced_split,NKT cells,30,15,4,0.13333333333333333
+balanced_split,T cells CD4+,478,239,135,0.2824267782426778
+balanced_split,T cells CD8+,196,98,5,0.025510204081632654

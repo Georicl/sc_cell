@@ -1,0 +1,17 @@
+{
+  "data/processed/Wu2021_tcell_validation_v1/CID3941_counts_before_qc.h5ad": "7eb6b5e31c1d0c974d96d46a2a0a26b904976b6db0d0bda4c13476e8439da79a",
+  "data/processed/Wu2021_tcell_validation_v1/CID3941/spatial_counts.mtx": "59d93d874d16a8f4b3da3b1d430be47abebc04e9e2902b0eabbfdbbff955cf6a",
+  "data/processed/Wu2021_tcell_validation_v1/CID3941/spatial_metadata.csv": "bee0a3d30ee813db2a76e9ecd4971e7f590bc5adbb1d91031382f091fa79b7c9",
+  "data/processed/Wu2021_tcell_validation_v1/CID3941/genes.tsv": "a2a40b1ea2eab43ccf784d25fa25467be6dd05897bf551f2459e172442048d88",
+  "results/Wu2021_tcell_validation_v1/CID3941/frozen_recipes.csv": "224b5af5bceda50b05af379cb7f88f449dd1c0f6939c5d307e689808d5bf4103",
+  "data/processed/Wu2021_tcell_validation_v1/CID3948_counts_before_qc.h5ad": "5885c23e239b1c17f613732f2e2b02441a0157faf24ac9daef3c247bd6f6f1fa",
+  "data/processed/Wu2021_tcell_validation_v1/CID3948/spatial_counts.mtx": "64674cc8ff25cbdf08a448e299efbea2c9c9ccf3f132bacc200886f6353bd6cc",
+  "data/processed/Wu2021_tcell_validation_v1/CID3948/spatial_metadata.csv": "34fff4edbe4b1a157df03ec569f042c1202bf3c81246ec65cf01ded4c1c208fb",
+  "data/processed/Wu2021_tcell_validation_v1/CID3948/genes.tsv": "a2a40b1ea2eab43ccf784d25fa25467be6dd05897bf551f2459e172442048d88",
+  "results/Wu2021_tcell_validation_v1/CID3948/frozen_recipes.csv": "224b5af5bceda50b05af379cb7f88f449dd1c0f6939c5d307e689808d5bf4103",
+  "data/processed/Wu2021_tcell_validation_v1/CID4461_counts_before_qc.h5ad": "482b72d4ff5339a7aae612e59a6e037102eed6b5f5d0b2f2a38c063fee91beda",
+  "data/processed/Wu2021_tcell_validation_v1/CID4461/spatial_counts.mtx": "c1dc5893cbf4501432e5056c29e1eb067dedf44d4c4c5d93dea4a268f19471c5",
+  "data/processed/Wu2021_tcell_validation_v1/CID4461/spatial_metadata.csv": "44164ee67f329258bf709f51557c40c069d7154bf41f5a0cfab6cd2b24971f4b",
+  "data/processed/Wu2021_tcell_validation_v1/CID4461/genes.tsv": "a2a40b1ea2eab43ccf784d25fa25467be6dd05897bf551f2459e172442048d88",
+  "results/Wu2021_tcell_validation_v1/CID4461/frozen_recipes.csv": "224b5af5bceda50b05af379cb7f88f449dd1c0f6939c5d307e689808d5bf4103"
+}

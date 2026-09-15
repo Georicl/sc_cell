@@ -1,0 +1,23 @@
+case_id,clinical_excel_row,clinical_subtype,histology,treatment_status,treatment_details,pathological_features
+3586,5,HER2+/ER+,IDC,Naïve,-,Multifocal tumour with associatied high grade DCIS and extensive LVI
+3838,6,HER2+,IDC,Naïve,-,Associated high grade DCIS.
+3921,7,HER2+,IDC,Naïve,-,Associated high grade DCIS and focal LVI
+3941,8,ER+,IDC,Naïve,-,Multifocal tumour with associated high grade DCIS
+3946,9,TNBC,IDC,Naïve,-,Basal phenotype. Reactive lymphoid inflitrate with germinal centres. 
+3948,10,ER+,IDC,Naïve,-,"Associated LCIS, with LVI and perineural invasion"
+3963,11,ER+,IDC,Treated,"AC, Paclitaxel, Herceptin (administered for Dx 3 years prior)",Probable recurrence from 3 years prior
+4040,12,ER+,IDC,Naïve,-,Associated high grade DCIS. 
+4066,13,HER2+/ER+,IDC,Treated,Neoadjuvant AC,"Associated high grade DCIS and extensive LVI. RCB-III, minimal or no-response to chemotherapy. "
+4067,14,ER+,IDC,Naïve,-,Associated low grade DCIS and focal perineural invasion.
+4290,15,ER+,IDC,Naïve,-,"Locally advanced, skin and chest wall muscle involvement. "
+4398,16,ER+,IDC,Treated,Neoadjuvant FEC-D,"Mixed morphology with associated high grade DCIS, extensive LVI and perineural invasion. RCB-III, minimal or no-response to chemotherapy. "
+4461,18,ER+,IDC,Naïve,-,"Associated intermediate to high grade DCIS, LVI and perineural invasion."
+4463,19,ER+,IDC,Naïve,-,"IDC with areas of lobular -like growth pattern, but is E-cadherin positive. Associated low through high grade DCIS and LVI."
+4465,20,TNBC,IDC,Naïve,-,Basal phenotype - patchy CK5/6 and p63 positivity. Associated high grade DCIS at periphery of tumour mass. 
+4471,21,ER+,ILC,Naïve,-,-
+4495,22,TNBC,IDC,Naïve,-,Medullary features
+4513,25,TNBC,MBC,Treated,"Neoadjuvant AC (4x), Paclitaxel (3x)","Metaplastic, spindle cell carcinoma with areas of sarcomatous appearance and inflammatory infiltrate. LVI present.  RCB-II, partial pathological response to chemotherapy"
+4515,26,TNBC,IDC,Naïve,-,"Basal phenotype: CK5/6+ focal 40%, CK14+ focal 30%. Associated high grade DCIS and patchy lymphoid infiltrate."
+4523,28,TNBC,MBC,Treated," Neoadjuvant AC (4x), Paclitaxel (1x)","Metaplastic carcinoma with sebaceous differentiation. LVI present. RCB-II, partial pathological response to chemotherapy"
+4530,29,ER+,IDC,Naïve,-,Multifocal tumour with associated high grade DCIS and LVI.
+4535,30,ER+,ILC,Naïve,-,-

@@ -1,0 +1,54 @@
+$CID4535_rds_csv
+[1] TRUE
+
+$CID4535_normalization
+[1] TRUE
+
+$CID4535_parameters
+[1] TRUE
+
+$CID4290_rds_csv
+[1] TRUE
+
+$CID4290_normalization
+[1] TRUE
+
+$CID4290_parameters
+[1] TRUE
+
+$CID4465_rds_csv
+[1] TRUE
+
+$CID4465_normalization
+[1] TRUE
+
+$CID4465_parameters
+[1] TRUE
+
+$CID44971_rds_csv
+[1] TRUE
+
+$CID44971_normalization
+[1] TRUE
+
+$CID44971_parameters
+[1] TRUE
+
+$`1142243F_rds_csv`
+[1] TRUE
+
+$`1142243F_normalization`
+[1] TRUE
+
+$`1142243F_parameters`
+[1] TRUE
+
+$`1160920F_rds_csv`
+[1] TRUE
+
+$`1160920F_normalization`
+[1] TRUE
+
+$`1160920F_parameters`
+[1] TRUE
+

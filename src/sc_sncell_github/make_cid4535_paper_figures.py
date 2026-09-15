@@ -1,4 +1,4 @@
-"""从已有分析对象重新绘制README论文图；不重新拟合模型。"""
+"""从已有分析对象重新绘制README论文图"""
 # 1. 读取已有结果，统一图形样式和来源记录
 from pathlib import Path
 import hashlib

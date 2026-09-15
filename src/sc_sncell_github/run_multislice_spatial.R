@@ -1,0 +1,41 @@
+suppressPackageStartupMessages({library(Matrix);library(spacexr);library(SummarizedExperiment);library(SpatialExperiment)})
+root<-"/Users/georicl/Documents/sc_sncell_github"
+data<-file.path(root,"data/processed/Wu2021_multislice_CAF_T_v1")
+output<-file.path(root,"results/Wu2021_multislice_CAF_T_v1")
+genes<-read.delim(file.path(data,"genes.tsv"),header=FALSE)[[1]]
+meta<-read.csv(file.path(data,"reference_metadata.csv"),row.names=1,check.names=FALSE)
+counts<-as(readMM(file.path(data,"reference_counts.mtx")),"CsparseMatrix")
+rownames(counts)<-genes;colnames(counts)<-rownames(meta)
+stopifnot(all(colSums(counts)==meta$nUMI),all(table(meta$reference_label[meta$nUMI>=100])>=25))
+meta$reference_label<-factor(meta$reference_label)
+samples<-commandArgs(trailingOnly=TRUE)
+if(!length(samples)) samples<-"CID4535"
+stopifnot(all(samples %in% c("CID4535","CID4290","CID4465","CID44971","1142243F","1160920F")))
+for(sample in samples) {
+  inp<-file.path(data,sample);out<-file.path(output,sample)
+  cat("START",sample,format(Sys.time()),"\n")
+  sp_meta<-read.csv(file.path(inp,"spatial_metadata.csv"),row.names=1,check.names=FALSE)
+  x<-as(readMM(file.path(inp,"spatial_counts.mtx")),"CsparseMatrix")
+  sample_genes<-read.delim(file.path(inp,"genes.tsv"),header=FALSE)[[1]]
+  stopifnot(all(sample_genes %in% genes))
+  local_counts<-counts[sample_genes,,drop=FALSE]
+  local_meta<-meta;local_meta$nUMI<-colSums(local_counts)
+  stopifnot(all(table(local_meta$reference_label[local_meta$nUMI>=100])>=25))
+  reference<-SummarizedExperiment(assays=list(counts=local_counts),colData=S4Vectors::DataFrame(local_meta))
+  rownames(x)<-sample_genes;colnames(x)<-rownames(sp_meta)
+  stopifnot(all(colSums(x)==sp_meta$nUMI))
+  spatial<-SpatialExperiment(assays=list(counts=x),colData=S4Vectors::DataFrame(sp_meta),spatialCoords=as.matrix(sp_meta[,c("x","y")]))
+  set.seed(9);started<-Sys.time()
+  prepared<-createRctd(spatial,reference,cell_type_col="reference_label",ref_UMI_min=100,ref_n_cells_min=25)
+  saveRDS(prepared,file.path(inp,"rctd_preprocessed.rds"))
+  result<-runRctd(prepared,rctd_mode="full",max_cores=2)
+  saveRDS(result,file.path(inp,"rctd_result.rds"))
+  w<-as.matrix(t(assay(result,"weights")))
+  stopifnot(all(is.finite(w)),all(w>=0),all(rowSums(w)>0))
+  write.csv(w,file.path(out,"rctd_raw_weights.csv"));write.csv(w/rowSums(w),file.path(out,"rctd_relative_weights.csv"))
+  write.csv(data.frame(barcode=setdiff(rownames(sp_meta),rownames(w))),file.path(out,"model_removed_spots.csv"),row.names=FALSE)
+  writeLines(prepared$internal_vars$gene_list_reg,file.path(out,"rctd_selected_genes.txt"))
+  saveRDS(list(seed=9,mode="full",max_cores=2,config=prepared$config,reference_donors=c("CID4471","CID4535"),elapsed_seconds=as.numeric(difftime(Sys.time(),started,units="secs"))),file.path(inp,"rctd_run_record.rds"))
+  capture.output(sessionInfo(),file=file.path(out,"rctd_sessionInfo.txt"))
+  cat("DONE",sample,nrow(w),format(Sys.time()),"\n")
+}

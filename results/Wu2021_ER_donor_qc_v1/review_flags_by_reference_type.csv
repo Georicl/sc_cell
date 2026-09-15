@@ -1,0 +1,38 @@
+donor_id,reference_label,review_low_umi,review_high_umi,review_low_genes,review_high_genes,review_high_mt,review_epithelial_T,review_CAF_PVL,review_any
+CID4067,B-cells,0,0,0,0,0,0,0,0
+CID4067,CAFs,2,0,3,0,8,0,0,10
+CID4067,Cancer Epithelial,0,0,0,0,0,0,0,0
+CID4067,Cycling T-cells,0,0,0,0,0,0,0,0
+CID4067,Endothelial,0,1,0,0,7,0,0,8
+CID4067,Myeloid,6,0,7,0,13,0,0,18
+CID4067,NK cells,0,0,0,0,2,0,0,2
+CID4067,NKT cells,0,0,0,0,0,0,0,0
+CID4067,PVL,0,0,0,2,3,0,8,11
+CID4067,T cells CD4+,2,0,0,1,11,0,0,13
+CID4067,T cells CD8+,1,0,3,0,8,0,0,9
+CID4471,B-cells,3,4,2,4,1,0,0,8
+CID4471,CAFs,0,0,0,0,20,0,3,23
+CID4471,Cancer Epithelial,0,0,0,0,0,0,0,0
+CID4471,Cycling T-cells,0,0,0,0,0,0,0,0
+CID4471,Endothelial,1,2,1,0,95,0,45,141
+CID4471,Myeloid,13,0,13,0,2,0,0,15
+CID4471,NK cells,0,0,0,0,1,0,0,1
+CID4471,NKT cells,0,0,0,0,2,0,0,2
+CID4471,Normal Epithelial,2,0,2,0,12,1,0,15
+CID4471,PVL,2,2,2,2,19,0,50,71
+CID4471,Plasmablasts,2,0,4,0,1,0,0,5
+CID4471,T cells CD4+,7,1,11,1,6,0,0,17
+CID4471,T cells CD8+,3,0,3,0,0,0,0,3
+CID4535,B-cells,0,0,0,0,8,0,0,8
+CID4535,CAFs,0,0,0,0,15,0,5,20
+CID4535,Cancer Epithelial,152,0,263,0,0,2,3,268
+CID4535,Cycling T-cells,0,0,0,0,0,1,0,1
+CID4535,Endothelial,0,0,0,0,18,0,1,18
+CID4535,Myeloid,15,0,22,0,16,0,0,38
+CID4535,NK cells,0,0,0,0,0,0,0,0
+CID4535,NKT cells,0,0,0,0,0,0,0,0
+CID4535,Normal Epithelial,1,0,1,0,2,0,0,3
+CID4535,PVL,8,0,9,0,56,0,78,136
+CID4535,Plasmablasts,10,0,9,0,17,0,0,25
+CID4535,T cells CD4+,0,0,0,0,2,1,0,3
+CID4535,T cells CD8+,9,1,9,1,14,2,0,20

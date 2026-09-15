@@ -1,0 +1,100 @@
+START CID4067 2026-09-15 14:29:44 
+Number of cells in reference: 12570
+Number of genes in reference: 29733
+
+          B-cells              CAFs Cancer Epithelial       Endothelial 
+              155              1394              2435              2997 
+          Myeloid          NK cells Normal Epithelial      Plasmablasts 
+              540                55              1988               147 
+              PVL           T cells 
+             1877               982 
+Getting regression differentially expressed genes: 
+B-cells found DE genes: 87
+CAFs found DE genes: 201
+Cancer Epithelial found DE genes: 187
+Endothelial found DE genes: 188
+Myeloid found DE genes: 169
+NK cells found DE genes: 129
+Normal Epithelial found DE genes: 94
+Plasmablasts found DE genes: 57
+PVL found DE genes: 178
+T cells found DE genes: 91
+Total DE genes: 1072
+Getting bulk differentially expressed genes: 
+B-cells found DE genes: 226
+CAFs found DE genes: 355
+Cancer Epithelial found DE genes: 423
+Endothelial found DE genes: 385
+Myeloid found DE genes: 337
+NK cells found DE genes: 291
+Normal Epithelial found DE genes: 236
+Plasmablasts found DE genes: 80
+PVL found DE genes: 309
+T cells found DE genes: 215
+Total DE genes: 2023
+fitBulk: decomposing bulk
+chooseSigma: using initial Q_mat with sigma = 1
+Likelihood value: 821198.554971301
+Sigma value: 0.84
+Likelihood value: 804808.912948523
+Sigma value: 0.69
+Likelihood value: 791882.54152705
+Sigma value: 0.61
+Likelihood value: 786623.8118296
+Sigma value: 0.53
+Likelihood value: 783067.890863422
+Sigma value: 0.47
+Likelihood value: 781881.704897054
+Sigma value: 0.46
+Likelihood value: 781833.34654517
+Sigma value: 0.46
+DONE CID4067 2026-09-15 14:31:26 
+START CID4463 2026-09-15 14:31:26 
+Number of cells in reference: 12570
+Number of genes in reference: 29733
+
+          B-cells              CAFs Cancer Epithelial       Endothelial 
+              155              1394              2435              2997 
+          Myeloid          NK cells Normal Epithelial      Plasmablasts 
+              540                55              1988               147 
+              PVL           T cells 
+             1877               982 
+Getting regression differentially expressed genes: 
+B-cells found DE genes: 84
+CAFs found DE genes: 201
+Cancer Epithelial found DE genes: 187
+Endothelial found DE genes: 188
+Myeloid found DE genes: 169
+NK cells found DE genes: 129
+Normal Epithelial found DE genes: 99
+Plasmablasts found DE genes: 44
+PVL found DE genes: 178
+T cells found DE genes: 91
+Total DE genes: 1061
+Getting bulk differentially expressed genes: 
+B-cells found DE genes: 218
+CAFs found DE genes: 356
+Cancer Epithelial found DE genes: 424
+Endothelial found DE genes: 386
+Myeloid found DE genes: 336
+NK cells found DE genes: 291
+Normal Epithelial found DE genes: 243
+Plasmablasts found DE genes: 65
+PVL found DE genes: 309
+T cells found DE genes: 214
+Total DE genes: 2007
+fitBulk: decomposing bulk
+chooseSigma: using initial Q_mat with sigma = 1
+Likelihood value: 1019164.45229032
+Sigma value: 0.84
+Likelihood value: 1000978.32173939
+Sigma value: 0.69
+Likelihood value: 987398.971906854
+Sigma value: 0.61
+Likelihood value: 982590.220025214
+Sigma value: 0.53
+Likelihood value: 980412.107196338
+Sigma value: 0.52
+Likelihood value: 980373.882265656
+Sigma value: 0.52
+DONE CID4463 2026-09-15 14:32:42 

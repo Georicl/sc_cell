@@ -1,0 +1,4 @@
+donor_id,review_low_umi,review_high_umi,review_low_genes,review_high_genes,review_high_mt,review_epithelial_T,review_CAF_PVL,review_any
+CID4067,11,1,13,3,52,0,8,71
+CID4471,33,9,38,7,159,1,98,301
+CID4535,195,1,313,1,148,6,87,540

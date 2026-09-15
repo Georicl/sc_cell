@@ -1,0 +1,12 @@
+reference_label,CAFs MSC iCAF-like,CAFs myCAF-like,Cancer Basal SC,Cancer Cycling,Cancer Her2 SC,Cancer LumA SC,Cancer LumB SC,Cycling T-cells,Cycling_Myeloid,DCs,Endothelial ACKR1,Endothelial CXCL12,Endothelial Lymphatic LYVE1,Endothelial RGS5,Luminal Progenitors,Macrophage,Mature Luminal,Monocyte,Myoepithelial,NK cells,NKT cells,PVL Differentiated,PVL Immature,T cells CD4+,T cells CD8+
+CAFs,6,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cancer Epithelial,0,0,3,47,2,582,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cycling T-cells,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Endothelial,0,0,0,0,0,0,0,0,0,0,43,23,2,11,0,0,0,0,0,0,0,0,0,0,0
+Myeloid,0,0,0,0,0,0,0,0,10,6,0,0,0,0,0,67,0,18,0,0,0,0,0,0,0
+NK cells,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+NKT cells,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0
+Normal Epithelial,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,10,0,4,0,0,0,0,0,0
+PVL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,5,0,0
+T cells CD4+,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,0
+T cells CD8+,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,75

@@ -1,0 +1,25 @@
+{
+  "source_fit_reference": "Original CID4535-only reference; existing 13-type fit, not the two-donor reference used in the coarse benchmark.",
+  "operation": "Normalize existing raw weights by spot, then sum CD4/CD8/NKT/cycling. No new spatial fitting.",
+  "n_spots": 1102,
+  "n_bootstrap": 10,
+  "top_k": 111,
+  "display_caps_percent": {
+    "CAFs": 38.4969537857164,
+    "T cells": 35.87977442013413
+  },
+  "source_hashes": {
+    "data/processed/CID4535_rctd_v1/rctd_weights_spot_by_celltype.csv": "4c9ae6c779cb2e792cff1e5667365859d3ef12c244c5fe6e8bdaaa30ea707356",
+    "data/processed/CID4535_spatial/spatial_qc_filtering.h5ad": "d9a5af2fab702781c91b17e56f169c497aad01ebeeb11af6d0888dcf375a10b1",
+    "data/processed/CID4535_reference_bootstrap_v1/seed_1001/weights.csv": "079757dba356470bf0d5d15c408dd3426e061120696d693d10aa47f1c50c6797",
+    "data/processed/CID4535_reference_bootstrap_v1/seed_1002/weights.csv": "426d508fb9c90cec6a5c38a3bffa29ded1cd091411f62e00bfc310cf5ca6a209",
+    "data/processed/CID4535_reference_bootstrap_v1/seed_1003/weights.csv": "061e59820333659fea8fc4fd6d462461a892a4b7ddf90bc0993afedeb0bf19b5",
+    "data/processed/CID4535_reference_bootstrap_v1/seed_1004/weights.csv": "8624397c2f49177f80d25d11ad7c4db44da93e1f1cf69b57c98f97bfd37aab91",
+    "data/processed/CID4535_reference_bootstrap_v1/seed_1005/weights.csv": "8a0965afc1fbbc04cc6d8e5b5a04464820e7c4a6005e88e4140744db4f918792",
+    "data/processed/CID4535_reference_bootstrap_v1/seed_1006/weights.csv": "244f914660ad81b4b915b4bf6529c7db0a846b2065a8a75447f95cbfe85ebacb",
+    "data/processed/CID4535_reference_bootstrap_v1/seed_1007/weights.csv": "b3fe75002653bfbf14adb14d303466eb23e1b69bd5913d3760673edd8f41dcb2",
+    "data/processed/CID4535_reference_bootstrap_v1/seed_1008/weights.csv": "ee6540a61a9013c3c67820831ddafc4aab1f68a15fb4c60398c1fdba7f7ef96c",
+    "data/processed/CID4535_reference_bootstrap_v1/seed_1009/weights.csv": "9a3e1c9a54921049a95e6ea409b96774bf11a9d66ee43c361980aad4d82af209",
+    "data/processed/CID4535_reference_bootstrap_v1/seed_1010/weights.csv": "f0925dfd2e93391e3a09c6660dad12ae04c10ca4e7f129eac8e05be7d471fd83"
+  }
+}

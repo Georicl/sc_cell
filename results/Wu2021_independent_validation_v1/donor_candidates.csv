@@ -1,0 +1,27 @@
+donor_id,subtype,total_cells,B-cells,CAFs,Cancer Epithelial,Cycling T-cells,Endothelial,Myeloid,NK cells,NKT cells,Normal Epithelial,PVL,Plasmablasts,T cells CD4+,T cells CD8+,case_id,clinical_excel_row,clinical_subtype,histology,treatment_status,treatment_details,pathological_features,role,reason
+CID3586,HER2+,6178,321,185,0,56,157,200,130,95,698,21,0,2908,1407,3586,5.0,HER2+/ER+,IDC,Naïve,-,Multifocal tumour with associatied high grade DCIS and extensive LVI,subtype_conflict,作者metadata与临床亚型字段不一致
+CID3838,HER2+,2353,47,203,0,42,99,444,75,28,0,158,51,915,291,3838,6.0,HER2+,IDC,Naïve,-,Associated high grade DCIS.,outside_ER_scope,不属于本轮ER+验证范围
+CID3921,HER2+,3024,162,106,441,34,210,385,60,17,0,72,175,975,387,3921,7.0,HER2+,IDC,Naïve,-,Associated high grade DCIS and focal LVI,outside_ER_scope,不属于本轮ER+验证范围
+CID3941,ER+,631,55,8,196,5,44,37,18,9,0,25,0,108,126,3941,8.0,ER+,IDC,Naïve,-,Multifocal tumour with associated high grade DCIS,reserve_validation,未治疗ER+，保留为后续验证；本轮未使用
+CID3946,TNBC,774,0,167,0,1,110,157,1,4,0,248,0,50,36,3946,9.0,TNBC,IDC,Naïve,-,Basal phenotype. Reactive lymphoid inflitrate with germinal centres. ,outside_ER_scope,不属于本轮ER+验证范围
+CID3948,ER+,2327,85,15,261,24,85,122,58,40,0,62,232,845,498,3948,10.0,ER+,IDC,Naïve,-,"Associated LCIS, with LVI and perineural invasion",reserve_validation,未治疗ER+，保留为后续验证；本轮未使用
+CID3963,TNBC,3527,0,23,222,73,102,479,273,94,1,28,0,1065,1167,3963,11.0,ER+,IDC,Treated,"AC, Paclitaxel, Herceptin (administered for Dx 3 years prior)",Probable recurrence from 3 years prior,subtype_conflict,作者metadata与临床亚型字段不一致
+CID4040,ER+,2531,105,129,0,25,218,50,107,22,0,443,74,830,528,4040,12.0,ER+,IDC,Naïve,-,Associated high grade DCIS. ,no_cancer_control,缺少作者标注癌上皮，不能完成本轮上皮验证
+CID4066,HER2+,5309,38,923,521,38,535,221,101,39,270,630,0,1108,885,4066,13.0,HER2+/ER+,IDC,Treated,Neoadjuvant AC,"Associated high grade DCIS and extensive LVI. RCB-III, minimal or no-response to chemotherapy. ",subtype_conflict,作者metadata与临床亚型字段不一致
+CID4067,ER+,3764,53,135,2352,6,186,266,48,39,0,83,0,353,243,4067,14.0,ER+,IDC,Naïve,-,Associated low grade DCIS and focal perineural invasion.,development,已用于误差检查和方案开发
+CID4290A,ER+,5789,117,280,4053,8,298,341,50,24,18,140,0,345,115,,,,,,,,mapping_unresolved,带后缀样本未确认与临床Case ID的对应
+CID4398,ER+,4451,36,178,0,77,101,225,288,129,0,87,91,2313,926,4398,16.0,ER+,IDC,Treated,Neoadjuvant FEC-D,"Mixed morphology with associated high grade DCIS, extensive LVI and perineural invasion. RCB-III, minimal or no-response to chemotherapy. ",treated_or_unknown,不是已确认未治疗供者
+CID44041,TNBC,2131,176,681,0,5,148,105,21,6,151,128,0,432,278,44041,,,,,,,subtype_conflict,作者metadata与临床亚型字段不一致
+CID4461,ER+,631,0,41,207,8,182,53,2,3,0,48,32,44,11,4461,18.0,ER+,IDC,Naïve,-,"Associated intermediate to high grade DCIS, LVI and perineural invasion.",reserve_validation,未治疗ER+，保留为后续验证；本轮未使用
+CID4463,ER+,1138,0,25,659,5,79,101,3,19,26,31,0,115,75,4463,19.0,ER+,IDC,Naïve,-,"IDC with areas of lobular -like growth pattern, but is E-cadherin positive. Associated low through high grade DCIS and LVI.",independent_validation,临床精确对应，未治疗ER+，CAF/CD8/癌上皮/正常上皮均有覆盖
+CID4465,TNBC,1564,33,379,124,10,294,181,2,5,10,317,110,64,35,4465,20.0,TNBC,IDC,Naïve,-,Basal phenotype - patchy CK5/6 and p63 positivity. Associated high grade DCIS at periphery of tumour mass. ,outside_ER_scope,不属于本轮ER+验证范围
+CID4471,ER+,8609,99,1292,212,8,2778,285,30,32,1966,1285,51,412,159,4471,21.0,ER+,ILC,Naïve,-,-,reference,已用于参考构建
+CID4495,TNBC,7985,773,232,1184,430,184,897,52,31,0,191,1020,1741,1250,4495,22.0,TNBC,IDC,Naïve,-,Medullary features,outside_ER_scope,不属于本轮ER+验证范围
+CID44971,TNBC,7986,369,582,894,271,217,684,94,43,735,91,48,2247,1711,44971,,,,,,,subtype_conflict,作者metadata与临床亚型字段不一致
+CID44991,TNBC,7023,88,245,4018,149,41,206,20,47,24,46,1453,470,216,44991,,,,,,,subtype_conflict,作者metadata与临床亚型字段不一致
+CID4513,TNBC,5619,43,13,1058,181,162,2795,205,45,0,82,0,597,438,4513,25.0,TNBC,MBC,Treated,"Neoadjuvant AC (4x), Paclitaxel (3x)","Metaplastic, spindle cell carcinoma with areas of sarcomatous appearance and inflammatory infiltrate. LVI present.  RCB-II, partial pathological response to chemotherapy",outside_ER_scope,不属于本轮ER+验证范围
+CID4515,TNBC,4149,494,187,2169,20,122,563,41,73,36,123,36,164,121,4515,26.0,TNBC,IDC,Naïve,-,"Basal phenotype: CK5/6+ focal 40%, CK14+ focal 30%. Associated high grade DCIS and patchy lymphoid infiltrate.",outside_ER_scope,不属于本轮ER+验证范围
+CID45171,HER2+,2447,56,32,813,18,15,172,87,206,0,13,0,704,331,45171,,,,,,,subtype_conflict,作者metadata与临床亚型字段不一致
+CID4523,TNBC,1754,0,42,1167,14,3,355,44,12,0,10,0,60,47,4523,28.0,TNBC,MBC,Treated," Neoadjuvant AC (4x), Paclitaxel (1x)","Metaplastic carcinoma with sebaceous differentiation. LVI present. RCB-II, partial pathological response to chemotherapy",outside_ER_scope,不属于本轮ER+验证范围
+CID4530N,ER+,4409,0,368,1715,1,1016,96,11,45,398,469,55,127,108,,,,,,,,mapping_unresolved,带后缀样本未确认与临床Case ID的对应
+CID4535,ER+,3961,56,102,2223,19,219,255,25,15,22,592,96,239,98,4535,30.0,ER+,ILC,Naïve,-,-,reference,已用于参考构建

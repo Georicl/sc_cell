@@ -1,0 +1,22 @@
+{
+  "gene_order": true,
+  "no_train_test_overlap": true,
+  "no_duplicate_cells_within_spot": true,
+  "test_donor_only": true,
+  "rna_truth": true,
+  "cells_truth": true,
+  "component_umi_totals": true,
+  "matrix_umi_totals": true,
+  "original_244_count_reconstruction": true,
+  "paired_source_cells": true,
+  "thinned_counts_bounded": true,
+  "input_hash_reference_counts.mtx": true,
+  "input_hash_spatial_counts.mtx": true,
+  "input_hash_genes.tsv": true,
+  "input_hash_reference_metadata.csv": true,
+  "input_hash_spatial_metadata.csv": true,
+  "RCTD_valid_weights": true,
+  "RCTD_metric_recalculation": true,
+  "NNLS_valid_weights": true,
+  "NNLS_metric_recalculation": true
+}

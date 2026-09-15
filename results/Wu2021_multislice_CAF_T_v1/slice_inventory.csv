@@ -1,0 +1,7 @@
+sample_id,subtype,n_before,n_outside,n_artefact,n_excluded,n_retained,missing_pathology,uncertain_pathology,model_genes,omitted_genes,model_umi_min,model_umi_median,full_umi_median,reference_overlap
+CID4535,ER,1127,2,23,25,1102,1,73,15770,0,646,12478.5,12883.0,True
+CID4290,ER,2432,6,7,13,2419,0,0,15770,0,706,7658.0,7875.0,False
+CID4465,TNBC,1211,0,4,4,1207,0,0,15770,0,1083,11019.0,11304.0,False
+CID44971,TNBC,1162,2,1,3,1159,0,0,15770,0,602,9831.0,10136.0,False
+1142243F,TNBC,4784,0,119,119,4665,0,0,15581,189,13,5193.0,5445.0,False
+1160920F,TNBC,4895,0,48,48,4847,1,0,15581,189,156,10821.0,11258.0,False

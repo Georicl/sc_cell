@@ -1,0 +1,38 @@
+{
+  "donors": [
+    "CID4471",
+    "CID4067",
+    "CID4535"
+  ],
+  "source_matrix": "data/raw/wu2021_scrna/Wu_etal_2021_BRCA_scRNASeq/count_matrix_sparse.mtx",
+  "cell_policy": "retain author cells with finite positive counts",
+  "min_cells_per_gene": 1,
+  "review_mad_multiplier": 5,
+  "review_min_group_cells": 20,
+  "panel_min_umi": 2,
+  "panel_min_genes": 2,
+  "panels": {
+    "epithelial": [
+      "EPCAM",
+      "KRT8",
+      "KRT18",
+      "KRT19"
+    ],
+    "T_lineage": [
+      "CD3D",
+      "CD3E",
+      "TRAC"
+    ],
+    "CAF": [
+      "COL1A1",
+      "COL1A2",
+      "DCN",
+      "LUM"
+    ],
+    "PVL": [
+      "RGS5",
+      "CSPG4",
+      "MCAM"
+    ]
+  }
+}

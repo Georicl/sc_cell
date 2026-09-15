@@ -1,0 +1,26 @@
+{
+  "script": "src/sc_sncell_github/make_wu2021_stage_paper_figures.py",
+  "source_sha256": {
+    "results/Wu2021_reference_comparison_v1/reference_inventory.csv": "4612c2fb9e445600824f7c52a4cf55b06f130b820d3aa5cd06a62fc770b1b513",
+    "results/CID4535_reference_bootstrap_v1/stability_summary.csv": "1241437600d3039fb48fcb4414510e07f3286216932b50118adf33f8c8ec1ee7",
+    "results/Wu2021_reference_comparison_v1/key_metrics.csv": "57c4950bbbd14ded77ff1b3d40f4bdcf2473be72227d6af5361201e9578e27f1",
+    "results/Wu2021_independent_validation_v1/validation_metrics.csv": "1129b7cea1e8a45021b11ee2722fcc9b7c7929515cfc5e8c659f6847f9e3b7d1",
+    "results/Wu2021_tcell_validation_v1/gradient_metrics.csv": "1ba175582419226c02c1ba355d1981a5a6db04b1f54b5cf5bb94eaa6db809e03",
+    "results/Wu2021_coarse_T_v1/T_cell_key_metrics.csv": "bfd8b7c14b6b67883a366fea4ec27ba61153ddd763f69e9ef6d33530c24e0d96",
+    "results/Wu2021_multislice_CAF_T_v1/completed_slice_summary.csv": "1468ad130c9dee1c94df977a718d3117722dffc86cde201dcfea9ed6592b1402",
+    "results/Wu2021_multislice_CAF_T_v1/all_marker_concordance.csv": "a2c945da219b0d900de9248c9c31249ff0cc2293a9d8703de7bd71ea8326f27a",
+    "results/Wu2021_multislice_CAF_T_v1/CID4535/spot_review.csv": "1300765e203ab44394a49e3f6f194fd05d392c0819c688018ee7430093bcec30",
+    "results/Wu2021_multislice_CAF_T_v1/CID4290/spot_review.csv": "bdd17be7a5a7268b0ee96f3365735e934d28955155b8151f3a6c6fdc96d60e56",
+    "results/Wu2021_multislice_CAF_T_v1/CID4465/spot_review.csv": "759ee5cbd1e11f499e4496354ad0b20c105d83538995f8bd75c51a8c5a8eb67e",
+    "results/Wu2021_multislice_CAF_T_v1/CID44971/spot_review.csv": "ad00e5e83f4db4776b98b22120152af9dfc510b38943ad90a8c9c65ffb1e9a3f",
+    "results/Wu2021_multislice_CAF_T_v1/1142243F/spot_review.csv": "0c0d19241b0cb1c11f064bf469102455c778209039c7ec1939e534f841af61f7",
+    "results/Wu2021_multislice_CAF_T_v1/1160920F/spot_review.csv": "9317f57fdcabfb1d308a3a074bc4035c2ea9b23b501ae5492b2deccae1df472e"
+  },
+  "spatial_shared_p99_percent": {
+    "CAFs": 42.96703310452728,
+    "T cells": 38.54308009983306
+  },
+  "figure2_3_truth": "captured RNA fraction; errors in percentage points",
+  "figure3_depth_fraction": 1,
+  "models_rerun": false
+}

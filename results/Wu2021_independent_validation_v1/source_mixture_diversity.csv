@@ -1,0 +1,139 @@
+scenario,recipe,depth_fraction,n_spots,distinct_source_sets
+epithelial_titration,normal0_cancer10,0.25,5,5
+epithelial_titration,normal0_cancer10,1.0,5,5
+epithelial_titration,normal10_cancer0,0.25,5,5
+epithelial_titration,normal10_cancer0,1.0,5,5
+epithelial_titration,normal2_cancer8,0.25,5,5
+epithelial_titration,normal2_cancer8,1.0,5,5
+epithelial_titration,normal5_cancer5,0.25,5,5
+epithelial_titration,normal5_cancer5,1.0,5,5
+epithelial_titration,normal8_cancer2,0.25,5,5
+epithelial_titration,normal8_cancer2,1.0,5,5
+factorial,caf0_cd80_Cycling T-cells,0.25,3,3
+factorial,caf0_cd80_Cycling T-cells,1.0,3,3
+factorial,caf0_cd80_Endothelial,0.25,3,3
+factorial,caf0_cd80_Endothelial,1.0,3,3
+factorial,caf0_cd80_Myeloid,0.25,3,3
+factorial,caf0_cd80_Myeloid,1.0,3,3
+factorial,caf0_cd80_NK cells,0.25,3,3
+factorial,caf0_cd80_NK cells,1.0,3,3
+factorial,caf0_cd80_NKT cells,0.25,3,3
+factorial,caf0_cd80_NKT cells,1.0,3,3
+factorial,caf0_cd80_T cells CD4+,0.25,3,3
+factorial,caf0_cd80_T cells CD4+,1.0,3,3
+factorial,caf0_cd81_Cycling T-cells,0.25,3,3
+factorial,caf0_cd81_Cycling T-cells,1.0,3,3
+factorial,caf0_cd81_Endothelial,0.25,3,3
+factorial,caf0_cd81_Endothelial,1.0,3,3
+factorial,caf0_cd81_Myeloid,0.25,3,3
+factorial,caf0_cd81_Myeloid,1.0,3,3
+factorial,caf0_cd81_NK cells,0.25,3,3
+factorial,caf0_cd81_NK cells,1.0,3,3
+factorial,caf0_cd81_NKT cells,0.25,3,3
+factorial,caf0_cd81_NKT cells,1.0,3,3
+factorial,caf0_cd81_T cells CD4+,0.25,3,3
+factorial,caf0_cd81_T cells CD4+,1.0,3,3
+factorial,caf0_cd83_Cycling T-cells,0.25,3,3
+factorial,caf0_cd83_Cycling T-cells,1.0,3,3
+factorial,caf0_cd83_Endothelial,0.25,3,3
+factorial,caf0_cd83_Endothelial,1.0,3,3
+factorial,caf0_cd83_Myeloid,0.25,3,3
+factorial,caf0_cd83_Myeloid,1.0,3,3
+factorial,caf0_cd83_NK cells,0.25,3,3
+factorial,caf0_cd83_NK cells,1.0,3,3
+factorial,caf0_cd83_NKT cells,0.25,3,3
+factorial,caf0_cd83_NKT cells,1.0,3,3
+factorial,caf0_cd83_T cells CD4+,0.25,3,3
+factorial,caf0_cd83_T cells CD4+,1.0,3,3
+factorial,caf1_cd80_Cycling T-cells,0.25,3,3
+factorial,caf1_cd80_Cycling T-cells,1.0,3,3
+factorial,caf1_cd80_Endothelial,0.25,3,3
+factorial,caf1_cd80_Endothelial,1.0,3,3
+factorial,caf1_cd80_Myeloid,0.25,3,3
+factorial,caf1_cd80_Myeloid,1.0,3,3
+factorial,caf1_cd80_NK cells,0.25,3,3
+factorial,caf1_cd80_NK cells,1.0,3,3
+factorial,caf1_cd80_NKT cells,0.25,3,3
+factorial,caf1_cd80_NKT cells,1.0,3,3
+factorial,caf1_cd80_T cells CD4+,0.25,3,3
+factorial,caf1_cd80_T cells CD4+,1.0,3,3
+factorial,caf1_cd81_Cycling T-cells,0.25,3,3
+factorial,caf1_cd81_Cycling T-cells,1.0,3,3
+factorial,caf1_cd81_Endothelial,0.25,3,3
+factorial,caf1_cd81_Endothelial,1.0,3,3
+factorial,caf1_cd81_Myeloid,0.25,3,3
+factorial,caf1_cd81_Myeloid,1.0,3,3
+factorial,caf1_cd81_NK cells,0.25,3,3
+factorial,caf1_cd81_NK cells,1.0,3,3
+factorial,caf1_cd81_NKT cells,0.25,3,3
+factorial,caf1_cd81_NKT cells,1.0,3,3
+factorial,caf1_cd81_T cells CD4+,0.25,3,3
+factorial,caf1_cd81_T cells CD4+,1.0,3,3
+factorial,caf1_cd83_Cycling T-cells,0.25,3,3
+factorial,caf1_cd83_Cycling T-cells,1.0,3,3
+factorial,caf1_cd83_Endothelial,0.25,3,3
+factorial,caf1_cd83_Endothelial,1.0,3,3
+factorial,caf1_cd83_Myeloid,0.25,3,3
+factorial,caf1_cd83_Myeloid,1.0,3,3
+factorial,caf1_cd83_NK cells,0.25,3,3
+factorial,caf1_cd83_NK cells,1.0,3,3
+factorial,caf1_cd83_NKT cells,0.25,3,3
+factorial,caf1_cd83_NKT cells,1.0,3,3
+factorial,caf1_cd83_T cells CD4+,0.25,3,3
+factorial,caf1_cd83_T cells CD4+,1.0,3,3
+factorial,caf3_cd80_Cycling T-cells,0.25,3,3
+factorial,caf3_cd80_Cycling T-cells,1.0,3,3
+factorial,caf3_cd80_Endothelial,0.25,3,3
+factorial,caf3_cd80_Endothelial,1.0,3,3
+factorial,caf3_cd80_Myeloid,0.25,3,3
+factorial,caf3_cd80_Myeloid,1.0,3,3
+factorial,caf3_cd80_NK cells,0.25,3,3
+factorial,caf3_cd80_NK cells,1.0,3,3
+factorial,caf3_cd80_NKT cells,0.25,3,3
+factorial,caf3_cd80_NKT cells,1.0,3,3
+factorial,caf3_cd80_T cells CD4+,0.25,3,3
+factorial,caf3_cd80_T cells CD4+,1.0,3,3
+factorial,caf3_cd81_Cycling T-cells,0.25,3,3
+factorial,caf3_cd81_Cycling T-cells,1.0,3,3
+factorial,caf3_cd81_Endothelial,0.25,3,3
+factorial,caf3_cd81_Endothelial,1.0,3,3
+factorial,caf3_cd81_Myeloid,0.25,3,3
+factorial,caf3_cd81_Myeloid,1.0,3,3
+factorial,caf3_cd81_NK cells,0.25,3,3
+factorial,caf3_cd81_NK cells,1.0,3,3
+factorial,caf3_cd81_NKT cells,0.25,3,3
+factorial,caf3_cd81_NKT cells,1.0,3,3
+factorial,caf3_cd81_T cells CD4+,0.25,3,3
+factorial,caf3_cd81_T cells CD4+,1.0,3,3
+factorial,caf3_cd83_Cycling T-cells,0.25,3,3
+factorial,caf3_cd83_Cycling T-cells,1.0,3,3
+factorial,caf3_cd83_Endothelial,0.25,3,3
+factorial,caf3_cd83_Endothelial,1.0,3,3
+factorial,caf3_cd83_Myeloid,0.25,3,3
+factorial,caf3_cd83_Myeloid,1.0,3,3
+factorial,caf3_cd83_NK cells,0.25,3,3
+factorial,caf3_cd83_NK cells,1.0,3,3
+factorial,caf3_cd83_NKT cells,0.25,3,3
+factorial,caf3_cd83_NKT cells,1.0,3,3
+factorial,caf3_cd83_T cells CD4+,0.25,3,3
+factorial,caf3_cd83_T cells CD4+,1.0,3,3
+pure,CAFs,0.25,5,5
+pure,CAFs,1.0,5,5
+pure,Cancer Epithelial,0.25,5,5
+pure,Cancer Epithelial,1.0,5,5
+pure,Cycling T-cells,0.25,5,1
+pure,Cycling T-cells,1.0,5,1
+pure,Endothelial,0.25,5,5
+pure,Endothelial,1.0,5,5
+pure,Myeloid,0.25,5,5
+pure,Myeloid,1.0,5,5
+pure,NKT cells,0.25,5,5
+pure,NKT cells,1.0,5,5
+pure,Normal Epithelial,0.25,5,5
+pure,Normal Epithelial,1.0,5,5
+pure,PVL,0.25,5,5
+pure,PVL,1.0,5,5
+pure,T cells CD4+,0.25,5,5
+pure,T cells CD4+,1.0,5,5
+pure,T cells CD8+,0.25,5,5
+pure,T cells CD8+,1.0,5,5

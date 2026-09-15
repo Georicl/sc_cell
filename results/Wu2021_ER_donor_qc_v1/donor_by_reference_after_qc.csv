@@ -1,0 +1,4 @@
+donor_id,B-cells,CAFs,Cancer Epithelial,Cycling T-cells,Endothelial,Myeloid,NK cells,NKT cells,Normal Epithelial,PVL,Plasmablasts,T cells CD4+,T cells CD8+
+CID4067,53,135,2352,6,186,266,48,39,0,83,0,353,243
+CID4471,99,1292,212,8,2778,285,30,32,1966,1285,51,412,159
+CID4535,56,102,2223,19,219,255,25,15,22,592,96,239,98

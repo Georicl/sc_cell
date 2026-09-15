@@ -1,0 +1,9 @@
+{
+  "local_readme_links": "pass",
+  "source_hashes": "pass",
+  "reference_cell_total": 12570,
+  "fine_sum_lower_MAE_donors_each_depth": 4,
+  "main_figures": 4,
+  "model_reruns": 0,
+  "visual_review": "four figures inspected; Figure 3 legend moved off bars"
+}

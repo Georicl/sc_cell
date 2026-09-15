@@ -1,0 +1,8 @@
+{
+  "data/processed/Wu2021_independent_validation_v1/CID4463_counts_before_qc.h5ad": "7f92c1a7f336471814248adfa1db1b1424e7ff9ae4291b9d486817f42196ee45",
+  "data/processed/Wu2021_independent_validation_v1/spatial_counts.mtx": "c6840ca3182ad67d94c48d874161936a5d4ebac7f5ee46d1815ce1d76c0da099",
+  "data/processed/Wu2021_independent_validation_v1/spatial_metadata.csv": "d2f222b538d296e1a0039cc13309dc5819e269db74b9496b7afce23d5561ff6c",
+  "data/processed/Wu2021_independent_validation_v1/genes.tsv": "a2a40b1ea2eab43ccf784d25fa25467be6dd05897bf551f2459e172442048d88",
+  "results/Wu2021_independent_validation_v1/frozen_recipes.csv": "59bb1edfc8e468b60ea9a48f6e56dea9b43e422185345baded838360bf0d8548",
+  "results/Wu2021_independent_validation_v1/protocol.json": "204f35e04b6bcf0291f4ddd4e2bae3e76b425e71a40d7e0779988a8cfa582348"
+}

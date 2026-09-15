@@ -1,0 +1,51 @@
+{
+  "frozen_at_utc": "2026-09-15T09:29:39.733152+00:00",
+  "samples": [
+    "CID4535",
+    "CID4290",
+    "CID4465",
+    "CID44971",
+    "1142243F",
+    "1160920F"
+  ],
+  "reference_donors": [
+    "CID4471",
+    "CID4535"
+  ],
+  "labels": "Original 13 reference labels; sum CD4, CD8, NKT and Cycling T after fitting. NK separate.",
+  "gene_scope": "Use original CID4535 15770-gene input list as template. Intersect with each slice feature names, without alias guessing or zero padding; record omitted genes. CID4535 keeps its exact original gene input.",
+  "qc": "Exclude author Artefact OR in_tissue==0; missing pathology and Uncertain retained in expression analysis, excluded from pathology summaries. No new UMI/mitochondrial filter.",
+  "rctd": {
+    "seed": 9,
+    "mode": "full",
+    "max_cores": 2,
+    "ref_UMI_min": 100,
+    "ref_n_cells_min": 25
+  },
+  "comparison": "CID4535 old single-donor fit vs new two-donor fit; both use identical spatial counts and gene list.",
+  "expansion": "Other local Wu slices; ER and TNBC displayed separately; ER reference applied to TNBC as transfer check.",
+  "marker_checks": {
+    "T": [
+      "CD3D",
+      "CD3E",
+      "CD3G",
+      "TRAC",
+      "TRBC1",
+      "TRBC2"
+    ],
+    "CAF": [
+      "COL1A1",
+      "COL1A2",
+      "DCN",
+      "LUM"
+    ],
+    "NK": [
+      "NKG7",
+      "GNLY",
+      "KLRD1"
+    ]
+  },
+  "marker_score": "Mean log1p(CP10k) using full measured spatial-library UMI; expression concordance, not independent cell identity validation.",
+  "high_spots": "Top ceil(10% * n_spots), stable barcode order breaks ties",
+  "inference": "Describe CAF and aggregate T distributions and reference sensitivity; no causal/exclusion inference from relative-weight correlations."
+}

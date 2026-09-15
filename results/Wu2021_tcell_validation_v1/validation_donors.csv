@@ -1,0 +1,4 @@
+donor_id,subtype,total_cells,B-cells,CAFs,Cancer Epithelial,Cycling T-cells,Endothelial,Myeloid,NK cells,NKT cells,Normal Epithelial,PVL,Plasmablasts,T cells CD4+,T cells CD8+,case_id,clinical_excel_row,clinical_subtype,histology,treatment_status,treatment_details,pathological_features,role,reason,previous_role
+CID3941,ER+,631,55,8,196,5,44,37,18,9,0,25,0,108,126,3941.0,8.0,ER+,IDC,Naïve,-,Multifocal tumour with associated high grade DCIS,tcell_validation,未治疗ER+，保留为后续验证；本轮未使用,reserve_validation
+CID3948,ER+,2327,85,15,261,24,85,122,58,40,0,62,232,845,498,3948.0,10.0,ER+,IDC,Naïve,-,"Associated LCIS, with LVI and perineural invasion",tcell_validation,未治疗ER+，保留为后续验证；本轮未使用,reserve_validation
+CID4461,ER+,631,0,41,207,8,182,53,2,3,0,48,32,44,11,4461.0,18.0,ER+,IDC,Naïve,-,"Associated intermediate to high grade DCIS, LVI and perineural invasion.",tcell_validation,未治疗ER+，保留为后续验证；本轮未使用,reserve_validation

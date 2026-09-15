@@ -1,0 +1,16 @@
+{
+  "data/processed/Wu2021_known_composition_v1/spatial_counts.mtx": "c0cec1ad7f8de544e87e18898a5091f0f1c97cdbee737e71669486905d368c79",
+  "data/processed/Wu2021_known_composition_v1/spatial_metadata.csv": "868055d5c4959243587385429caa0cfa842ed0fc976ca41025abfbdbbdd5eb9d",
+  "data/processed/Wu2021_reference_comparison_v1/donor_balanced/reference_metadata.csv": "8544e04ab4122f81808c07637961fd8c1b4994d418f8cc42f8b485def5066a53",
+  "data/processed/Wu2021_reference_comparison_v1/donor_balanced/nnls_reference_profiles.csv": "e4bb8d5db6530a13170b039661ebd934db1b136710ea8ff6dedfeb98f0f99282",
+  "data/processed/Wu2021_reference_comparison_v1/balanced_split/reference_metadata.csv": "3c2dd92bc03b1d958dd00b4823554b9aaf25c88d60975d77f03694e269a83d0f",
+  "data/processed/Wu2021_reference_comparison_v1/balanced_split/nnls_reference_profiles.csv": "ad8e6d881a8cde78c5139f073c5455bc038d8217297b7969d09e00aacef0d26f",
+  "data/processed/Wu2021_reference_comparison_v1/epithelial_split/reference_metadata.csv": "f363264fd51d73c2730bc7d72c5f314d0a625370e202a9b1613ae25a4d31a62f",
+  "data/processed/Wu2021_reference_comparison_v1/epithelial_split/nnls_reference_profiles.csv": "4f9351ddc9808624c4c3eeecb41f6f52e776a6f6b6b01c1d9d004d1fc5cac173",
+  "data/processed/Wu2021_reference_comparison_v1/donor_balanced/reference_counts.mtx": "7250b4d7d1938a003809e4f477f76bc3abfa534b5cd83bb516846e0b0eb7ff98",
+  "data/processed/Wu2021_reference_comparison_v1/balanced_split/reference_counts.mtx": "7250b4d7d1938a003809e4f477f76bc3abfa534b5cd83bb516846e0b0eb7ff98",
+  "data/processed/Wu2021_reference_comparison_v1/epithelial_split/reference_counts.mtx": "8025453514e2bd415911eb8ef14dd6c92de1d1e5d9938d75546745cf98759a77",
+  "data/processed/Wu2021_reference_comparison_v1/donor_balanced/genes.tsv": "a2a40b1ea2eab43ccf784d25fa25467be6dd05897bf551f2459e172442048d88",
+  "data/processed/Wu2021_reference_comparison_v1/balanced_split/genes.tsv": "a2a40b1ea2eab43ccf784d25fa25467be6dd05897bf551f2459e172442048d88",
+  "data/processed/Wu2021_reference_comparison_v1/epithelial_split/genes.tsv": "a2a40b1ea2eab43ccf784d25fa25467be6dd05897bf551f2459e172442048d88"
+}

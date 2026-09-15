@@ -1,0 +1,25 @@
+function (spatial_counts, cell_type_info, fc_thresh = 1.25, expr_thresh = 0.00015, 
+    MIN_OBS = 3, de_type = "regression") 
+{
+    message("Getting ", de_type, " differentially expressed genes: ")
+    total_gene_list <- c()
+    gene_list <- getInitialGeneList(spatial_counts, cell_type_info, 
+        MIN_OBS)
+    for (cell_type in cell_type_info[[2]]) {
+        cell_type_expression <- cell_type_info[[1]][gene_list, 
+            cell_type]
+        other_types_expression <- rowMeans(cell_type_info[[1]][gene_list, 
+            cell_type_info[[2]] != cell_type, drop = FALSE])
+        log_fc <- logep(cell_type_expression) - logep(other_types_expression)
+        type_gene_list <- which((log_fc > fc_thresh) & (cell_type_expression > 
+            expr_thresh))
+        message(cell_type, " found DE genes: ", length(type_gene_list))
+        total_gene_list <- union(total_gene_list, type_gene_list)
+    }
+    total_gene_list <- gene_list[total_gene_list]
+    if (length(total_gene_list) < 10) {
+        stop("Fewer than 10 ", de_type, " differentially expressed genes found")
+    }
+    message("Total DE genes: ", length(total_gene_list))
+    return(total_gene_list)
+}

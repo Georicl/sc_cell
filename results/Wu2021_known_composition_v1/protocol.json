@@ -1,0 +1,60 @@
+{
+  "reference_donors": [
+    "CID4471",
+    "CID4535"
+  ],
+  "test_donor": "CID4067",
+  "sampling_seed": 20260915,
+  "rctd_seed": 9,
+  "factorial_CAF_cells": [
+    0,
+    1,
+    3
+  ],
+  "factorial_CD8_cells": [
+    0,
+    1,
+    3
+  ],
+  "factorial_cells_per_spot": 10,
+  "fixed_PVL_cells": 1,
+  "background_types": [
+    "T cells CD4+",
+    "Myeloid",
+    "Endothelial",
+    "B-cells",
+    "NK cells",
+    "NKT cells",
+    "Cycling T-cells"
+  ],
+  "background_cells": 1,
+  "repeats_per_recipe": 3,
+  "remaining_cells": "Cancer Epithelial",
+  "pure_control_cells_per_spot": 5,
+  "pure_repeats_per_present_type": 5,
+  "depth_fractions": [
+    1.0,
+    0.25
+  ],
+  "sampling": "without replacement within each spot; cells can recur across spots",
+  "thinning": "independent binomial thinning of each component cell count",
+  "primary_target": "fraction of captured RNA UMIs contributed by each type after thinning",
+  "secondary_target": "known cell-number fraction",
+  "primary_metrics": [
+    "MAE",
+    "RMSE",
+    "bias"
+  ],
+  "diagnostic_positive_weight_threshold": 0.01,
+  "nnls_feature_count": 2000,
+  "nnls_gene_selection": "between-reference-type variance / mean of full-library-normalized profiles, reference only",
+  "rctd": {
+    "rctd_mode": "full",
+    "max_cores": 2,
+    "ref_UMI_min": 100,
+    "ref_n_cells_min": 25
+  },
+  "reference_weighting": "pool cells within each reference label, matching initial RCTD reference construction",
+  "gene_universe": "shared measured gene list from original Wu count matrix; zero rows retained at input",
+  "independent_test_donors": 1
+}

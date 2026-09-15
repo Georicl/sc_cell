@@ -1,0 +1,4 @@
+sample_id,definition,spearman
+CID4465,main_T_all,0.3924733310870186
+CID4465,diagnostic_without_cycling,0.5277795887571456
+CID4465,Cycling_T_component,-0.03498392954405903

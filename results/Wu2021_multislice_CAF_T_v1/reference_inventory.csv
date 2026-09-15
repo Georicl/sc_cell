@@ -1,0 +1,27 @@
+donor_id,reference_label,n_cells
+CID4471,B-cells,99
+CID4471,CAFs,1292
+CID4471,Cancer Epithelial,212
+CID4471,Cycling T-cells,8
+CID4471,Endothelial,2778
+CID4471,Myeloid,285
+CID4471,NK cells,30
+CID4471,NKT cells,32
+CID4471,Normal Epithelial,1966
+CID4471,PVL,1285
+CID4471,Plasmablasts,51
+CID4471,T cells CD4+,412
+CID4471,T cells CD8+,159
+CID4535,B-cells,56
+CID4535,CAFs,102
+CID4535,Cancer Epithelial,2223
+CID4535,Cycling T-cells,19
+CID4535,Endothelial,219
+CID4535,Myeloid,255
+CID4535,NK cells,25
+CID4535,NKT cells,15
+CID4535,Normal Epithelial,22
+CID4535,PVL,592
+CID4535,Plasmablasts,96
+CID4535,T cells CD4+,239
+CID4535,T cells CD8+,98

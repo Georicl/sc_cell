@@ -1,0 +1,16 @@
+reference_label,parent_label
+Endothelial,Endothelial
+CAFs,CAFs
+PVL,PVL
+B-cells,B-cells
+Plasmablasts,Plasmablasts
+T cells CD8+,T cells CD8+
+T cells CD4+,T cells CD4+
+NK cells,NK cells
+Cycling T-cells,Cycling T-cells
+NKT cells,NKT cells
+Myeloid,Myeloid
+Cancer Other,Cancer Epithelial
+Cancer LumA,Cancer Epithelial
+Normal Epithelial,Normal Epithelial
+Cancer LumB,Cancer Epithelial

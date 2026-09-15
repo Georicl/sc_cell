@@ -1,0 +1,16 @@
+{
+  "CID4535_author_umi_exact": true,
+  "CID4535_author_genes_exact": true,
+  "CID4535_same_spot_order": true,
+  "CID4535_same_spatial_matrix": true,
+  "CID4290_author_umi_exact": true,
+  "CID4290_author_genes_exact": true,
+  "CID4465_author_umi_exact": true,
+  "CID4465_author_genes_exact": true,
+  "CID44971_author_umi_exact": true,
+  "CID44971_author_genes_exact": true,
+  "1142243F_author_umi_exact": true,
+  "1142243F_author_genes_exact": true,
+  "1160920F_author_umi_exact": true,
+  "1160920F_author_genes_exact": true
+}

@@ -1,0 +1,38 @@
+role,donor_id,reference_label,n_cells
+heldout_test,CID4067,B-cells,53
+heldout_test,CID4067,CAFs,135
+heldout_test,CID4067,Cancer Epithelial,2352
+heldout_test,CID4067,Cycling T-cells,6
+heldout_test,CID4067,Endothelial,186
+heldout_test,CID4067,Myeloid,266
+heldout_test,CID4067,NK cells,48
+heldout_test,CID4067,NKT cells,39
+heldout_test,CID4067,PVL,83
+heldout_test,CID4067,T cells CD4+,353
+heldout_test,CID4067,T cells CD8+,243
+reference,CID4471,B-cells,99
+reference,CID4471,CAFs,1292
+reference,CID4471,Cancer Epithelial,212
+reference,CID4471,Cycling T-cells,8
+reference,CID4471,Endothelial,2778
+reference,CID4471,Myeloid,285
+reference,CID4471,NK cells,30
+reference,CID4471,NKT cells,32
+reference,CID4471,Normal Epithelial,1966
+reference,CID4471,PVL,1285
+reference,CID4471,Plasmablasts,51
+reference,CID4471,T cells CD4+,412
+reference,CID4471,T cells CD8+,159
+reference,CID4535,B-cells,56
+reference,CID4535,CAFs,102
+reference,CID4535,Cancer Epithelial,2223
+reference,CID4535,Cycling T-cells,19
+reference,CID4535,Endothelial,219
+reference,CID4535,Myeloid,255
+reference,CID4535,NK cells,25
+reference,CID4535,NKT cells,15
+reference,CID4535,Normal Epithelial,22
+reference,CID4535,PVL,592
+reference,CID4535,Plasmablasts,96
+reference,CID4535,T cells CD4+,239
+reference,CID4535,T cells CD8+,98

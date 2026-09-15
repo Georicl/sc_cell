@@ -1,0 +1,83 @@
+donor_id,parent_label,reference_label,n_cells,variant
+CID4471,B-cells,B-cells,56,donor_balanced
+CID4471,CAFs,CAFs,102,donor_balanced
+CID4471,Cancer Epithelial,Cancer Epithelial,212,donor_balanced
+CID4471,Cycling T-cells,Cycling T-cells,8,donor_balanced
+CID4471,Endothelial,Endothelial,219,donor_balanced
+CID4471,Myeloid,Myeloid,255,donor_balanced
+CID4471,NK cells,NK cells,25,donor_balanced
+CID4471,NKT cells,NKT cells,15,donor_balanced
+CID4471,Normal Epithelial,Normal Epithelial,22,donor_balanced
+CID4471,PVL,PVL,592,donor_balanced
+CID4471,Plasmablasts,Plasmablasts,51,donor_balanced
+CID4471,T cells CD4+,T cells CD4+,239,donor_balanced
+CID4471,T cells CD8+,T cells CD8+,98,donor_balanced
+CID4535,B-cells,B-cells,56,donor_balanced
+CID4535,CAFs,CAFs,102,donor_balanced
+CID4535,Cancer Epithelial,Cancer Epithelial,212,donor_balanced
+CID4535,Cycling T-cells,Cycling T-cells,19,donor_balanced
+CID4535,Endothelial,Endothelial,219,donor_balanced
+CID4535,Myeloid,Myeloid,255,donor_balanced
+CID4535,NK cells,NK cells,25,donor_balanced
+CID4535,NKT cells,NKT cells,15,donor_balanced
+CID4535,Normal Epithelial,Normal Epithelial,22,donor_balanced
+CID4535,PVL,PVL,592,donor_balanced
+CID4535,Plasmablasts,Plasmablasts,51,donor_balanced
+CID4535,T cells CD4+,T cells CD4+,239,donor_balanced
+CID4535,T cells CD8+,T cells CD8+,98,donor_balanced
+CID4471,B-cells,B-cells,99,epithelial_split
+CID4471,CAFs,CAFs,1292,epithelial_split
+CID4471,Cancer Epithelial,Cancer LumA,169,epithelial_split
+CID4471,Cancer Epithelial,Cancer Other,43,epithelial_split
+CID4471,Cycling T-cells,Cycling T-cells,8,epithelial_split
+CID4471,Endothelial,Endothelial,2778,epithelial_split
+CID4471,Myeloid,Myeloid,285,epithelial_split
+CID4471,NK cells,NK cells,30,epithelial_split
+CID4471,NKT cells,NKT cells,32,epithelial_split
+CID4471,Normal Epithelial,Normal Epithelial,1966,epithelial_split
+CID4471,PVL,PVL,1285,epithelial_split
+CID4471,Plasmablasts,Plasmablasts,51,epithelial_split
+CID4471,T cells CD4+,T cells CD4+,412,epithelial_split
+CID4471,T cells CD8+,T cells CD8+,159,epithelial_split
+CID4535,B-cells,B-cells,56,epithelial_split
+CID4535,CAFs,CAFs,102,epithelial_split
+CID4535,Cancer Epithelial,Cancer LumB,2025,epithelial_split
+CID4535,Cancer Epithelial,Cancer Other,198,epithelial_split
+CID4535,Cycling T-cells,Cycling T-cells,19,epithelial_split
+CID4535,Endothelial,Endothelial,219,epithelial_split
+CID4535,Myeloid,Myeloid,255,epithelial_split
+CID4535,NK cells,NK cells,25,epithelial_split
+CID4535,NKT cells,NKT cells,15,epithelial_split
+CID4535,Normal Epithelial,Normal Epithelial,22,epithelial_split
+CID4535,PVL,PVL,592,epithelial_split
+CID4535,Plasmablasts,Plasmablasts,96,epithelial_split
+CID4535,T cells CD4+,T cells CD4+,239,epithelial_split
+CID4535,T cells CD8+,T cells CD8+,98,epithelial_split
+CID4471,B-cells,B-cells,56,balanced_split
+CID4471,CAFs,CAFs,102,balanced_split
+CID4471,Cancer Epithelial,Cancer LumA,169,balanced_split
+CID4471,Cancer Epithelial,Cancer Other,43,balanced_split
+CID4471,Cycling T-cells,Cycling T-cells,8,balanced_split
+CID4471,Endothelial,Endothelial,219,balanced_split
+CID4471,Myeloid,Myeloid,255,balanced_split
+CID4471,NK cells,NK cells,25,balanced_split
+CID4471,NKT cells,NKT cells,15,balanced_split
+CID4471,Normal Epithelial,Normal Epithelial,22,balanced_split
+CID4471,PVL,PVL,592,balanced_split
+CID4471,Plasmablasts,Plasmablasts,51,balanced_split
+CID4471,T cells CD4+,T cells CD4+,239,balanced_split
+CID4471,T cells CD8+,T cells CD8+,98,balanced_split
+CID4535,B-cells,B-cells,56,balanced_split
+CID4535,CAFs,CAFs,102,balanced_split
+CID4535,Cancer Epithelial,Cancer LumB,192,balanced_split
+CID4535,Cancer Epithelial,Cancer Other,20,balanced_split
+CID4535,Cycling T-cells,Cycling T-cells,19,balanced_split
+CID4535,Endothelial,Endothelial,219,balanced_split
+CID4535,Myeloid,Myeloid,255,balanced_split
+CID4535,NK cells,NK cells,25,balanced_split
+CID4535,NKT cells,NKT cells,15,balanced_split
+CID4535,Normal Epithelial,Normal Epithelial,22,balanced_split
+CID4535,PVL,PVL,592,balanced_split
+CID4535,Plasmablasts,Plasmablasts,51,balanced_split
+CID4535,T cells CD4+,T cells CD4+,239,balanced_split
+CID4535,T cells CD8+,T cells CD8+,98,balanced_split

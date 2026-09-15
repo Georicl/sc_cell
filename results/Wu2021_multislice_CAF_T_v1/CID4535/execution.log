@@ -1,0 +1,61 @@
+START CID4535 2026-09-15 17:30:18 
+Number of cells in reference: 12570
+Number of genes in reference: 15770
+
+          B-cells              CAFs Cancer Epithelial   Cycling T-cells 
+              155              1394              2435                27 
+      Endothelial           Myeloid          NK cells         NKT cells 
+             2997               540                55                47 
+Normal Epithelial      Plasmablasts               PVL      T cells CD4+ 
+             1988               147              1877               651 
+     T cells CD8+ 
+              257 
+Getting regression differentially expressed genes: 
+B-cells found DE genes: 72
+CAFs found DE genes: 209
+Cancer Epithelial found DE genes: 161
+Cycling T-cells found DE genes: 283
+Endothelial found DE genes: 184
+Myeloid found DE genes: 153
+NK cells found DE genes: 99
+NKT cells found DE genes: 178
+Normal Epithelial found DE genes: 120
+Plasmablasts found DE genes: 63
+PVL found DE genes: 180
+T cells CD4+ found DE genes: 47
+T cells CD8+ found DE genes: 111
+Total DE genes: 1349
+Getting bulk differentially expressed genes: 
+B-cells found DE genes: 191
+CAFs found DE genes: 367
+Cancer Epithelial found DE genes: 400
+Cycling T-cells found DE genes: 724
+Endothelial found DE genes: 384
+Myeloid found DE genes: 304
+NK cells found DE genes: 237
+NKT cells found DE genes: 427
+Normal Epithelial found DE genes: 257
+Plasmablasts found DE genes: 83
+PVL found DE genes: 310
+T cells CD4+ found DE genes: 141
+T cells CD8+ found DE genes: 247
+Total DE genes: 2605
+fitBulk: decomposing bulk
+chooseSigma: using initial Q_mat with sigma = 1
+Likelihood value: 1801244.65391328
+Sigma value: 0.84
+Likelihood value: 1756869.20366589
+Sigma value: 0.69
+Likelihood value: 1718474.40412567
+Sigma value: 0.61
+Likelihood value: 1700190.9087292
+Sigma value: 0.53
+Likelihood value: 1684150.15660012
+Sigma value: 0.45
+Likelihood value: 1671076.26080812
+Sigma value: 0.37
+Likelihood value: 1661858.69017406
+Sigma value: 0.29
+Likelihood value: 1657545.00581093
+Sigma value: 0.27
+DONE CID4535 1102 2026-09-15 17:32:49 

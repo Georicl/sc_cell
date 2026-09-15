@@ -1,0 +1,108 @@
+$CID3941_baseline_rds_csv
+[1] TRUE
+
+$CID3941_baseline_normalization
+[1] TRUE
+
+$CID3941_baseline_settings
+[1] TRUE
+
+$CID3941_donor_balanced_rds_csv
+[1] TRUE
+
+$CID3941_donor_balanced_normalization
+[1] TRUE
+
+$CID3941_donor_balanced_settings
+[1] TRUE
+
+$CID3941_epithelial_split_rds_csv
+[1] TRUE
+
+$CID3941_epithelial_split_normalization
+[1] TRUE
+
+$CID3941_epithelial_split_settings
+[1] TRUE
+
+$CID3941_balanced_split_rds_csv
+[1] TRUE
+
+$CID3941_balanced_split_normalization
+[1] TRUE
+
+$CID3941_balanced_split_settings
+[1] TRUE
+
+$CID3948_baseline_rds_csv
+[1] TRUE
+
+$CID3948_baseline_normalization
+[1] TRUE
+
+$CID3948_baseline_settings
+[1] TRUE
+
+$CID3948_donor_balanced_rds_csv
+[1] TRUE
+
+$CID3948_donor_balanced_normalization
+[1] TRUE
+
+$CID3948_donor_balanced_settings
+[1] TRUE
+
+$CID3948_epithelial_split_rds_csv
+[1] TRUE
+
+$CID3948_epithelial_split_normalization
+[1] TRUE
+
+$CID3948_epithelial_split_settings
+[1] TRUE
+
+$CID3948_balanced_split_rds_csv
+[1] TRUE
+
+$CID3948_balanced_split_normalization
+[1] TRUE
+
+$CID3948_balanced_split_settings
+[1] TRUE
+
+$CID4461_baseline_rds_csv
+[1] TRUE
+
+$CID4461_baseline_normalization
+[1] TRUE
+
+$CID4461_baseline_settings
+[1] TRUE
+
+$CID4461_donor_balanced_rds_csv
+[1] TRUE
+
+$CID4461_donor_balanced_normalization
+[1] TRUE
+
+$CID4461_donor_balanced_settings
+[1] TRUE
+
+$CID4461_epithelial_split_rds_csv
+[1] TRUE
+
+$CID4461_epithelial_split_normalization
+[1] TRUE
+
+$CID4461_epithelial_split_settings
+[1] TRUE
+
+$CID4461_balanced_split_rds_csv
+[1] TRUE
+
+$CID4461_balanced_split_normalization
+[1] TRUE
+
+$CID4461_balanced_split_settings
+[1] TRUE
+

@@ -1,0 +1,40 @@
+donor_id,subtype,reference_label,before_qc,after_qc,excluded
+CID4471,ER+,B-cells,99,99,0
+CID4471,ER+,CAFs,1292,1292,0
+CID4471,ER+,Cancer Epithelial,212,212,0
+CID4471,ER+,Cycling T-cells,8,8,0
+CID4471,ER+,Endothelial,2778,2778,0
+CID4471,ER+,Myeloid,285,285,0
+CID4471,ER+,NK cells,30,30,0
+CID4471,ER+,NKT cells,32,32,0
+CID4471,ER+,Normal Epithelial,1966,1966,0
+CID4471,ER+,PVL,1285,1285,0
+CID4471,ER+,Plasmablasts,51,51,0
+CID4471,ER+,T cells CD4+,412,412,0
+CID4471,ER+,T cells CD8+,159,159,0
+CID4067,ER+,B-cells,53,53,0
+CID4067,ER+,CAFs,135,135,0
+CID4067,ER+,Cancer Epithelial,2352,2352,0
+CID4067,ER+,Cycling T-cells,6,6,0
+CID4067,ER+,Endothelial,186,186,0
+CID4067,ER+,Myeloid,266,266,0
+CID4067,ER+,NK cells,48,48,0
+CID4067,ER+,NKT cells,39,39,0
+CID4067,ER+,Normal Epithelial,0,0,0
+CID4067,ER+,PVL,83,83,0
+CID4067,ER+,Plasmablasts,0,0,0
+CID4067,ER+,T cells CD4+,353,353,0
+CID4067,ER+,T cells CD8+,243,243,0
+CID4535,ER+,B-cells,56,56,0
+CID4535,ER+,CAFs,102,102,0
+CID4535,ER+,Cancer Epithelial,2223,2223,0
+CID4535,ER+,Cycling T-cells,19,19,0
+CID4535,ER+,Endothelial,219,219,0
+CID4535,ER+,Myeloid,255,255,0
+CID4535,ER+,NK cells,25,25,0
+CID4535,ER+,NKT cells,15,15,0
+CID4535,ER+,Normal Epithelial,22,22,0
+CID4535,ER+,PVL,592,592,0
+CID4535,ER+,Plasmablasts,96,96,0
+CID4535,ER+,T cells CD4+,239,239,0
+CID4535,ER+,T cells CD8+,98,98,0

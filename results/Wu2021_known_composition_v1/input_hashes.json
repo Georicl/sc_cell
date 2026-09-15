@@ -1,0 +1,7 @@
+{
+  "reference_counts.mtx": "8025453514e2bd415911eb8ef14dd6c92de1d1e5d9938d75546745cf98759a77",
+  "spatial_counts.mtx": "c0cec1ad7f8de544e87e18898a5091f0f1c97cdbee737e71669486905d368c79",
+  "genes.tsv": "a2a40b1ea2eab43ccf784d25fa25467be6dd05897bf551f2459e172442048d88",
+  "reference_metadata.csv": "109b3f06fcc377ab592ec4832ff2dc800d90ad35e4a4e115309cbea87a5e4829",
+  "spatial_metadata.csv": "868055d5c4959243587385429caa0cfa842ed0fc976ca41025abfbdbbdd5eb9d"
+}

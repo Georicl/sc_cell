@@ -1,0 +1,25 @@
+/Users/georicl/Documents/sc_sncell_github/src/sc_sncell_github/validate_reference_comparison.py:20: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  x=mmread(DATA/variant/'reference_counts.mtx').T.tocsr()
+/Users/georicl/Documents/sc_sncell_github/src/sc_sncell_github/validate_reference_comparison.py:20: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  x=mmread(DATA/variant/'reference_counts.mtx').T.tocsr()
+/Users/georicl/Documents/sc_sncell_github/src/sc_sncell_github/validate_reference_comparison.py:20: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  x=mmread(DATA/variant/'reference_counts.mtx').T.tocsr()
+Checks: 54 passed: 54 max metric difference: 7.105427357601002e-15
